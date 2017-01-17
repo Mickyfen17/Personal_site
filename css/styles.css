@@ -1,3 +1,24 @@
 body {
   background: aqua;
 }
+
+.header {
+
+}
+
+.main-header-wrapper {
+  position: relative;
+}
+
+#main-header {
+  position: absolute;
+  top: 35%;
+  left: 41%;
+  font-size: 3em;
+  color: #FFF;
+}
+
+#main-macbook-img {
+  display: block;
+  margin: 30px auto 0 auto
+}
