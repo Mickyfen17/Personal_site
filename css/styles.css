@@ -64,3 +64,14 @@ footer {
   margin: 0 10px 20px 10px;
   text-align: center;
 }
+
+/*MEDIA QUERIES*/
+@media screen and (min-width: 568px) {
+  header {
+    height: 100%;
+  }
+  #main-macbook-img {
+    width: 90%;
+    margin: 10px auto 0 auto;
+  }
+}
