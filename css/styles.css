@@ -15,7 +15,7 @@ header {
   margin: 0 auto;
 }
 
-.main-header-wrapper button {
+#scroll-btn {
   display: block;
   width: 50px;
   height: 50px;
@@ -25,7 +25,7 @@ header {
   cursor: pointer;
 }
 
-.main-header-wrapper button:focus {
+#scroll-btn:focus {
   outline: none;
 }
 
