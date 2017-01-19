@@ -62,9 +62,20 @@ header {
   margin: 0 10px 20px 10px;
 }
 
+.about-header {
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+}
+
 .my-skills {
   margin: 0 10px 20px 10px;
   text-align: center;
+}
+
+.skills-header {
+  font-size: 2em;
+  font-weight: 700;
 }
 
 /*PROJECTS CONTENT*/
@@ -73,10 +84,20 @@ header {
   text-align: center;
 }
 
+.projects-header {
+  font-size: 2em;
+  font-weight: 700;
+}
+
 /*FOOTER CONTENT*/
 footer {
   margin: 0 10px 20px 10px;
   text-align: center;
+}
+
+.footer-header {
+  font-size: 2em;
+  font-weight: 700;
 }
 
 /*MEDIA QUERIES*/
