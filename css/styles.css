@@ -63,6 +63,7 @@ header {
 }
 
 .about-header {
+  margin-bottom: 30px;
   font-size: 2em;
   font-weight: 700;
   text-align: center;
@@ -74,6 +75,7 @@ header {
 }
 
 .skills-header {
+  margin-bottom: 30px;
   font-size: 2em;
   font-weight: 700;
 }
@@ -85,6 +87,7 @@ header {
 }
 
 .projects-header {
+  margin-bottom: 30px;
   font-size: 2em;
   font-weight: 700;
 }
@@ -96,6 +99,7 @@ footer {
 }
 
 .footer-header {
+  margin-bottom: 30px;
   font-size: 2em;
   font-weight: 700;
 }
