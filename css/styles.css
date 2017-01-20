@@ -130,3 +130,19 @@ footer {
     font-size: 1.2em;
   }
 }
+@media screen and (min-width: 750px) {
+  #about {
+    display: flex;
+    padding-bottom: 20px;
+  }
+  .who-am-i {
+    width: 70%;
+    margin: 0;
+    padding: 0;
+  }
+  .my-skills {
+    width: 30%;
+    margin: 0;
+    padding: 0;
+  }
+}
