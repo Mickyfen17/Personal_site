@@ -29,6 +29,25 @@ header {
   outline: none;
 }
 
+.header-to-scroll {
+  font-size: 1.4em;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #636464;
+  animation: scroll-color-change 4s ease-in-out 2s 6;
+  -webkit-animation: scroll-color-change 4s ease-in-out 2s 6;
+}
+
+@-webkit-keyframes scroll-color-change {
+  from{color: #636464;}
+  to{color: #FFF;}
+}
+@keyframes scroll-color-change {
+  from{color: #636464;}
+  to{color: #FFF;}
+}
+
 #main-header {
   position: absolute;
   top: 20%;
