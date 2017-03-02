@@ -1,5 +1,5 @@
 {
-  "name": "Personal Site",
+  "name": "personal_site",
   "version": "1.0.0",
   "description": "My Personal Website",
   "main": "index.js",
@@ -49,5 +49,5 @@
     "style-loader": "^0.13.1",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.3"
-  },
+  }
 }

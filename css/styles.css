@@ -7,8 +7,13 @@ html {
   font-family: 'Overpass', sans-serif;
 }
 
+h1 {
+  font-size: 6em;
+  font-weight: 700;
+}
+
 /*HEADER CONTENT*/
-header {
+/*header {
   height: 60%;
 }
 
@@ -24,9 +29,10 @@ header {
   height: 50px;
   margin: 10px auto 0 auto;
   border: none;
-  background: transparent url(./images/down_arrow.svg) no-repeat 10px 10px / 30px;
   cursor: pointer;
+  background: transparent url(./images/down_arrow.svg) no-repeat 10px 10px / 30px;
 }
+
 
 #scroll-btn:focus {
   outline: none;
@@ -74,9 +80,9 @@ header {
   max-width: 650px;
   margin: 30px auto 0 auto;
 }
-
+*/
 /*ABOUT CONTENT*/
-#about {
+/*#about {
   background: #E6E6E6;
 }
 
@@ -107,10 +113,10 @@ header {
   padding-top: 20px;
   font-size: 2em;
   font-weight: 700;
-}
+}*/
 
 /*PROJECTS CONTENT*/
-#things-ive-built {
+/*#things-ive-built {
   margin: 0 10px 20px 10px;
   text-align: center;
 }
@@ -127,10 +133,10 @@ header {
   padding-top: 20px;
   font-size: 2em;
   font-weight: 700;
-}
+}*/
 
 /*FOOTER CONTENT*/
-footer {
+/*footer {
   padding: 0 10px 20px 10px;
   text-align: center;
   background: #02243C;
@@ -142,10 +148,10 @@ footer {
   margin-bottom: 30px;
   font-size: 2em;
   font-weight: 700;
-}
+}*/
 
 /*MEDIA QUERIES*/
-@media screen and (min-width: 568px) {
+/*@media screen and (min-width: 568px) {
   header {
     height: 100%;
   }
@@ -176,4 +182,4 @@ footer {
     margin: 0;
     padding: 0;
   }
-}
+}*/
