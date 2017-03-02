@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
 body,
 html {
   height: 100%;
@@ -22,7 +24,7 @@ header {
   height: 50px;
   margin: 10px auto 0 auto;
   border: none;
-  background: transparent url(../images/down_arrow.svg) no-repeat 10px 10px / 30px;
+  background: transparent url(./images/down_arrow.svg) no-repeat 10px 10px / 30px;
   cursor: pointer;
 }
 
