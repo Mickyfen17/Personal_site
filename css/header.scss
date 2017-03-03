@@ -61,3 +61,21 @@ header {
 @keyframes scroll-color-change {
   @include scoll-title-keyframe;
 }
+
+
+/*MEDIA QUERIES*/
+@media screen and (min-width: 568px) {
+  header {
+    height: 100%;
+  }
+  #main-macbook-img {
+    width: 75%;
+    margin: 10px auto 0 auto;
+  }
+  #main-title h1 {
+    font-size: 4em;
+  }
+  #main-title h2 {
+    font-size: 1.2em;
+  }
+}
