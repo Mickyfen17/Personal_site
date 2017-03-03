@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Overpass:400,700');
 
 body,
 html {
@@ -13,7 +13,7 @@ h1 {
 }
 
 /*HEADER CONTENT*/
-/*header {
+header {
   height: 60%;
 }
 
@@ -23,6 +23,31 @@ h1 {
   margin: 0 auto;
 }
 
+#main-macbook-img {
+  display: block;
+  width: 100%;
+  max-width: 650px;
+  margin: 30px auto 0 auto;
+}
+
+#main-title {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  width: 50%;
+  color: #FFF;
+  text-align: center;
+}
+
+#main-title h1 {
+  font-size: 2.3em;
+}
+
+#main-title h2 {
+  font-size: 0.9em;
+}
+
+/*
 #scroll-btn {
   display: block;
   width: 50px;
@@ -57,29 +82,7 @@ h1 {
   to{color: #FFF;}
 }
 
-#main-header {
-  position: absolute;
-  top: 20%;
-  left: 25%;
-  width: 50%;
-  color: #FFF;
-  text-align: center;
-}
 
-#main-header h1 {
-  font-size: 2.3em;
-}
-
-#main-header h2 {
-  font-size: 0.9em;
-}
-
-#main-macbook-img {
-  display: block;
-  width: 100%;
-  max-width: 650px;
-  margin: 30px auto 0 auto;
-}
 */
 /*ABOUT CONTENT*/
 /*#about {
