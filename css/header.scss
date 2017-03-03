@@ -1,3 +1,5 @@
+@import 'variables';
+
 header {
   height: 60%;
 }
@@ -37,7 +39,7 @@ header {
   margin: 10px auto 0 auto;
   border: none;
   cursor: pointer;
-  background: transparent url(./images/down_arrow.svg) no-repeat 10px 10px / 30px;
+  background: $button-svg;
   &:focus {
     outline: none;
   }
@@ -48,16 +50,14 @@ header {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  color: #636464;
-  animation: scroll-color-change 4s ease-in-out 2s 6;
-  -webkit-animation: scroll-color-change 4s ease-in-out 2s 6;
+  color: $scroll-btn-grey;
+  animation: $scroll-title-animation;
+  -webkit-animation: $scroll-title-animation;
 }
 
 @-webkit-keyframes scroll-color-change {
-  from{color: #636464;}
-  to{color: #FFF;}
+  @include scoll-title-keyframe;
 }
 @keyframes scroll-color-change {
-  from{color: #636464;}
-  to{color: #FFF;}
+  @include scoll-title-keyframe;
 }

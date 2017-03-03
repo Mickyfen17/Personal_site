@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass:400,700');
+
+$main-font-overpass : 'Overpass', sans-serif;
+$header-blue : #5195CE;
+$scroll-btn-grey : #636464;
+$button-svg : transparent url(./images/down_arrow.svg) no-repeat 10px 10px / 30px;
+$scroll-title-animation : scroll-color-change 4s ease-in-out 2s 6;
+
+@mixin scoll-title-keyframe {
+  from { color: #636464; }
+  to { color: #FFF; }
+}

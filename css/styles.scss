@@ -1,89 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Overpass:400,700');
+@import 'variables';
+@import 'header';
 
 body,
 html {
   height: 100%;
-  background: #5195CE;
-  font-family: 'Overpass', sans-serif;
-}
-
-h1 {
-  font-size: 6em;
-  font-weight: 700;
-}
-
-/*HEADER CONTENT*/
-header {
-  height: 60%;
-}
-
-.main-header-wrapper {
-  position: relative;
-  width: 90%;
-  margin: 0 auto;
-}
-
-#main-macbook-img {
-  display: block;
-  width: 100%;
-  max-width: 650px;
-  margin: 30px auto 0 auto;
-}
-
-#main-title {
-  position: absolute;
-  top: 20%;
-  left: 25%;
-  width: 50%;
-  color: #FFF;
-  text-align: center;
-}
-
-#main-title h1 {
-  font-size: 2.3em;
-}
-
-#main-title h2 {
-  font-size: 0.9em;
-}
-
-/*
-#scroll-btn {
-  display: block;
-  width: 50px;
-  height: 50px;
-  margin: 10px auto 0 auto;
-  border: none;
-  cursor: pointer;
-  background: transparent url(./images/down_arrow.svg) no-repeat 10px 10px / 30px;
+  background: $header-blue;
+  font-family: $main-font-overpass;
 }
 
 
-#scroll-btn:focus {
-  outline: none;
-}
-
-.header-to-scroll {
-  font-size: 1.4em;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-  color: #636464;
-  animation: scroll-color-change 4s ease-in-out 2s 6;
-  -webkit-animation: scroll-color-change 4s ease-in-out 2s 6;
-}
-
-@-webkit-keyframes scroll-color-change {
-  from{color: #636464;}
-  to{color: #FFF;}
-}
-@keyframes scroll-color-change {
-  from{color: #636464;}
-  to{color: #FFF;}
-}
-
-
-*/
 /*ABOUT CONTENT*/
 /*#about {
   background: #E6E6E6;
