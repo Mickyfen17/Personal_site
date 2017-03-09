@@ -44,11 +44,13 @@
     "react": "^15.1.0",
     "react-addons-test-utils": "^15.4.2",
     "react-dom": "^15.1.0",
+    "react-scroll": "^1.4.7",
     "sass-loader": "^3.2.0",
     "sinon": "^1.17.7",
     "style-loader": "^0.13.1",
     "svg-url-loader": "^2.0.2",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.3"
-  }
+  },
+  "dependencies": {}
 }
