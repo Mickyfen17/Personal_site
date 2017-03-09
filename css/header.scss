@@ -109,6 +109,13 @@ header {
     font-size: 1.2em;
   }
 }
+
+@media screen and (min-width: 665px) {
+  #main-macbook-img {
+    width: 70%;
+  }
+}
+
 @media screen and (min-width: 780px) {
   #main-macbook-img {
     width: 90%;
