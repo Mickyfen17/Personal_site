@@ -19,17 +19,37 @@ header {
 
 #main-title {
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 25%;
   width: 50%;
   color: #FFF;
   text-align: center;
   h1 {
+    display: inline-block;
     font-size: 2.3em;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid #FFF;
+    animation: $main-title-typing-animation;
+    -webkit-animation: $main-title-typing-animation;
   }
   h2 {
     font-size: 0.9em;
   }
+}
+
+@-webkit-keyframes header-typing {
+  @include header-typing-mobile;
+}
+@keyframes header-typing {
+  @include header-typing-mobile;
+}
+
+@-webkit-keyframes blink {
+  @include cursor-blink;
+}
+@keyframes blink {
+  @include cursor-blink;
 }
 
 #scroll-btn {
@@ -63,20 +83,54 @@ header {
 }
 
 
+
+
 /*MEDIA QUERIES*/
+@media screen and (min-width: 400px) {
+  #main-title h1 {
+    font-size: 3em;
+  }
+  #main-title h2 {
+    font-size: 1em;
+  }
+}
 @media screen and (min-width: 568px) {
   header {
     height: 100vh;
   }
   #main-macbook-img {
-    width: 75%;
+    width: 65%;
     margin: 10px auto 0 auto;
   }
   #main-title h1 {
-    top: 12%;
-    font-size: 4em;
+    font-size: 3em;
   }
   #main-title h2 {
     font-size: 1.2em;
+  }
+}
+
+@media screen and (min-width: 665px) {
+  #main-macbook-img {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  #main-macbook-img {
+    width: 90%;
+    margin: 40px auto 0 auto;
+  }
+  #main-title h1 {
+    font-size: 4.8em;
+  }
+  #main-title h2 {
+    font-size: 1.8em;
+  }
+  @-webkit-keyframes header-typing {
+    @include header-typing-full-screen
+  }
+  @keyframes header-typing {
+    @include header-typing-full-screen
   }
 }
