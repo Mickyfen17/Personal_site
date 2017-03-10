@@ -11,13 +11,13 @@
 
 .who-am-i-section {
   p {
-    padding: 10px;
+    padding: 10px 10px 20px 10px;
   }
 }
 
 .skills-section {
   padding-bottom: 20px;
-  background: #51cebb;
+  background: $skills-green;
   .skills-block {
     width: 85%;
     max-width: 300px;
