@@ -2,9 +2,11 @@
 
 $main-font-overpass : 'Overpass', sans-serif;
 
+$white : #FFF;
 $header-blue : #5195CE;
 $about-grey : #eaeaea;
 $scroll-btn-grey : #636464;
+$skills-green : #51cebb;
 
 $button-svg : transparent url(./images/down_arrow.svg) no-repeat 10px 10px / 30px;
 
@@ -12,8 +14,8 @@ $main-title-typing-animation : header-typing 1s steps(8, end), blink 1s step-end
 $scroll-title-animation : scroll-color-change 4s ease-in-out 2s 6;
 
 @mixin scoll-title-keyframe {
-  from { color: #636464; }
-  to { color: #FFF; }
+  from { color: $scroll-btn-grey; }
+  to { color: $white; }
 }
 
 @mixin header-typing-mobile {
@@ -28,5 +30,5 @@ $scroll-title-animation : scroll-color-change 4s ease-in-out 2s 6;
 
 @mixin cursor-blink {
   from, to { border-color: transparent }
-  50% { border-color: #FFF }
+  50% { border-color: $white }
 }
