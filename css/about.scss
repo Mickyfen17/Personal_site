@@ -18,24 +18,51 @@
 .skills-section {
   padding-bottom: 20px;
   background: $skills-green;
-  .skills-block {
-    width: 85%;
-    max-width: 300px;
-    margin: 10px auto;
-    padding: 0 10px 20px 10px;
-    h4 {
-      font-size: 1.2em;
-      padding: 20px 0 15px 0;
-    }
-    .inner-skills {
-      float: right;
-      width: 50%;
-    }
+}
+
+.skills-block {
+  width: 85%;
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 0 10px 20px 10px;
+  h4 {
+    font-size: 1.2em;
+    padding: 20px 0 15px 0;
+  }
+  .inner-skills {
+    float: right;
+    width: 50%;
   }
 }
 
 .skill-image {
   width: 80px;
   padding: 15px 0 15px 0;
+}
 
+
+/*MEDIA QUERIES*/
+@media screen and (min-width: 568px) {
+  .skills-block {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+  }
+  .inner-skills {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 680px) {
+  .skills-block {
+    max-width: 425px;
+  }
+  .skill-image {
+    width: 100px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .skills-wrapper {
+    max-width: 945px;
+    margin: 0 auto;
+  }
 }
