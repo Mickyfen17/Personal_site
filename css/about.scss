@@ -1,15 +1,45 @@
 @import 'variables';
 
 #about {
-  background: #e6e6e6;
-  height: 1500px;
+  background: $about-grey;
   h2 {
+    padding: 20px 0;
     text-align: center;
     font-size: 1.5em;
-    padding: 20px 0;
   }
+}
+
+.who-am-i-section {
   p {
     padding: 10px;
-    max-width: 465px;
   }
+}
+
+.skills-section {
+  padding-bottom: 20px;
+  .skills-block {
+    background: #fff;
+    width: 85%;
+    margin: 10px auto;
+    padding: 0 10px 20px 10px;
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+    h4 {
+      font-size: 1.2em;
+      padding: 15px 0 15px 0;
+      text-align: center;
+    }
+    ul {
+      float: right;
+      list-style-image: url(./images/bulletPoint.svg);
+      list-style-position: inside;
+    }
+    li{
+      padding-bottom: 5px;
+    }
+  }
+}
+
+.skill-image {
+  width: 80px;
 }
