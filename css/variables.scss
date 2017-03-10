@@ -32,3 +32,9 @@ $scroll-title-animation : scroll-color-change 4s ease-in-out 2s 6;
   from, to { border-color: transparent }
   50% { border-color: $white }
 }
+
+@mixin sectionH2 {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 1.5em;
+}
