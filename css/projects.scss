@@ -6,3 +6,29 @@
     @include sectionH2;
   }
 }
+
+.each-project {
+  h3 {
+    font-size: 1.2em;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .project-image {
+    display: block;
+    width: 90%;
+    margin: 0 auto 20px auto;
+
+  }
+  .project-desc-wrapper {
+    text-align: center;
+    p {
+      width: 90%;
+      margin: 0 auto;
+      text-align: left;
+    }
+    .project-icons {
+      width: 30px;
+      padding: 10px;
+    }
+  }
+}
