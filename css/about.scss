@@ -2,6 +2,7 @@
 
 #about {
   background: $about-grey;
+  color: $white;
   h2 {
     @include sectionH2;
   }
@@ -15,7 +16,7 @@
 
 .skills-section {
   padding-bottom: 20px;
-  background: $skills-green;
+  background: $skills-grey;
 }
 
 .skills-block {
@@ -25,7 +26,7 @@
   padding: 0 10px 20px 10px;
   h4 {
     font-size: 1.2em;
-    padding: 20px 0 15px 0;
+    padding: 10px 0 15px 0;
   }
   .inner-skills {
     float: right;
@@ -35,7 +36,9 @@
 
 .skill-image {
   width: 80px;
-  padding: 15px 0 15px 0;
+  padding: 15px 18px;
+  background: #33464e;
+  border-radius: 28px;
 }
 
 
