@@ -9,8 +9,10 @@
 }
 
 .who-am-i-section {
+  padding-bottom: 20px;
   p {
-    padding: 10px 10px 20px 10px;
+    padding: 10px 15px 20px 15px;
+    max-width: 630px;
   }
 }
 
@@ -37,7 +39,7 @@
 .skill-image {
   width: 80px;
   padding: 15px 18px;
-  background: #33464e;
+  background: $skills-svg-bg;
   border-radius: 28px;
 }
 
@@ -50,10 +52,20 @@
     text-align: center;
   }
   .inner-skills {
+    padding-left: 8px;
     text-align: left;
   }
 }
 @media screen and (min-width: 680px) {
+  .who-am-i-section {
+    height: 220px;
+    p {
+      display: inline-block;
+      width: 47%;
+      padding: 10px 0 20px 18px;
+      vertical-align: top;
+    }
+  }
   .skills-block {
     max-width: 425px;
   }
@@ -65,5 +77,6 @@
   .skills-wrapper {
     max-width: 945px;
     margin: 0 auto;
+    text-align: center;
   }
 }
