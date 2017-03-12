@@ -2,7 +2,7 @@
 
 #projects {
   background: $white;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   h2 {
     @include sectionH2;
     color: black;
@@ -27,7 +27,7 @@
   height: 100%;
   text-align: center;
   opacity: 0;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 1);
   -webkit-transition: opacity 1000ms;
   transition: opacity 1000ms;
   &:hover {
@@ -35,7 +35,7 @@
   }
   h3 {
     font-size: 1.2em;
-    padding: 10px 0 20px 0;
+    padding: 15px 0 15px 0;
     text-align: center;
   }
   p {
@@ -51,6 +51,19 @@
 
 
 
+@media screen and (min-width: 400px) {
+  .article-layer {
+    h3 {
+      font-size: 1.5em;
+    }
+    p {
+      font-size: 1.2em;
+    }
+    .project-icons {
+      width: 40px;
+    }
+  }
+}
 @media screen and (min-width: 515px) {
   .article-layer {
     h3 {
