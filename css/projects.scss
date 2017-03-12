@@ -10,26 +10,15 @@
 }
 
 .each-project {
-  margin: 0 auto;
-  max-width: 500px;
-  h3 {
-    font-size: 1.2em;
-    padding: 10px 0;
-    text-align: center;
-  }
-}
-
-figure {
   position: relative;
-  width: 90%;
+  max-width: 500px;
   margin: 0 auto;
   .project-image {
     display: block;
     width: 100%;
-    margin: 0 auto 20px auto;
     max-width: 500px;
   }
-  figcaption {
+  .article-layer {
     position: absolute;
     top: 0;
     width: 100%;
@@ -42,14 +31,18 @@ figure {
     &:hover {
       opacity: 1;
     }
+    h3 {
+      font-size: 1.2em;
+      padding: 10px 0 20px 0;
+      text-align: center;
+    }
     p {
       width: 90%;
       margin: 0 auto;
-      padding-top: 30px;
       text-align: left;
     }
     .project-icons {
-      width: 30px;
+      width: 35px;
       padding: 10px;
     }
   }
