@@ -2,20 +2,23 @@
 
 #about {
   background: $about-grey;
+  color: $white;
   h2 {
     @include sectionH2;
   }
 }
 
 .who-am-i-section {
+  padding-bottom: 20px;
   p {
-    padding: 10px 10px 20px 10px;
+    padding: 10px 15px 20px 15px;
+    max-width: 630px;
   }
 }
 
 .skills-section {
   padding-bottom: 20px;
-  background: $skills-green;
+  background: $skills-grey;
 }
 
 .skills-block {
@@ -25,7 +28,7 @@
   padding: 0 10px 20px 10px;
   h4 {
     font-size: 1.2em;
-    padding: 20px 0 15px 0;
+    padding: 10px 0 15px 0;
   }
   .inner-skills {
     float: right;
@@ -35,7 +38,9 @@
 
 .skill-image {
   width: 80px;
-  padding: 15px 0 15px 0;
+  padding: 15px 18px;
+  background: $skills-svg-bg;
+  border-radius: 28px;
 }
 
 
@@ -47,10 +52,20 @@
     text-align: center;
   }
   .inner-skills {
+    padding-left: 8px;
     text-align: left;
   }
 }
 @media screen and (min-width: 680px) {
+  .who-am-i-section {
+    height: 220px;
+    p {
+      display: inline-block;
+      width: 47%;
+      padding: 10px 0 20px 18px;
+      vertical-align: top;
+    }
+  }
   .skills-block {
     max-width: 425px;
   }
@@ -62,5 +77,6 @@
   .skills-wrapper {
     max-width: 945px;
     margin: 0 auto;
+    text-align: center;
   }
 }

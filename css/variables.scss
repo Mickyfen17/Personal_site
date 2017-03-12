@@ -3,10 +3,11 @@
 $main-font-overpass : 'Overpass', sans-serif;
 
 $white : #FFF;
-$header-blue : #5195CE;
-$about-grey : #eaeaea;
+$header-blue : #89bdd3;
+$about-grey : #668d9e;
 $scroll-btn-grey : #636464;
-$skills-green : #51cebb;
+$skills-grey : #445e69;
+$skills-svg-bg : #33464e;
 
 $button-svg : transparent url(./images/down_arrow.svg) no-repeat 10px 10px / 30px;
 
@@ -34,7 +35,8 @@ $scroll-title-animation : scroll-color-change 4s ease-in-out 2s 6;
 }
 
 @mixin sectionH2 {
-  padding: 20px 0;
+  padding: 30px 0;
   text-align: center;
   font-size: 1.5em;
+  color: $white;
 }
