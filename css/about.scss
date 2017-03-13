@@ -9,7 +9,7 @@
 }
 
 .who-am-i-section {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   p {
     padding: 10px 15px 20px 15px;
     max-width: 630px;
@@ -22,33 +22,35 @@
 }
 
 .skills-block {
-  width: 85%;
+  display: flex;
   max-width: 300px;
+  height: 125px;
   margin: 10px auto;
-  padding: 0 10px 20px 10px;
+  align-items: center;
+  justify-content: center;
   h4 {
     font-size: 1.2em;
-    padding: 10px 0 15px 0;
+    padding: 5px 0 15px 0;
   }
   .inner-skills {
-    float: right;
     width: 50%;
+    padding-left: 25px;
   }
 }
 
 .skill-image {
   width: 80px;
-  padding: 15px 18px;
-  background: $skills-svg-bg;
-  border-radius: 28px;
 }
 
 
 /*MEDIA QUERIES*/
 @media screen and (min-width: 568px) {
+  .skills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .skills-block {
-    display: inline-block;
-    width: 45%;
+    width: 50%;
     text-align: center;
   }
   .inner-skills {
