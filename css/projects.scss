@@ -11,12 +11,12 @@
 
 .each-project {
   position: relative;
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
   .project-image {
     display: block;
     width: 100%;
-    max-width: 500px;
+    height: 100%;
   }
 }
 
@@ -54,26 +54,23 @@
 @media screen and (min-width: 400px) {
   .article-layer {
     h3 {
-      font-size: 1.5em;
+      font-size: 1.4em;
     }
     p {
-      font-size: 1.2em;
+      font-size: 1.1em;
     }
     .project-icons {
       width: 40px;
     }
   }
 }
-@media screen and (min-width: 515px) {
-  .article-layer {
-    h3 {
-      font-size: 2em;
-    }
-    p {
-      font-size: 1.4em;
-    }
-    .project-icons {
-      width: 60px;
-    }
+@media screen and (min-width: 600px) {
+  #projects {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .each-project {
+    width: 50%;
   }
 }
+
