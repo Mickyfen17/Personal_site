@@ -29,28 +29,28 @@ header {
     font-size: 2.3em;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 1px solid $white;
-    animation: $main-title-typing-animation;
-    -webkit-animation: $main-title-typing-animation;
+    // border-right: 1px solid $white;
+    // animation: $main-title-typing-animation;
+    // -webkit-animation: $main-title-typing-animation;
   }
   h2 {
     font-size: 0.9em;
   }
 }
 
-@-webkit-keyframes header-typing {
-  @include header-typing-mobile;
-}
-@keyframes header-typing {
-  @include header-typing-mobile;
-}
+// @-webkit-keyframes header-typing {
+//   @include header-typing-mobile;
+// }
+// @keyframes header-typing {
+//   @include header-typing-mobile;
+// }
 
-@-webkit-keyframes blink {
-  @include cursor-blink;
-}
-@keyframes blink {
-  @include cursor-blink;
-}
+// @-webkit-keyframes blink {
+//   @include cursor-blink;
+// }
+// @keyframes blink {
+//   @include cursor-blink;
+// }
 
 #scroll-btn {
   display: block;
@@ -127,10 +127,10 @@ header {
   #main-title h2 {
     font-size: 1.8em;
   }
-  @-webkit-keyframes header-typing {
-    @include header-typing-full-screen
-  }
-  @keyframes header-typing {
-    @include header-typing-full-screen
-  }
+  // @-webkit-keyframes header-typing {
+  //   @include header-typing-full-screen
+  // }
+  // @keyframes header-typing {
+  //   @include header-typing-full-screen
+  // }
 }

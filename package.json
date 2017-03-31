@@ -42,7 +42,6 @@
     "node-libs-browser": "^1.0.0",
     "node-sass": "^3.4.2",
     "react-addons-test-utils": "^15.4.2",
-    "react-scroll": "^1.4.7",
     "sass-loader": "^3.2.0",
     "sinon": "^1.17.7",
     "style-loader": "^0.13.1",
@@ -53,6 +52,8 @@
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-router-dom": "^4.0.0"
+    "react-router-dom": "^4.0.0",
+    "react-scroll": "^1.4.7",
+    "react-typist": "^1.1.0"
   }
 }
