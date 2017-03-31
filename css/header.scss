@@ -75,12 +75,12 @@ header {
   -webkit-animation: $scroll-title-animation;
 }
 
-// @-webkit-keyframes scroll-color-change {
-//   @include scoll-title-keyframe;
-// }
-// @keyframes scroll-color-change {
-//   @include scoll-title-keyframe;
-// }
+@-webkit-keyframes scroll-color-change {
+  @include scoll-title-keyframe;
+}
+@keyframes scroll-color-change {
+  @include scoll-title-keyframe;
+}
 
 
 
