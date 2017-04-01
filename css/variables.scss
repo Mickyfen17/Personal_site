@@ -8,7 +8,7 @@ $about-grey : #668d9e;
 $scroll-btn-grey : #636464;
 $skills-grey : #445e69;
 
-$button-svg : transparent url(./images/down_arrow.svg) no-repeat 10px 10px / 30px;
+$button-svg : transparent url(../images/down_arrow.svg) no-repeat 10px 10px / 30px;
 $scroll-title-animation : scroll-color-change 4s ease-in-out 2s 6;
 
 @mixin scoll-title-keyframe {
