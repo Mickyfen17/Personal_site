@@ -36087,7 +36087,7 @@
 	      { className: 'project-detail-header' },
 	      title
 	    ),
-	    _react2.default.createElement('img', { className: 'project-detail-image', src: image, alt: 'Picture of my ' + title + ' project' }),
+	    _react2.default.createElement('img', { className: 'project-detail-image', src: '../' + image, alt: 'Picture of my ' + title + ' project' }),
 	    _react2.default.createElement(
 	      'p',
 	      { className: 'project-detail-desc' },
