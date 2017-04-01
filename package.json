@@ -45,6 +45,7 @@
     "sass-loader": "^3.2.0",
     "sinon": "^1.17.7",
     "style-loader": "^0.13.1",
+    "svg-url-loader": "^2.0.2",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.3"
   },
@@ -54,7 +55,6 @@
     "react-modal": "^1.7.3",
     "react-router-dom": "^4.0.0",
     "react-scroll": "^1.4.7",
-    "react-typist": "^1.1.0",
-    "svg-url-loader": "^2.0.2"
+    "react-typist": "^1.1.0"
   }
 }
