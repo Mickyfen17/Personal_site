@@ -35080,7 +35080,7 @@
 	      { className: 'main-header-wrapper' },
 	      _react2.default.createElement(_MainTitle2.default, null),
 	      _react2.default.createElement('img', { id: 'main-macbook-img',
-	        src: '../css/images/macbook_pro_2.png',
+	        src: '/images/macbook_pro_2.png',
 	        alt: 'macbook type computer with text on screen' }),
 	      _react2.default.createElement('button', {
 	        id: 'scroll-btn',
@@ -35869,22 +35869,22 @@
 	var SkillsList = [{
 	  title: 'JavaScript',
 	  skills: ['ES6,', 'React,', 'React Router,', 'Redux,', 'Node,', 'jQuery,', 'Webpack.'],
-	  imagePath: '../../css/images/code.svg',
+	  imagePath: '/images/code.svg',
 	  imageAlt: 'web browser with code symbols'
 	}, {
 	  title: 'Testing',
 	  skills: ['Mocha,', 'Chai,', 'Selenium,', 'Enzyme,', 'Jest,', 'Sinon.'],
-	  imagePath: '../../css/images/testing_icon.svg',
+	  imagePath: '/images/testing_icon.svg',
 	  imageAlt: 'computer monitor with tick inside screen'
 	}, {
 	  title: 'Workflow',
 	  skills: ['Git,', 'Github.'],
-	  imagePath: '../../css/images/workflow.svg',
+	  imagePath: '/images/workflow.svg',
 	  imageAlt: 'tree graph showing workflow'
 	}, {
 	  title: 'Web Design',
 	  skills: ['HTML5,', 'CSS3,', 'SCSS,', 'Bootstrap,', 'Canvas,', 'ARIA,', 'aXe.'],
-	  imagePath: '../../css/images/design.svg',
+	  imagePath: '/images/design.svg',
 	  imageAlt: 'painters palette'
 	}];
 
@@ -35981,68 +35981,68 @@
 	var Projects = [{
 	  title: 'Weathrly',
 	  description: 'Fully accessible Weather application built in React which utilizes weatherUndergrounds API. Application was tested using Mocha, Chai, Enzyme and Sinon.',
-	  image: '../css/images/weathrly.png',
+	  image: '/images/weathrly.png',
 	  gitHubRepo: 'https://github.com/Mickyfen17/weathrly',
 	  siteURL: 'https://mickyfen17.github.io/weathrly/',
 	  techUsed: ['Javascript ', 'React ', 'Mocha ', 'Chai ', 'Enzyme ', 'Sinon ', 'HTML5 ', 'CSS3 ', 'ARIA'],
 	  icons: {
-	    git: '../css/images/github.svg',
-	    site: '../css/images/browser.svg'
+	    git: '/images/github.svg',
+	    site: '/images/browser.svg'
 	  }
 	}, {
 	  title: 'GameTime',
 	  description: 'Re-make of the classic Breakout arcade game using Javascript and HTML Canvas. Application was tested during build with Mocha & Chai.',
-	  image: '../css/images/game_time.png',
+	  image: '/images/game_time.png',
 	  gitHubRepo: 'https://github.com/Mickyfen17/game-time',
 	  siteURL: 'https://mickyfen17.github.io/game-time/',
 	  techUsed: ['Javascript ', 'HTML Canvas ', 'CSS3 ', 'Mocha ', 'Chai'],
 	  icons: {
-	    git: '../css/images/github.svg',
-	    site: '../css/images/browser.svg'
+	    git: '/images/github.svg',
+	    site: '/images/browser.svg'
 	  }
 	}, {
 	  title: 'SwapiBox',
 	  description: 'Starwars card application where we displayed various data using async promise calls and rendered the data using React',
-	  image: '../css/images/swapi_box.png',
+	  image: '/images/swapi_box.png',
 	  gitHubRepo: 'https://github.com/Mickyfen17/SWAPIbox',
 	  siteURL: 'https://mickyfen17.github.io/SWAPIbox/',
 	  techUsed: ['Javascript ', 'React ', 'HTML5 ', 'SCSS ', 'Jest ', 'Enzyme'],
 	  icons: {
-	    git: '../css/images/github.svg',
-	    site: '../css/images/browser.svg'
+	    git: '/images/github.svg',
+	    site: '/images/browser.svg'
 	  }
 	}, {
 	  title: '2DoBox',
 	  description: 'Fully accessible single page application using Local Storage to keep track of To-Do\'s. Similar aplication to ideaBox but refactored using ES6. Application tested using Mocha, Chai and Selenium.',
-	  image: '../css/images/2_do_box.png',
+	  image: '/images/2_do_box.png',
 	  gitHubRepo: 'https://github.com/Mickyfen17/2DoBox-Pivot',
 	  siteURL: 'https://mickyfen17.github.io/2DoBox-Pivot/',
 	  techUsed: ['Javascript ', 'Mocha ', 'Chai ', 'Selenium ', 'HTML5 ', 'SCSS ', 'ARIA'],
 	  icons: {
-	    git: '../css/images/github.svg',
-	    site: '../css/images/browser.svg'
+	    git: '/images/github.svg',
+	    site: '/images/browser.svg'
 	  }
 	}, {
 	  title: 'Linked List',
 	  description: 'Application written in Vanilla JS which is designed to bookmark favorite websites. Application utilizes localStorage so that the bookmark persist after page refresh.',
-	  image: '../css/images/linked_list.png',
+	  image: '/images/linked_list.png',
 	  gitHubRepo: 'https://github.com/Mickyfen17/Linked_List',
 	  siteURL: 'https://mickyfen17.github.io/Linked_List/',
 	  techUsed: ['Javascript ', 'HTML5 ', 'CSS'],
 	  icons: {
-	    git: '../css/images/github.svg',
-	    site: '../css/images/browser.svg'
+	    git: '/images/github.svg',
+	    site: '/images/browser.svg'
 	  }
 	}, {
 	  title: 'IdeaBox',
 	  description: 'Single page application wittren in jQuery while using Local Storage to keep track of ideas.',
-	  image: '../css/images/ideaBox.png',
+	  image: '/images/ideaBox.png',
 	  gitHubRepo: 'https://github.com/Mickyfen17/ideaBox',
 	  siteURL: 'https://mickyfen17.github.io/ideaBox/',
 	  techUsed: ['Javascript ', 'jQuery ', 'HTML5 ', 'CSS'],
 	  icons: {
-	    git: '../css/images/github.svg',
-	    site: '../css/images/browser.svg'
+	    git: '/images/github.svg',
+	    site: '/images/browser.svg'
 	  }
 	}];
 
@@ -36531,16 +36531,10 @@
 	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Overpass:400,700);", ""]);
 
 	// module
-	exports.push([module.id, "header {\n  height: 60vh; }\n\n.main-header-wrapper {\n  position: relative;\n  width: 90%;\n  margin: 0 auto; }\n\n#main-macbook-img {\n  display: block;\n  width: 100%;\n  max-width: 650px;\n  margin: 30px auto 0 auto; }\n\n#main-title {\n  position: absolute;\n  top: 15%;\n  left: 25%;\n  width: 50%;\n  color: #FFF;\n  text-align: center; }\n  #main-title h1 {\n    display: inline-block;\n    font-size: 2.3em;\n    white-space: nowrap;\n    overflow: hidden; }\n  #main-title h2 {\n    font-size: 0.9em; }\n\n#scroll-btn {\n  display: block;\n  width: 50px;\n  height: 50px;\n  margin: 10px auto 0 auto;\n  border: none;\n  cursor: pointer;\n  background: transparent url(" + __webpack_require__(552) + ") no-repeat 10px 10px/30px; }\n  #scroll-btn:focus {\n    outline: none; }\n\n.header-to-scroll {\n  font-size: 1.4em;\n  font-weight: 700;\n  text-align: center;\n  text-transform: uppercase;\n  color: #636464;\n  animation: scroll-color-change 4s ease-in-out 2s 6;\n  -webkit-animation: scroll-color-change 4s ease-in-out 2s 6; }\n\n@-webkit-keyframes scroll-color-change {\n  from {\n    color: #636464; }\n  to {\n    color: #FFF; } }\n\n@keyframes scroll-color-change {\n  from {\n    color: #636464; }\n  to {\n    color: #FFF; } }\n\n/*MEDIA QUERIES*/\n@media screen and (min-width: 400px) {\n  #main-title h1 {\n    font-size: 3em; }\n  #main-title h2 {\n    font-size: 1em; } }\n\n@media screen and (min-width: 568px) {\n  header {\n    height: 100vh; }\n  #main-macbook-img {\n    width: 65%;\n    margin: 10px auto 0 auto; }\n  #main-title h1 {\n    font-size: 3em; }\n  #main-title h2 {\n    font-size: 1.2em; } }\n\n@media screen and (min-width: 665px) {\n  #main-macbook-img {\n    width: 70%; } }\n\n@media screen and (min-width: 780px) {\n  #main-macbook-img {\n    width: 90%;\n    margin: 40px auto 0 auto; }\n  #main-title h1 {\n    font-size: 4.8em; }\n  #main-title h2 {\n    font-size: 1.8em; } }\n\n#about {\n  background: #668d9e;\n  color: #FFF; }\n  #about h2 {\n    width: 100%;\n    padding: 30px 0;\n    text-align: center;\n    font-size: 1.5em;\n    color: #FFF; }\n\n.who-am-i-section {\n  padding-bottom: 40px; }\n  .who-am-i-section p {\n    padding: 10px 15px 20px 15px;\n    max-width: 630px; }\n\n.skills-section {\n  padding-bottom: 20px;\n  background: #445e69; }\n\n.skills-block {\n  display: flex;\n  max-width: 300px;\n  height: 125px;\n  margin: 10px auto;\n  align-items: center;\n  justify-content: center; }\n  .skills-block h4 {\n    font-size: 1.2em;\n    padding: 5px 0 15px 0; }\n  .skills-block .inner-skills {\n    width: 50%;\n    padding-left: 25px; }\n\n.skill-image {\n  width: 80px; }\n\n/*MEDIA QUERIES*/\n@media screen and (min-width: 568px) {\n  .skills-wrapper {\n    display: flex;\n    flex-wrap: wrap; }\n  .skills-block {\n    width: 50%;\n    text-align: center; }\n  .inner-skills {\n    padding-left: 8px;\n    text-align: left; } }\n\n@media screen and (min-width: 680px) {\n  .who-am-i-section {\n    height: 220px; }\n    .who-am-i-section p {\n      display: inline-block;\n      width: 47%;\n      padding: 10px 0 20px 18px;\n      vertical-align: top; }\n  .skills-block {\n    max-width: 425px; }\n  .skill-image {\n    width: 100px; } }\n\n@media screen and (min-width: 960px) {\n  .skills-wrapper {\n    max-width: 945px;\n    margin: 0 auto;\n    text-align: center; } }\n\n#projects {\n  background: #FFF;\n  padding-bottom: 40px; }\n  #projects h2 {\n    width: 100%;\n    padding: 30px 0;\n    text-align: center;\n    font-size: 1.5em;\n    color: #FFF;\n    color: black; }\n\n.each-project {\n  position: relative;\n  max-width: 600px;\n  margin: 0 auto; }\n  .each-project .project-image {\n    display: block;\n    width: 100%;\n    height: 100%; }\n\n.article-layer {\n  position: absolute;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  text-align: center;\n  opacity: 0;\n  background: white;\n  -webkit-transition: opacity 1000ms;\n  transition: opacity 1000ms; }\n  .article-layer:hover {\n    opacity: 1; }\n  .article-layer h3 {\n    font-size: 1.2em;\n    padding: 15px 0 15px 0;\n    text-align: center; }\n  .article-layer p {\n    width: 90%;\n    margin: 0 auto;\n    text-align: left; }\n  .article-layer .project-icons {\n    width: 35px;\n    padding: 10px; }\n  .article-layer .project-button {\n    position: relative;\n    top: 30px;\n    height: 25px;\n    border: none;\n    border-radius: 5px;\n    background: #000;\n    color: #FFF;\n    cursor: pointer; }\n\n/*MEDIA QUERIES*/\n@media screen and (min-width: 400px) {\n  .article-layer h3 {\n    font-size: 1.4em; }\n  .article-layer p {\n    font-size: 1.1em; }\n  .article-layer .project-icons {\n    width: 40px; } }\n\n@media screen and (min-width: 600px) {\n  #projects {\n    display: flex;\n    flex-wrap: wrap; }\n  .each-project {\n    width: 50%; } }\n\n.project-modal {\n  position: absolute;\n  top: 40px;\n  left: 40px;\n  right: 40px;\n  bottom: 40px;\n  max-width: 900px;\n  margin: 0 auto;\n  border: 1px solid #cccccc;\n  background: rgba(255, 255, 255, 0.901961);\n  overflow: auto;\n  border-radius: 4px;\n  outline: none;\n  padding: 20px; }\n\n.ReactModal__Body--open {\n  overflow: hidden; }\n\n.project-detail-header {\n  font-size: 1.4em;\n  font-weight: 700;\n  text-align: center; }\n\n.project-detail-image {\n  display: block;\n  width: 100%;\n  max-width: 600px;\n  margin: 15px auto; }\n\n.project-detail-tech {\n  text-align: center; }\n  .project-detail-tech h3 {\n    margin: 10px 0;\n    font-size: 1.2em;\n    font-weight: 700; }\n\n.home-button {\n  position: absolute;\n  top: 5px;\n  left: 5px;\n  border: none;\n  border-radius: 11px;\n  color: #FFF;\n  background: grey;\n  cursor: pointer; }\n\nbody,\nhtml {\n  height: 100%;\n  background: #89bdd3;\n  font-family: \"Overpass\", sans-serif; }\n", ""]);
+	exports.push([module.id, "header {\n  height: 60vh; }\n\n.main-header-wrapper {\n  position: relative;\n  width: 90%;\n  margin: 0 auto; }\n\n#main-macbook-img {\n  display: block;\n  width: 100%;\n  max-width: 650px;\n  margin: 30px auto 0 auto; }\n\n#main-title {\n  position: absolute;\n  top: 15%;\n  left: 25%;\n  width: 50%;\n  color: #FFF;\n  text-align: center; }\n  #main-title h1 {\n    display: inline-block;\n    font-size: 2.3em;\n    white-space: nowrap;\n    overflow: hidden; }\n  #main-title h2 {\n    font-size: 0.9em; }\n\n#scroll-btn {\n  display: block;\n  width: 50px;\n  height: 50px;\n  margin: 10px auto 0 auto;\n  border: none;\n  cursor: pointer;\n  background: transparent url(" + __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./images/down_arrow.svg\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())) + ") no-repeat 10px 10px/30px; }\n  #scroll-btn:focus {\n    outline: none; }\n\n.header-to-scroll {\n  font-size: 1.4em;\n  font-weight: 700;\n  text-align: center;\n  text-transform: uppercase;\n  color: #636464;\n  animation: scroll-color-change 4s ease-in-out 2s 6;\n  -webkit-animation: scroll-color-change 4s ease-in-out 2s 6; }\n\n@-webkit-keyframes scroll-color-change {\n  from {\n    color: #636464; }\n  to {\n    color: #FFF; } }\n\n@keyframes scroll-color-change {\n  from {\n    color: #636464; }\n  to {\n    color: #FFF; } }\n\n/*MEDIA QUERIES*/\n@media screen and (min-width: 400px) {\n  #main-title h1 {\n    font-size: 3em; }\n  #main-title h2 {\n    font-size: 1em; } }\n\n@media screen and (min-width: 568px) {\n  header {\n    height: 100vh; }\n  #main-macbook-img {\n    width: 65%;\n    margin: 10px auto 0 auto; }\n  #main-title h1 {\n    font-size: 3em; }\n  #main-title h2 {\n    font-size: 1.2em; } }\n\n@media screen and (min-width: 665px) {\n  #main-macbook-img {\n    width: 70%; } }\n\n@media screen and (min-width: 780px) {\n  #main-macbook-img {\n    width: 90%;\n    margin: 40px auto 0 auto; }\n  #main-title h1 {\n    font-size: 4.8em; }\n  #main-title h2 {\n    font-size: 1.8em; } }\n\n#about {\n  background: #668d9e;\n  color: #FFF; }\n  #about h2 {\n    width: 100%;\n    padding: 30px 0;\n    text-align: center;\n    font-size: 1.5em;\n    color: #FFF; }\n\n.who-am-i-section {\n  padding-bottom: 40px; }\n  .who-am-i-section p {\n    padding: 10px 15px 20px 15px;\n    max-width: 630px; }\n\n.skills-section {\n  padding-bottom: 20px;\n  background: #445e69; }\n\n.skills-block {\n  display: flex;\n  max-width: 300px;\n  height: 125px;\n  margin: 10px auto;\n  align-items: center;\n  justify-content: center; }\n  .skills-block h4 {\n    font-size: 1.2em;\n    padding: 5px 0 15px 0; }\n  .skills-block .inner-skills {\n    width: 50%;\n    padding-left: 25px; }\n\n.skill-image {\n  width: 80px; }\n\n/*MEDIA QUERIES*/\n@media screen and (min-width: 568px) {\n  .skills-wrapper {\n    display: flex;\n    flex-wrap: wrap; }\n  .skills-block {\n    width: 50%;\n    text-align: center; }\n  .inner-skills {\n    padding-left: 8px;\n    text-align: left; } }\n\n@media screen and (min-width: 680px) {\n  .who-am-i-section {\n    height: 220px; }\n    .who-am-i-section p {\n      display: inline-block;\n      width: 47%;\n      padding: 10px 0 20px 18px;\n      vertical-align: top; }\n  .skills-block {\n    max-width: 425px; }\n  .skill-image {\n    width: 100px; } }\n\n@media screen and (min-width: 960px) {\n  .skills-wrapper {\n    max-width: 945px;\n    margin: 0 auto;\n    text-align: center; } }\n\n#projects {\n  background: #FFF;\n  padding-bottom: 40px; }\n  #projects h2 {\n    width: 100%;\n    padding: 30px 0;\n    text-align: center;\n    font-size: 1.5em;\n    color: #FFF;\n    color: black; }\n\n.each-project {\n  position: relative;\n  max-width: 600px;\n  margin: 0 auto; }\n  .each-project .project-image {\n    display: block;\n    width: 100%;\n    height: 100%; }\n\n.article-layer {\n  position: absolute;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  text-align: center;\n  opacity: 0;\n  background: white;\n  -webkit-transition: opacity 1000ms;\n  transition: opacity 1000ms; }\n  .article-layer:hover {\n    opacity: 1; }\n  .article-layer h3 {\n    font-size: 1.2em;\n    padding: 15px 0 15px 0;\n    text-align: center; }\n  .article-layer p {\n    width: 90%;\n    margin: 0 auto;\n    text-align: left; }\n  .article-layer .project-icons {\n    width: 35px;\n    padding: 10px; }\n  .article-layer .project-button {\n    position: relative;\n    top: 30px;\n    height: 25px;\n    border: none;\n    border-radius: 5px;\n    background: #000;\n    color: #FFF;\n    cursor: pointer; }\n\n/*MEDIA QUERIES*/\n@media screen and (min-width: 400px) {\n  .article-layer h3 {\n    font-size: 1.4em; }\n  .article-layer p {\n    font-size: 1.1em; }\n  .article-layer .project-icons {\n    width: 40px; } }\n\n@media screen and (min-width: 600px) {\n  #projects {\n    display: flex;\n    flex-wrap: wrap; }\n  .each-project {\n    width: 50%; } }\n\n.project-modal {\n  position: absolute;\n  top: 40px;\n  left: 40px;\n  right: 40px;\n  bottom: 40px;\n  max-width: 900px;\n  margin: 0 auto;\n  border: 1px solid #cccccc;\n  background: rgba(255, 255, 255, 0.901961);\n  overflow: auto;\n  border-radius: 4px;\n  outline: none;\n  padding: 20px; }\n\n.ReactModal__Body--open {\n  overflow: hidden; }\n\n.project-detail-header {\n  font-size: 1.4em;\n  font-weight: 700;\n  text-align: center; }\n\n.project-detail-image {\n  display: block;\n  width: 100%;\n  max-width: 600px;\n  margin: 15px auto; }\n\n.project-detail-tech {\n  text-align: center; }\n  .project-detail-tech h3 {\n    margin: 10px 0;\n    font-size: 1.2em;\n    font-weight: 700; }\n\n.home-button {\n  position: absolute;\n  top: 5px;\n  left: 5px;\n  border: none;\n  border-radius: 11px;\n  color: #FFF;\n  background: grey;\n  cursor: pointer; }\n\nbody,\nhtml {\n  height: 100%;\n  background: #89bdd3;\n  font-family: \"Overpass\", sans-serif; }\n", ""]);
 
 	// exports
 
-
-/***/ },
-/* 552 */
-/***/ function(module, exports) {
-
-	module.exports = "\"data:image/svg+xml,%3C?xml version='1.0' encoding='utf-8'?%3E %3C!-- Svg Vector Icons : http://www.onlinewebfonts.com/icon --%3E %3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E %3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 1000 1000' enable-background='new 0 0 1000 1000' xml:space='preserve'%3E %3Cmetadata%3E Svg Vector Icons : http://www.onlinewebfonts.com/icon %3C/metadata%3E %3Cg%3E%3Cg%3E%3Cg%3E%3Cpath fill='%23636464' d='M500,10C229.4,10,10,229.4,10,500c0,270.7,219.4,490,490,490c270.7,0,490-219.3,490-490C990,229.4,770.7,10,500,10z M719.1,588.5l-196,196l-10.6,7.1c-7.9,3.4-16.9,3.4-24.9,0l-10.3-6.8l-0.3-0.3l-196-196c-12.7-12.7-12.7-33.5,0-46.2c12.7-12.7,33.5-12.7,46.2,0l140.1,140.2V173.3c0-18,14.6-32.7,32.7-32.7c18,0,32.7,14.6,32.7,32.7v509.1l140.2-140.2c12.7-12.7,33.5-12.7,46.2,0C731.9,555,731.9,575.7,719.1,588.5z'/%3E%3C/g%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/g%3E %3C/svg%3E\""
 
 /***/ }
 /******/ ]);
