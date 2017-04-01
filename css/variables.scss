@@ -9,29 +9,12 @@ $scroll-btn-grey : #636464;
 $skills-grey : #445e69;
 
 $button-svg : transparent url(./images/down_arrow.svg) no-repeat 10px 10px / 30px;
-
-// $main-title-typing-animation : header-typing 1s steps(8, end), blink 1s step-end infinite;
 $scroll-title-animation : scroll-color-change 4s ease-in-out 2s 6;
 
 @mixin scoll-title-keyframe {
   from { color: $scroll-btn-grey; }
   to { color: $white; }
 }
-
-// @mixin header-typing-mobile {
-//   from { width: 0 }
-//   to { width: 100%}
-// }
-//
-// @mixin header-typing-full-screen {
-//   from { width: 0 }
-//   to { width: 60%}
-// }
-//
-// @mixin cursor-blink {
-//   from, to { border-color: transparent }
-//   50% { border-color: $white }
-// }
 
 @mixin sectionH2 {
   width: 100%;

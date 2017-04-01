@@ -38,20 +38,6 @@ header {
   }
 }
 
-// @-webkit-keyframes header-typing {
-//   @include header-typing-mobile;
-// }
-// @keyframes header-typing {
-//   @include header-typing-mobile;
-// }
-
-// @-webkit-keyframes blink {
-//   @include cursor-blink;
-// }
-// @keyframes blink {
-//   @include cursor-blink;
-// }
-
 #scroll-btn {
   display: block;
   width: 50px;
@@ -81,8 +67,6 @@ header {
 @keyframes scroll-color-change {
   @include scoll-title-keyframe;
 }
-
-
 
 
 /*MEDIA QUERIES*/

@@ -2,6 +2,7 @@
 @import 'header';
 @import 'about';
 @import 'projects';
+@import 'projectDetail';
 
 body,
 html {
@@ -9,56 +10,3 @@ html {
   background: $header-blue;
   font-family: $main-font-overpass;
 }
-
-/*PROJECTS CONTENT*/
-/*#things-ive-built {
-  margin: 0 10px 20px 10px;
-  text-align: center;
-}
-
-#things-ive-built article {
-  width: 200px;
-  height: 150px;
-  margin: 10px auto;
-  background: #FFF;
-}
-
-.projects-header {
-  margin-bottom: 30px;
-  padding-top: 20px;
-  font-size: 2em;
-  font-weight: 700;
-}*/
-
-/*FOOTER CONTENT*/
-/*footer {
-  padding: 0 10px 20px 10px;
-  text-align: center;
-  background: #02243C;
-  color: #FFF;
-}
-
-.footer-header {
-  padding-top: 20px;
-  margin-bottom: 30px;
-  font-size: 2em;
-  font-weight: 700;
-}*/
-/*
-@media screen and (min-width: 750px) {
-  #about {
-    display: flex;
-    height: 50%;
-    padding-bottom: 20px;
-  }
-  .who-am-i {
-    width: 70%;
-    margin: 0;
-    padding: 0;
-  }
-  .my-skills {
-    width: 30%;
-    margin: 0;
-    padding: 0;
-  }
-}*/
