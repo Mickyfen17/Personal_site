@@ -31886,7 +31886,7 @@
 	      _reactTypist2.default,
 	      {
 	        avgTypingDelay: 150,
-	        startDelay: 1250,
+	        startDelay: 1000,
 	        cursor: { show: false }
 	      },
 	      _react2.default.createElement(
