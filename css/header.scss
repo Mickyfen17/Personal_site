@@ -24,14 +24,12 @@ header {
   width: 50%;
   color: $white;
   text-align: center;
+  line-height: 1;
   h1 {
     display: inline-block;
     font-size: 2.3em;
     white-space: nowrap;
     overflow: hidden;
-    // border-right: 1px solid $white;
-    // animation: $main-title-typing-animation;
-    // -webkit-animation: $main-title-typing-animation;
   }
   h2 {
     font-size: 0.9em;
@@ -111,10 +109,4 @@ header {
   #main-title h2 {
     font-size: 1.8em;
   }
-  // @-webkit-keyframes header-typing {
-  //   @include header-typing-full-screen
-  // }
-  // @keyframes header-typing {
-  //   @include header-typing-full-screen
-  // }
 }

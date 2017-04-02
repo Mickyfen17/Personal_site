@@ -34,9 +34,10 @@
     opacity: 1;
   }
   h3 {
-    font-size: 1.2em;
-    padding: 15px 0 15px 0;
+    padding: 25px 0 15px 0;
     text-align: center;
+    font-size: 1.2em;
+    font-weight: 700;
   }
   p {
     width: 90%;
@@ -44,13 +45,14 @@
     text-align: left;
   }
   .project-icons {
-    width: 35px;
+    width: 40px;
     padding: 10px;
   }
   .project-button {
     position: relative;
     top: 30px;
-    height: 25px;
+    height: 35px;
+    width: 85px;
     border: none;
     border-radius: 5px;
     background: #000;
@@ -66,11 +68,8 @@
     h3 {
       font-size: 1.4em;
     }
-    p {
-      font-size: 1.1em;
-    }
     .project-icons {
-      width: 40px;
+      width: 50px;
     }
   }
 }
