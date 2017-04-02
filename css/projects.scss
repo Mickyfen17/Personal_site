@@ -1,11 +1,11 @@
 @import 'variables';
 
 #projects {
-  background: $white;
+  background: #9cb5c0;
   padding-bottom: 40px;
   h2 {
     @include sectionH2;
-    color: black;
+    color: white;
   }
 }
 
