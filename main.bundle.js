@@ -29583,6 +29583,8 @@
 	      projectToDisplay: ''
 	    };
 	    _this.toggleModal = _this.toggleModal.bind(_this);
+	    _this.scrollToAbout = _this.scrollToAbout.bind(_this);
+	    _this.scrollToTop = _this.scrollToTop.bind(_this);
 	    return _this;
 	  }
 
@@ -29594,6 +29596,11 @@
 	        delay: 250,
 	        smooth: true
 	      });
+	    }
+	  }, {
+	    key: 'scrollToTop',
+	    value: function scrollToTop() {
+	      _reactScroll2.default.animateScroll.scrollToTop();
 	    }
 	  }, {
 	    key: 'projectDetails',
@@ -29625,18 +29632,14 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      var _this3 = this;
-
 	      return _react2.default.createElement(
 	        'div',
 	        null,
 	        this.projectDetails(),
-	        _react2.default.createElement(_Header2.default, { scrollToAbout: function scrollToAbout() {
-	            return _this3.scrollToAbout();
-	          } }),
+	        _react2.default.createElement(_Header2.default, { scrollToAbout: this.scrollToAbout }),
 	        _react2.default.createElement(_About2.default, null),
 	        _react2.default.createElement(_Projects2.default, { toggleModal: this.toggleModal }),
-	        _react2.default.createElement(_Footer2.default, null)
+	        _react2.default.createElement(_Footer2.default, { scrollToTop: this.scrollToTop })
 	      );
 	    }
 	  }]);
@@ -31823,7 +31826,9 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var Header = function Header(props) {
+	var Header = function Header(_ref) {
+	  var scrollToAbout = _ref.scrollToAbout;
+
 
 	  return _react2.default.createElement(
 	    'header',
@@ -31838,7 +31843,9 @@
 	      _react2.default.createElement('button', {
 	        id: 'scroll-btn',
 	        type: 'button',
-	        onClick: props.scrollToAbout }),
+	        onClick: function onClick() {
+	          return scrollToAbout();
+	        } }),
 	      _react2.default.createElement(
 	        'h4',
 	        { className: 'header-to-scroll' },
@@ -31879,7 +31886,7 @@
 	      _reactTypist2.default,
 	      {
 	        avgTypingDelay: 150,
-	        startDelay: 2000,
+	        startDelay: 1250,
 	        cursor: { show: false }
 	      },
 	      _react2.default.createElement(
@@ -32846,9 +32853,9 @@
 	  });
 	  return _react2.default.createElement(
 	    'section',
-	    null,
+	    { className: 'project-details' },
 	    _react2.default.createElement(
-	      'h1',
+	      'h2',
 	      { className: 'project-detail-header' },
 	      title
 	    ),
@@ -32901,15 +32908,28 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var Footer = function Footer() {
+	var Footer = function Footer(_ref) {
+	  var scrollToTop = _ref.scrollToTop;
+
 
 	  return _react2.default.createElement(
-	    'div',
+	    'footer',
 	    { id: 'footer' },
+	    _react2.default.createElement('a', { className: 'footer-icon github', href: 'https://github.com/Mickyfen17', target: '_blank' }),
+	    _react2.default.createElement('a', { className: 'footer-icon linkedin', href: 'https://www.linkedin.com/in/michael-j-fenwick/', target: '_blank' }),
+	    _react2.default.createElement('a', { className: 'footer-icon twitter', href: 'https://twitter.com/mickyjfen', target: '_blank' }),
+	    _react2.default.createElement('a', { className: 'footer-icon email', href: 'mailto:mickyfen17@aol.com' }),
+	    _react2.default.createElement('button', {
+	      id: 'scroll-top-btn',
+	      type: 'button',
+	      onClick: function onClick() {
+	        return scrollToTop();
+	      } }),
 	    _react2.default.createElement(
-	      'h1',
-	      null,
-	      'Footer'
+	      'h4',
+	      { className: 'footer-tag' },
+	      '\xA9',
+	      ' Mike Fenwick | 2017 '
 	    )
 	  );
 	};
@@ -33296,10 +33316,10 @@
 
 	exports = module.exports = __webpack_require__(511)();
 	// imports
-	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Overpass:400,700);", ""]);
+	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Overpass:300,400,700);", ""]);
 
 	// module
-	exports.push([module.id, "header {\n  height: 60vh; }\n\n.main-header-wrapper {\n  position: relative;\n  width: 90%;\n  margin: 0 auto; }\n\n#main-macbook-img {\n  display: block;\n  width: 100%;\n  max-width: 650px;\n  margin: 30px auto 0 auto; }\n\n#main-title {\n  position: absolute;\n  top: 15%;\n  left: 25%;\n  width: 50%;\n  color: #FFF;\n  text-align: center; }\n  #main-title h1 {\n    display: inline-block;\n    font-size: 2.3em;\n    white-space: nowrap;\n    overflow: hidden; }\n  #main-title h2 {\n    font-size: 0.9em; }\n\n#scroll-btn {\n  display: block;\n  width: 50px;\n  height: 50px;\n  margin: 10px auto 0 auto;\n  border: none;\n  cursor: pointer;\n  background: transparent url(" + __webpack_require__(515) + ") no-repeat 10px 10px/30px; }\n  #scroll-btn:focus {\n    outline: none; }\n\n.header-to-scroll {\n  font-size: 1.4em;\n  font-weight: 700;\n  text-align: center;\n  text-transform: uppercase;\n  color: #636464;\n  animation: scroll-color-change 4s ease-in-out 2s 6;\n  -webkit-animation: scroll-color-change 4s ease-in-out 2s 6; }\n\n@-webkit-keyframes scroll-color-change {\n  from {\n    color: #636464; }\n  to {\n    color: #FFF; } }\n\n@keyframes scroll-color-change {\n  from {\n    color: #636464; }\n  to {\n    color: #FFF; } }\n\n/*MEDIA QUERIES*/\n@media screen and (min-width: 400px) {\n  #main-title h1 {\n    font-size: 3em; }\n  #main-title h2 {\n    font-size: 1em; } }\n\n@media screen and (min-width: 568px) {\n  header {\n    height: 100vh; }\n  #main-macbook-img {\n    width: 65%;\n    margin: 10px auto 0 auto; }\n  #main-title h1 {\n    font-size: 3em; }\n  #main-title h2 {\n    font-size: 1.2em; } }\n\n@media screen and (min-width: 665px) {\n  #main-macbook-img {\n    width: 70%; } }\n\n@media screen and (min-width: 780px) {\n  #main-macbook-img {\n    width: 90%;\n    margin: 40px auto 0 auto; }\n  #main-title h1 {\n    font-size: 4.8em; }\n  #main-title h2 {\n    font-size: 1.8em; } }\n\n#about {\n  background: #668d9e;\n  color: #FFF; }\n  #about h2 {\n    width: 100%;\n    padding: 30px 0;\n    text-align: center;\n    font-size: 1.5em;\n    color: #FFF; }\n\n.who-am-i-section {\n  padding-bottom: 40px; }\n  .who-am-i-section p {\n    padding: 10px 15px 20px 15px;\n    max-width: 630px; }\n\n.skills-section {\n  padding-bottom: 20px;\n  background: #445e69; }\n\n.skills-block {\n  display: flex;\n  max-width: 300px;\n  height: 125px;\n  margin: 10px auto;\n  align-items: center;\n  justify-content: center; }\n  .skills-block h4 {\n    font-size: 1.2em;\n    padding: 5px 0 15px 0; }\n  .skills-block .inner-skills {\n    width: 50%;\n    padding-left: 25px; }\n\n.skill-image {\n  width: 80px; }\n\n/*MEDIA QUERIES*/\n@media screen and (min-width: 568px) {\n  .skills-wrapper {\n    display: flex;\n    flex-wrap: wrap; }\n  .skills-block {\n    width: 50%;\n    text-align: center; }\n  .inner-skills {\n    padding-left: 8px;\n    text-align: left; } }\n\n@media screen and (min-width: 680px) {\n  .who-am-i-section {\n    height: 220px; }\n    .who-am-i-section p {\n      display: inline-block;\n      width: 47%;\n      padding: 10px 0 20px 18px;\n      vertical-align: top; }\n  .skills-block {\n    max-width: 425px; }\n  .skill-image {\n    width: 100px; } }\n\n@media screen and (min-width: 960px) {\n  .skills-wrapper {\n    max-width: 945px;\n    margin: 0 auto;\n    text-align: center; } }\n\n#projects {\n  background: #FFF;\n  padding-bottom: 40px; }\n  #projects h2 {\n    width: 100%;\n    padding: 30px 0;\n    text-align: center;\n    font-size: 1.5em;\n    color: #FFF;\n    color: black; }\n\n.each-project {\n  position: relative;\n  max-width: 600px;\n  margin: 0 auto; }\n  .each-project .project-image {\n    display: block;\n    width: 100%;\n    height: 100%; }\n\n.article-layer {\n  position: absolute;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  text-align: center;\n  opacity: 0;\n  background: white;\n  -webkit-transition: opacity 1000ms;\n  transition: opacity 1000ms; }\n  .article-layer:hover {\n    opacity: 1; }\n  .article-layer h3 {\n    font-size: 1.2em;\n    padding: 15px 0 15px 0;\n    text-align: center; }\n  .article-layer p {\n    width: 90%;\n    margin: 0 auto;\n    text-align: left; }\n  .article-layer .project-icons {\n    width: 35px;\n    padding: 10px; }\n  .article-layer .project-button {\n    position: relative;\n    top: 30px;\n    height: 25px;\n    border: none;\n    border-radius: 5px;\n    background: #000;\n    color: #FFF;\n    cursor: pointer; }\n\n/*MEDIA QUERIES*/\n@media screen and (min-width: 400px) {\n  .article-layer h3 {\n    font-size: 1.4em; }\n  .article-layer p {\n    font-size: 1.1em; }\n  .article-layer .project-icons {\n    width: 40px; } }\n\n@media screen and (min-width: 600px) {\n  #projects {\n    display: flex;\n    flex-wrap: wrap; }\n  .each-project {\n    width: 50%; } }\n\n.project-modal {\n  position: absolute;\n  top: 40px;\n  left: 40px;\n  right: 40px;\n  bottom: 40px;\n  max-width: 900px;\n  margin: 0 auto;\n  border: 1px solid #cccccc;\n  background: rgba(255, 255, 255, 0.901961);\n  overflow: auto;\n  border-radius: 4px;\n  outline: none;\n  padding: 20px; }\n\n.ReactModal__Body--open {\n  overflow: hidden; }\n\n.project-detail-header {\n  font-size: 1.4em;\n  font-weight: 700;\n  text-align: center; }\n\n.project-detail-image {\n  display: block;\n  width: 100%;\n  max-width: 600px;\n  margin: 15px auto; }\n\n.project-detail-tech {\n  text-align: center; }\n  .project-detail-tech h3 {\n    margin: 10px 0;\n    font-size: 1.2em;\n    font-weight: 700; }\n\n.home-button {\n  position: absolute;\n  top: 5px;\n  left: 5px;\n  border: none;\n  border-radius: 11px;\n  color: #FFF;\n  background: grey;\n  cursor: pointer; }\n\nbody,\nhtml {\n  height: 100%;\n  background: #89bdd3;\n  font-family: \"Overpass\", sans-serif; }\n", ""]);
+	exports.push([module.id, "header {\n  height: 60vh; }\n\n.main-header-wrapper {\n  position: relative;\n  width: 90%;\n  margin: 0 auto; }\n\n#main-macbook-img {\n  display: block;\n  width: 100%;\n  max-width: 650px;\n  margin: 30px auto 0 auto; }\n\n#main-title {\n  position: absolute;\n  top: 15%;\n  left: 25%;\n  width: 50%;\n  color: #FFF;\n  text-align: center;\n  line-height: 1; }\n  #main-title h1 {\n    display: inline-block;\n    font-size: 2.3em;\n    white-space: nowrap;\n    overflow: hidden; }\n  #main-title h2 {\n    font-size: 0.9em; }\n\n#scroll-btn {\n  display: block;\n  width: 50px;\n  height: 50px;\n  margin: 10px auto 0 auto;\n  border: none;\n  cursor: pointer;\n  background: transparent url(" + __webpack_require__(515) + ") no-repeat 10px 10px/30px; }\n  #scroll-btn:focus {\n    outline: none; }\n\n.header-to-scroll {\n  font-size: 1.4em;\n  font-weight: 700;\n  text-align: center;\n  text-transform: uppercase;\n  color: #636464;\n  animation: scroll-color-change 4s ease-in-out 2s 6;\n  -webkit-animation: scroll-color-change 4s ease-in-out 2s 6; }\n\n@-webkit-keyframes scroll-color-change {\n  from {\n    color: #636464; }\n  to {\n    color: #FFF; } }\n\n@keyframes scroll-color-change {\n  from {\n    color: #636464; }\n  to {\n    color: #FFF; } }\n\n/*MEDIA QUERIES*/\n@media screen and (min-width: 400px) {\n  #main-title h1 {\n    font-size: 3em; }\n  #main-title h2 {\n    font-size: 1em; } }\n\n@media screen and (min-width: 568px) {\n  header {\n    height: 100vh; }\n  #main-macbook-img {\n    width: 65%;\n    margin: 10px auto 0 auto; }\n  #main-title h1 {\n    font-size: 3em; }\n  #main-title h2 {\n    font-size: 1.2em; } }\n\n@media screen and (min-width: 665px) {\n  #main-macbook-img {\n    width: 70%; } }\n\n@media screen and (min-width: 780px) {\n  #main-macbook-img {\n    width: 90%;\n    margin: 40px auto 0 auto; }\n  #main-title h1 {\n    font-size: 4.8em; }\n  #main-title h2 {\n    font-size: 1.8em; } }\n\n#about {\n  background: #668d9e;\n  color: #FFF; }\n  #about h2 {\n    width: 100%;\n    padding: 30px 0;\n    text-align: center;\n    font-weight: 700;\n    font-size: 1.5em;\n    color: #FFF; }\n\n.who-am-i-section {\n  padding-bottom: 40px; }\n  .who-am-i-section p {\n    padding: 10px 15px 20px 15px;\n    max-width: 630px; }\n\n.skills-section {\n  padding-bottom: 20px;\n  background: #445e69; }\n\n.skills-block {\n  display: flex;\n  max-width: 300px;\n  height: 125px;\n  margin: 10px auto;\n  align-items: center;\n  justify-content: center; }\n  .skills-block h4 {\n    font-size: 1.2em;\n    padding: 5px 0 15px 0; }\n  .skills-block .inner-skills {\n    width: 50%;\n    padding-left: 25px; }\n\n.skill-image {\n  width: 80px; }\n\n/*MEDIA QUERIES*/\n@media screen and (min-width: 568px) {\n  .skills-wrapper {\n    display: flex;\n    flex-wrap: wrap; }\n  .skills-block {\n    width: 50%;\n    text-align: center; }\n  .inner-skills {\n    padding-left: 8px;\n    text-align: left; } }\n\n@media screen and (min-width: 680px) {\n  .who-am-i-section {\n    height: 220px; }\n    .who-am-i-section p {\n      display: inline-block;\n      width: 47%;\n      padding: 10px 0 20px 18px;\n      vertical-align: top; }\n  .skills-block {\n    max-width: 425px; }\n  .skill-image {\n    width: 100px; } }\n\n@media screen and (min-width: 960px) {\n  .who-am-i-section {\n    text-align: center; }\n    .who-am-i-section p {\n      text-align: left; }\n  .skills-wrapper {\n    max-width: 945px;\n    margin: 0 auto;\n    text-align: center; } }\n\n#projects {\n  background: #FFF;\n  padding-bottom: 40px; }\n  #projects h2 {\n    width: 100%;\n    padding: 30px 0;\n    text-align: center;\n    font-weight: 700;\n    font-size: 1.5em;\n    color: #FFF;\n    color: black; }\n\n.each-project {\n  position: relative;\n  max-width: 600px;\n  margin: 0 auto; }\n  .each-project .project-image {\n    display: block;\n    width: 100%;\n    height: 100%; }\n\n.article-layer {\n  position: absolute;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  text-align: center;\n  opacity: 0;\n  background: white;\n  -webkit-transition: opacity 1000ms;\n  transition: opacity 1000ms; }\n  .article-layer:hover {\n    opacity: 1; }\n  .article-layer h3 {\n    padding: 25px 0 15px 0;\n    text-align: center;\n    font-size: 1.2em;\n    font-weight: 700; }\n  .article-layer p {\n    width: 90%;\n    margin: 0 auto;\n    text-align: left; }\n  .article-layer .project-icons {\n    width: 40px;\n    padding: 10px; }\n  .article-layer .project-button {\n    position: relative;\n    top: 30px;\n    height: 35px;\n    width: 85px;\n    border: none;\n    border-radius: 5px;\n    background: #000;\n    color: #FFF;\n    cursor: pointer; }\n\n/*MEDIA QUERIES*/\n@media screen and (min-width: 400px) {\n  .article-layer h3 {\n    font-size: 1.4em; }\n  .article-layer .project-icons {\n    width: 50px; } }\n\n@media screen and (min-width: 600px) {\n  #projects {\n    display: flex;\n    flex-wrap: wrap; }\n  .each-project {\n    width: 50%; } }\n\n.project-modal {\n  position: absolute;\n  top: 40px;\n  left: 40px;\n  right: 40px;\n  bottom: 40px;\n  max-width: 900px;\n  margin: 0 auto;\n  border: 1px solid #cccccc;\n  background: rgba(255, 255, 255, 0.901961);\n  overflow: auto;\n  border-radius: 4px;\n  outline: none;\n  padding: 20px; }\n\n.ReactModal__Body--open {\n  overflow: hidden; }\n\n.project-detail-header {\n  font-size: 1.4em;\n  font-weight: 700;\n  text-align: center; }\n\n.project-detail-image {\n  display: block;\n  width: 100%;\n  max-width: 600px;\n  margin: 30px auto; }\n\n.project-detail-tech h3 {\n  margin: 10px 0;\n  font-size: 1.2em;\n  font-weight: 700; }\n\n.home-button {\n  position: absolute;\n  top: 5px;\n  left: 5px;\n  border: none;\n  border-radius: 11px;\n  color: #FFF;\n  background: grey;\n  cursor: pointer; }\n\n/*MEDIA QUERIES*/\n@media screen and (min-width: 700px) {\n  .project-details {\n    max-width: 600px;\n    margin: 0 auto; } }\n\n#footer {\n  position: relative;\n  display: flex;\n  justify-content: center;\n  height: 150px; }\n  #footer .footer-icon {\n    width: 50px;\n    height: 50px;\n    margin: 35px 10px 0 10px; }\n  #footer .github {\n    background: transparent url(" + __webpack_require__(516) + ") no-repeat 8px 8px/40px; }\n    #footer .github:hover {\n      background: transparent url(" + __webpack_require__(517) + ") no-repeat 8px 8px/40px; }\n  #footer .linkedin {\n    background: transparent url(" + __webpack_require__(518) + ") no-repeat 8px 8px/40px; }\n    #footer .linkedin:hover {\n      background: transparent url(" + __webpack_require__(519) + ") no-repeat 8px 8px/40px; }\n  #footer .twitter {\n    background: transparent url(" + __webpack_require__(520) + ") no-repeat 8px 8px/40px; }\n    #footer .twitter:hover {\n      background: transparent url(" + __webpack_require__(521) + ") no-repeat 8px 8px/40px; }\n  #footer .email {\n    background: transparent url(" + __webpack_require__(522) + ") no-repeat 8px 8px/40px; }\n    #footer .email:hover {\n      background: transparent url(" + __webpack_require__(523) + ") no-repeat 8px 8px/40px; }\n  #footer .footer-tag {\n    position: absolute;\n    bottom: 25px;\n    font-size: 0.8em; }\n\n#scroll-top-btn {\n  position: absolute;\n  bottom: 10px;\n  right: 10px;\n  display: block;\n  width: 50px;\n  height: 50px;\n  margin: 10px auto 0 auto;\n  border: none;\n  transform: rotate(180deg);\n  cursor: pointer;\n  background: transparent url(" + __webpack_require__(515) + ") no-repeat 10px 10px/30px; }\n  #scroll-top-btn:focus {\n    outline: none; }\n\nbody,\nhtml {\n  height: 100%;\n  background: #89bdd3;\n  font-family: \"Overpass\", sans-serif;\n  font-weight: 300;\n  line-height: 20px; }\n", ""]);
 
 	// exports
 
@@ -33309,6 +33329,54 @@
 /***/ function(module, exports) {
 
 	module.exports = "\"data:image/svg+xml,%3C?xml version='1.0' encoding='utf-8'?%3E %3C!-- Svg Vector Icons : http://www.onlinewebfonts.com/icon --%3E %3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E %3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 1000 1000' enable-background='new 0 0 1000 1000' xml:space='preserve'%3E %3Cmetadata%3E Svg Vector Icons : http://www.onlinewebfonts.com/icon %3C/metadata%3E %3Cg%3E%3Cg%3E%3Cg%3E%3Cpath fill='%23636464' d='M500,10C229.4,10,10,229.4,10,500c0,270.7,219.4,490,490,490c270.7,0,490-219.3,490-490C990,229.4,770.7,10,500,10z M719.1,588.5l-196,196l-10.6,7.1c-7.9,3.4-16.9,3.4-24.9,0l-10.3-6.8l-0.3-0.3l-196-196c-12.7-12.7-12.7-33.5,0-46.2c12.7-12.7,33.5-12.7,46.2,0l140.1,140.2V173.3c0-18,14.6-32.7,32.7-32.7c18,0,32.7,14.6,32.7,32.7v509.1l140.2-140.2c12.7-12.7,33.5-12.7,46.2,0C731.9,555,731.9,575.7,719.1,588.5z'/%3E%3C/g%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/g%3E %3C/svg%3E\""
+
+/***/ },
+/* 516 */
+/***/ function(module, exports) {
+
+	module.exports = "\"data:image/svg+xml,%3C?xml version='1.0' encoding='utf-8'?%3E %3C!-- Svg Vector Icons : http://www.onlinewebfonts.com/icon --%3E %3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E %3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 1000 1000' enable-background='new 0 0 1000 1000' xml:space='preserve'%3E %3Cmetadata%3E Svg Vector Icons : http://www.onlinewebfonts.com/icon %3C/metadata%3E %3Cg%3E%3Cpath d='M10,512.6c0,213.9,137.1,395.9,328.2,462.7c25.8,6.5,21.8-11.9,21.8-24.3v-84.9c-148.7,17.5-154.6-81-164.6-97.4c-20.2-34.5-67.8-43.2-53.6-59.6c33.8-17.5,68.3,4.4,108.3,63.4c28.9,42.8,85.3,35.6,113.8,28.4c6.2-25.8,19.6-48.7,38-66.6c-153.9-27.4-218.1-121.4-218.1-233.2c0-54.1,17.9-104,52.9-144.2c-22.3-66.4,2.1-123,5.3-131.4c63.6-5.8,129.7,45.5,134.8,49.6c36.1-9.7,77.4-15,123.6-15c46.4,0,87.9,5.3,124.2,15.2c12.3-9.4,73.7-53.4,132.8-48c3.2,8.4,27,63.9,6,129.2c35.5,40.3,53.6,90.5,53.6,144.8c0,112-64.6,206.1-219,233.3c25.8,25.4,41.7,60.7,41.7,99.8v123.2c0.9,9.8,0,19.6,16.5,19.6C850.4,911.9,990,728.6,990,512.7c0-270.7-219.4-490-490-490C229.3,22.6,10,241.9,10,512.6L10,512.6z'/%3E%3C/g%3E %3C/svg%3E\""
+
+/***/ },
+/* 517 */
+/***/ function(module, exports) {
+
+	module.exports = "\"data:image/svg+xml,%3C?xml version='1.0' encoding='iso-8859-1'?%3E %3C!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E %3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E %3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 478.613 478.613' style='enable-background:new 0 0 478.613 478.613;' xml:space='preserve'%3E %3Cg id='XMLID_122_'%3E %3Cg%3E %3Cpath fill='%23445e69' d='M427.501,200.695c1.776-11.238,2.884-23.56,3.163-37.377c-0.107-59.246-28.468-80.21-33.925-90.038 c8.037-44.89-1.331-65.309-5.688-72.299c-16.07-5.704-55.91,14.722-77.678,29.101c-35.491-10.389-110.494-9.375-138.621,2.689 C122.856-4.389,95.408,1.277,95.408,1.277s-17.745,31.82-4.691,78.371c-17.075,21.759-29.802,37.143-29.802,77.949 c0,9.773,0.607,19.008,1.637,27.893c14.705,77.318,75.97,110.674,136.15,116.426c-9.056,6.881-19.928,19.903-21.432,34.992 c-11.379,7.357-34.268,9.789-52.067,4.193c-24.939-7.88-34.486-57.266-71.833-50.221c-8.081,1.512-6.475,6.842,0.523,11.386 c11.378,7.38,22.094,16.554,30.354,36.185c6.344,15.072,19.687,41.982,61.873,41.982c16.747,0,28.477-1.979,28.477-1.979 s0.319,38.406,0.319,53.385c0,17.238-23.264,22.078-23.264,30.348c0,3.289,7.7,3.601,13.888,3.601 c12.229,0,37.673-10.186,37.673-28.103c0-14.237,0.227-62.081,0.227-70.46c0-18.307,9.811-24.136,9.811-24.136 s1.201,97.727-2.361,110.829c-4.177,15.408-11.744,13.219-11.744,20.076c0,10.233,30.589,2.502,40.735-19.897 c7.849-17.495,4.334-113.331,4.334-113.331l8.183-0.178c0,0,0.094,43.892-0.188,63.944c-0.295,20.769-2.438,47.025,9.898,59.417 c8.097,8.15,32.903,22.451,32.903,9.382c0-7.574-17.371-13.833-17.371-34.353V344.45c10.553,0,12.734,31.072,12.734,31.072 l3.804,57.727c0,0-2.526,21.065,22.756,29.856c8.925,3.126,28.018,3.976,28.913-1.271c0.897-5.26-22.99-13.038-23.217-29.342 c-0.123-9.93,0.445-15.742,0.445-58.934c0-43.168-5.799-59.137-26.007-71.863C355.669,295.681,416.536,269.51,427.501,200.695z'/%3E %3C/g%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3C/svg%3E\""
+
+/***/ },
+/* 518 */
+/***/ function(module, exports) {
+
+	module.exports = "\"data:image/svg+xml,%3C?xml version='1.0' encoding='iso-8859-1'?%3E %3C!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E %3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E %3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='438.536px' height='438.536px' viewBox='0 0 438.536 438.536' style='enable-background:new 0 0 438.536 438.536;' xml:space='preserve'%3E %3Cg%3E %3Cpath d='M414.41,24.123C398.333,8.042,378.963,0,356.315,0H82.228C59.58,0,40.21,8.042,24.126,24.123 C8.045,40.207,0.003,59.576,0.003,82.225v274.084c0,22.647,8.042,42.018,24.123,58.102c16.084,16.084,35.454,24.126,58.102,24.126 h274.084c22.648,0,42.018-8.042,58.095-24.126c16.084-16.084,24.126-35.454,24.126-58.102V82.225 C438.532,59.576,430.49,40.204,414.41,24.123z M133.618,367.157H67.666V169.016h65.952V367.157z M127.626,132.332 c-6.851,6.567-15.893,9.851-27.124,9.851h-0.288c-10.848,0-19.648-3.284-26.407-9.851c-6.76-6.567-10.138-14.703-10.138-24.41 c0-9.897,3.476-18.083,10.421-24.556c6.95-6.471,15.942-9.708,26.98-9.708c11.039,0,19.89,3.237,26.553,9.708 c6.661,6.473,10.088,14.659,10.277,24.556C137.899,117.625,134.477,125.761,127.626,132.332z M370.873,367.157h-65.952v-105.92 c0-29.879-11.036-44.823-33.116-44.823c-8.374,0-15.42,2.331-21.128,6.995c-5.715,4.661-9.996,10.324-12.847,16.991 c-1.335,3.422-1.999,8.75-1.999,15.981v110.775h-65.952c0.571-119.529,0.571-185.579,0-198.142h65.952v27.974 c13.867-21.681,33.558-32.544,59.101-32.544c22.84,0,41.21,7.52,55.104,22.554c13.895,15.037,20.841,37.214,20.841,66.519v113.64 H370.873z'/%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3C/svg%3E\""
+
+/***/ },
+/* 519 */
+/***/ function(module, exports) {
+
+	module.exports = "\"data:image/svg+xml,%3C?xml version='1.0' encoding='iso-8859-1'?%3E %3C!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E %3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E %3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='438.536px' height='438.536px' viewBox='0 0 438.536 438.536' style='enable-background:new 0 0 438.536 438.536;' xml:space='preserve'%3E %3Cg%3E %3Cpath fill='%23445e69' d='M414.41,24.123C398.333,8.042,378.963,0,356.315,0H82.228C59.58,0,40.21,8.042,24.126,24.123 C8.045,40.207,0.003,59.576,0.003,82.225v274.084c0,22.647,8.042,42.018,24.123,58.102c16.084,16.084,35.454,24.126,58.102,24.126 h274.084c22.648,0,42.018-8.042,58.095-24.126c16.084-16.084,24.126-35.454,24.126-58.102V82.225 C438.532,59.576,430.49,40.204,414.41,24.123z M133.618,367.157H67.666V169.016h65.952V367.157z M127.626,132.332 c-6.851,6.567-15.893,9.851-27.124,9.851h-0.288c-10.848,0-19.648-3.284-26.407-9.851c-6.76-6.567-10.138-14.703-10.138-24.41 c0-9.897,3.476-18.083,10.421-24.556c6.95-6.471,15.942-9.708,26.98-9.708c11.039,0,19.89,3.237,26.553,9.708 c6.661,6.473,10.088,14.659,10.277,24.556C137.899,117.625,134.477,125.761,127.626,132.332z M370.873,367.157h-65.952v-105.92 c0-29.879-11.036-44.823-33.116-44.823c-8.374,0-15.42,2.331-21.128,6.995c-5.715,4.661-9.996,10.324-12.847,16.991 c-1.335,3.422-1.999,8.75-1.999,15.981v110.775h-65.952c0.571-119.529,0.571-185.579,0-198.142h65.952v27.974 c13.867-21.681,33.558-32.544,59.101-32.544c22.84,0,41.21,7.52,55.104,22.554c13.895,15.037,20.841,37.214,20.841,66.519v113.64 H370.873z'/%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3C/svg%3E\""
+
+/***/ },
+/* 520 */
+/***/ function(module, exports) {
+
+	module.exports = "\"data:image/svg+xml,%3C?xml version='1.0' encoding='iso-8859-1'?%3E %3C!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E %3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E %3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='49.652px' height='49.652px' viewBox='0 0 49.652 49.652' style='enable-background:new 0 0 49.652 49.652;' xml:space='preserve'%3E %3Cg%3E %3Cg%3E %3Cpath d='M24.826,0C11.137,0,0,11.137,0,24.826c0,13.688,11.137,24.826,24.826,24.826c13.688,0,24.826-11.138,24.826-24.826 C49.652,11.137,38.516,0,24.826,0z M35.901,19.144c0.011,0.246,0.017,0.494,0.017,0.742c0,7.551-5.746,16.255-16.259,16.255 c-3.227,0-6.231-0.943-8.759-2.565c0.447,0.053,0.902,0.08,1.363,0.08c2.678,0,5.141-0.914,7.097-2.446 c-2.5-0.046-4.611-1.698-5.338-3.969c0.348,0.066,0.707,0.103,1.074,0.103c0.521,0,1.027-0.068,1.506-0.199 c-2.614-0.524-4.583-2.833-4.583-5.603c0-0.024,0-0.049,0.001-0.072c0.77,0.427,1.651,0.685,2.587,0.714 c-1.532-1.023-2.541-2.773-2.541-4.755c0-1.048,0.281-2.03,0.773-2.874c2.817,3.458,7.029,5.732,11.777,5.972 c-0.098-0.419-0.147-0.854-0.147-1.303c0-3.155,2.558-5.714,5.713-5.714c1.644,0,3.127,0.694,4.171,1.804 c1.303-0.256,2.523-0.73,3.63-1.387c-0.43,1.335-1.333,2.454-2.516,3.162c1.157-0.138,2.261-0.444,3.282-0.899 C37.987,17.334,37.018,18.341,35.901,19.144z'/%3E %3C/g%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3C/svg%3E\""
+
+/***/ },
+/* 521 */
+/***/ function(module, exports) {
+
+	module.exports = "\"data:image/svg+xml,%3C?xml version='1.0' encoding='iso-8859-1'?%3E %3C!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E %3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E %3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='49.652px' height='49.652px' viewBox='0 0 49.652 49.652' style='enable-background:new 0 0 49.652 49.652;' xml:space='preserve'%3E %3Cg%3E %3Cg%3E %3Cpath fill='%23445e69' d='M24.826,0C11.137,0,0,11.137,0,24.826c0,13.688,11.137,24.826,24.826,24.826c13.688,0,24.826-11.138,24.826-24.826 C49.652,11.137,38.516,0,24.826,0z M35.901,19.144c0.011,0.246,0.017,0.494,0.017,0.742c0,7.551-5.746,16.255-16.259,16.255 c-3.227,0-6.231-0.943-8.759-2.565c0.447,0.053,0.902,0.08,1.363,0.08c2.678,0,5.141-0.914,7.097-2.446 c-2.5-0.046-4.611-1.698-5.338-3.969c0.348,0.066,0.707,0.103,1.074,0.103c0.521,0,1.027-0.068,1.506-0.199 c-2.614-0.524-4.583-2.833-4.583-5.603c0-0.024,0-0.049,0.001-0.072c0.77,0.427,1.651,0.685,2.587,0.714 c-1.532-1.023-2.541-2.773-2.541-4.755c0-1.048,0.281-2.03,0.773-2.874c2.817,3.458,7.029,5.732,11.777,5.972 c-0.098-0.419-0.147-0.854-0.147-1.303c0-3.155,2.558-5.714,5.713-5.714c1.644,0,3.127,0.694,4.171,1.804 c1.303-0.256,2.523-0.73,3.63-1.387c-0.43,1.335-1.333,2.454-2.516,3.162c1.157-0.138,2.261-0.444,3.282-0.899 C37.987,17.334,37.018,18.341,35.901,19.144z'/%3E %3C/g%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3C/svg%3E\""
+
+/***/ },
+/* 522 */
+/***/ function(module, exports) {
+
+	module.exports = "\"data:image/svg+xml,%3C?xml version='1.0' encoding='iso-8859-1'?%3E %3C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E %3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 512 512' style='enable-background:new 0 0 512 512;' xml:space='preserve'%3E %3Cg%3E %3Cg%3E %3Cpath d='M511.609,197.601c-0.001-0.77-0.173-1.933-0.472-2.603c-0.787-2.854-2.536-5.461-5.154-7.281l-73.292-50.948V82.153 c0-7.24-5.872-13.112-13.112-13.112H335.26l-71.743-49.878c-4.484-3.121-10.437-3.134-14.935-0.026l-72.206,49.904H92.426 c-7.242,0-13.112,5.872-13.112,13.112v53.973L5.666,187.027c-3.623,2.504-5.583,6.507-5.645,10.6 C0.017,197.704,0,197.777,0,197.857l0.391,284.235c0.005,3.477,1.391,6.81,3.852,9.266c2.458,2.451,5.788,3.827,9.26,3.827 c0.007,0,0.012,0,0.018,0l485.385-0.667c7.24-0.01,13.104-5.889,13.094-13.13L511.609,197.601z M432.69,168.708l41.898,29.118 l-41.898,29.128V168.708z M256.015,45.884l33.31,23.156h-66.812L256.015,45.884z M105.538,95.265h300.928v149.921L305.43,315.428 l-41.194-31.954c-0.064-0.05-0.119-0.081-0.181-0.126c-4.604-3.454-11.116-3.581-15.894,0.126l-41.493,32.185l-101.13-69.893 V95.265z M79.314,168.003v59.64l-43.146-29.819L79.314,168.003z M26.258,222.867l158.669,109.655L26.578,455.346L26.258,222.867z M51.875,468.909l204.324-158.484l203.591,157.923L51.875,468.909z M327.144,332.271l158.276-110.036l0.32,233.059 L327.144,332.271z'/%3E %3C/g%3E %3C/g%3E %3Cg%3E %3Cg%3E %3Cpath d='M344.77,147.713H167.234c-7.24,0-13.112,5.872-13.112,13.112s5.872,13.112,13.112,13.112H344.77 c7.242,0,13.112-5.872,13.112-13.112S352.012,147.713,344.77,147.713z'/%3E %3C/g%3E %3C/g%3E %3Cg%3E %3Cg%3E %3Cpath d='M344.77,215.895H167.234c-7.24,0-13.112,5.872-13.112,13.112c0,7.24,5.872,13.112,13.112,13.112H344.77 c7.242,0,13.112-5.872,13.112-13.112C357.882,221.767,352.012,215.895,344.77,215.895z'/%3E %3C/g%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3C/svg%3E\""
+
+/***/ },
+/* 523 */
+/***/ function(module, exports) {
+
+	module.exports = "\"data:image/svg+xml,%3C?xml version='1.0' encoding='iso-8859-1'?%3E %3C!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E %3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 485.411 485.411' style='enable-background:new 0 0 485.411 485.411;' xml:space='preserve'%3E %3Cg%3E %3Cpath style='fill:%23445e69;' d='M0,81.824v321.763h485.411V81.824H0z M242.708,280.526L43.612,105.691h398.187L242.708,280.526z M163.397,242.649L23.867,365.178V120.119L163.397,242.649z M181.482,258.533l61.22,53.762l61.22-53.762L441.924,379.72H43.487 L181.482,258.533z M322.008,242.655l139.535-122.536v245.059L322.008,242.655z'/%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3C/svg%3E\""
 
 /***/ }
 /******/ ]);
