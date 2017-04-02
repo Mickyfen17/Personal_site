@@ -76,6 +76,12 @@
   }
 }
 @media screen and (min-width: 960px) {
+  .who-am-i-section {
+    text-align: center;
+    p {
+      text-align: left;
+    }
+  }
   .skills-wrapper {
     max-width: 945px;
     margin: 0 auto;
