@@ -13,6 +13,11 @@
   p {
     padding: 10px 15px 20px 15px;
     max-width: 630px;
+    a {
+      font-weight: 700;
+      color: #1f4352;
+      text-decoration: none;
+    }
   }
 }
 
@@ -34,6 +39,7 @@
   }
   .inner-skills {
     width: 50%;
+    height: 100px;
     padding-left: 25px;
   }
 }
@@ -60,7 +66,6 @@
 }
 @media screen and (min-width: 680px) {
   .who-am-i-section {
-    height: 220px;
     p {
       display: inline-block;
       width: 47%;
