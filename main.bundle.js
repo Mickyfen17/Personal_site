@@ -29546,23 +29546,29 @@
 
 	var _About2 = _interopRequireDefault(_About);
 
-	var _Projects = __webpack_require__(505);
+	var _Projects = __webpack_require__(504);
 
 	var _Projects2 = _interopRequireDefault(_Projects);
 
-	var _ProjectDetails = __webpack_require__(507);
+	var _ProjectDetails = __webpack_require__(505);
 
 	var _ProjectDetails2 = _interopRequireDefault(_ProjectDetails);
 
-	var _Footer = __webpack_require__(508);
+	var _Footer = __webpack_require__(506);
 
 	var _Footer2 = _interopRequireDefault(_Footer);
 
-	var _ProjectList = __webpack_require__(506);
+	var _ProjectList = __webpack_require__(507);
 
 	var _ProjectList2 = _interopRequireDefault(_ProjectList);
 
+	var _SkillsList = __webpack_require__(508);
+
+	var _SkillsList2 = _interopRequireDefault(_SkillsList);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -29580,7 +29586,9 @@
 
 	    _this.state = {
 	      modalOpen: false,
-	      projectToDisplay: ''
+	      projectToDisplay: '',
+	      projects: [],
+	      skills: []
 	    };
 	    _this.toggleModal = _this.toggleModal.bind(_this);
 	    _this.scrollToAbout = _this.scrollToAbout.bind(_this);
@@ -29589,6 +29597,14 @@
 	  }
 
 	  _createClass(App, [{
+	    key: 'componentWillMount',
+	    value: function componentWillMount() {
+	      this.setState({
+	        projects: [].concat(_toConsumableArray(_ProjectList2.default)),
+	        skills: [].concat(_toConsumableArray(_SkillsList2.default))
+	      });
+	    }
+	  }, {
 	    key: 'scrollToAbout',
 	    value: function scrollToAbout() {
 	      _reactScroll2.default.scroller.scrollTo('about', {
@@ -29607,7 +29623,7 @@
 	    value: function projectDetails() {
 	      var _this2 = this;
 
-	      var projectToDisplay = _ProjectList2.default.find(function (project) {
+	      var projectToDisplay = this.state.projects.find(function (project) {
 	        return project.title === _this2.state.projectToDisplay;
 	      });
 	      return _react2.default.createElement(
@@ -29632,13 +29648,17 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
+	      var _state = this.state,
+	          projects = _state.projects,
+	          skills = _state.skills;
+
 	      return _react2.default.createElement(
 	        'div',
 	        null,
 	        this.projectDetails(),
 	        _react2.default.createElement(_Header2.default, { scrollToAbout: this.scrollToAbout }),
-	        _react2.default.createElement(_About2.default, null),
-	        _react2.default.createElement(_Projects2.default, { toggleModal: this.toggleModal }),
+	        _react2.default.createElement(_About2.default, { skillsList: skills }),
+	        _react2.default.createElement(_Projects2.default, { toggleModal: this.toggleModal, projectsList: projects }),
 	        _react2.default.createElement(_Footer2.default, { scrollToTop: this.scrollToTop })
 	      );
 	    }
@@ -32494,13 +32514,15 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var About = function About() {
+	var About = function About(_ref) {
+	  var skillsList = _ref.skillsList;
+
 
 	  return _react2.default.createElement(
 	    'section',
 	    { id: 'about' },
 	    _react2.default.createElement(_WhoAmI2.default, null),
-	    _react2.default.createElement(_Skills2.default, null)
+	    _react2.default.createElement(_Skills2.default, { skillsList: skillsList })
 	  );
 	};
 
@@ -32576,15 +32598,13 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _SkillsList = __webpack_require__(504);
-
-	var _SkillsList2 = _interopRequireDefault(_SkillsList);
-
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var Skills = function Skills() {
+	var Skills = function Skills(_ref) {
+	  var skillsList = _ref.skillsList;
 
-	  var allSkills = _SkillsList2.default.map(function (skill, i) {
+
+	  var allSkills = skillsList.map(function (skill, i) {
 	    var title = skill.title,
 	        skills = skill.skills,
 	        imagePath = skill.imagePath,
@@ -32634,39 +32654,6 @@
 
 /***/ },
 /* 504 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	var SkillsList = [{
-	  title: 'JavaScript',
-	  skills: ['ES6,', 'React,', 'React Router,', 'Redux,', 'Node,', 'jQuery,', 'Webpack.'],
-	  imagePath: 'images/code.svg',
-	  imageAlt: 'web browser with code symbols'
-	}, {
-	  title: 'Testing',
-	  skills: ['Mocha,', 'Chai,', 'Selenium,', 'Enzyme,', 'Jest,', 'Sinon.'],
-	  imagePath: 'images/testing_icon.svg',
-	  imageAlt: 'computer monitor with tick inside screen'
-	}, {
-	  title: 'Workflow',
-	  skills: ['Git,', 'Github.'],
-	  imagePath: 'images/workflow.svg',
-	  imageAlt: 'tree graph showing workflow'
-	}, {
-	  title: 'Web Design',
-	  skills: ['HTML5,', 'CSS3,', 'SCSS,', 'Bootstrap,', 'Canvas,', 'ARIA,', 'aXe.'],
-	  imagePath: 'images/design.svg',
-	  imageAlt: 'painters palette'
-	}];
-
-	exports.default = SkillsList;
-
-/***/ },
-/* 505 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -32679,17 +32666,14 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _ProjectList = __webpack_require__(506);
-
-	var _ProjectList2 = _interopRequireDefault(_ProjectList);
-
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var Projects = function Projects(_ref) {
-	  var toggleModal = _ref.toggleModal;
+	  var toggleModal = _ref.toggleModal,
+	      projectsList = _ref.projectsList;
 
 
-	  var allProjects = _ProjectList2.default.map(function (project, i) {
+	  var allProjects = projectsList.map(function (project, i) {
 	    var title = project.title,
 	        image = project.image,
 	        gitHubRepo = project.gitHubRepo,
@@ -32758,7 +32742,137 @@
 	exports.default = Projects;
 
 /***/ },
+/* 505 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(299);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var ProjectDetails = function ProjectDetails(_ref) {
+	  var title = _ref.title,
+	      description = _ref.description,
+	      image = _ref.image,
+	      techUsed = _ref.techUsed,
+	      toggleModal = _ref.toggleModal;
+
+	  var listedTech = techUsed.map(function (tech, i) {
+	    return _react2.default.createElement(
+	      'h4',
+	      { key: i },
+	      tech
+	    );
+	  });
+	  return _react2.default.createElement(
+	    'section',
+	    { className: 'project-details' },
+	    _react2.default.createElement(
+	      'h2',
+	      { className: 'project-detail-header' },
+	      title
+	    ),
+	    _react2.default.createElement('img', {
+	      className: 'project-detail-image', src: image,
+	      alt: 'Picture of my ' + title + ' project'
+	    }),
+	    _react2.default.createElement(
+	      'p',
+	      { className: 'project-detail-desc' },
+	      description
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'project-detail-tech' },
+	      _react2.default.createElement(
+	        'h3',
+	        null,
+	        'Technologies Used'
+	      ),
+	      listedTech
+	    ),
+	    _react2.default.createElement(
+	      'button',
+	      {
+	        className: 'home-button',
+	        onClick: function onClick() {
+	          return toggleModal();
+	        } },
+	      'X'
+	    )
+	  );
+	};
+
+	exports.default = ProjectDetails;
+
+/***/ },
 /* 506 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(299);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var Footer = function Footer(_ref) {
+	  var scrollToTop = _ref.scrollToTop;
+
+
+	  return _react2.default.createElement(
+	    'footer',
+	    { id: 'footer' },
+	    _react2.default.createElement('a', {
+	      className: 'footer-icon github',
+	      href: 'https://github.com/Mickyfen17',
+	      target: '_blank',
+	      title: 'Github' }),
+	    _react2.default.createElement('a', {
+	      className: 'footer-icon linkedin',
+	      href: 'https://www.linkedin.com/in/michael-j-fenwick/',
+	      target: '_blank',
+	      title: 'Linkedin' }),
+	    _react2.default.createElement('a', {
+	      className: 'footer-icon twitter',
+	      href: 'https://twitter.com/mickyjfen',
+	      target: '_blank',
+	      title: 'Twitter' }),
+	    _react2.default.createElement('a', {
+	      className: 'footer-icon email',
+	      href: 'mailto:mickyfen17@aol.com',
+	      title: 'Email' }),
+	    _react2.default.createElement('button', {
+	      id: 'scroll-top-btn',
+	      type: 'button',
+	      onClick: function onClick() {
+	        return scrollToTop();
+	      } }),
+	    _react2.default.createElement(
+	      'h4',
+	      { className: 'footer-tag' },
+	      '\xA9',
+	      ' Mike Fenwick | 2017 '
+	    )
+	  );
+	};
+
+	exports.default = Footer;
+
+/***/ },
+/* 507 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -32837,134 +32951,37 @@
 	exports.default = Projects;
 
 /***/ },
-/* 507 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _react = __webpack_require__(299);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	var ProjectDetails = function ProjectDetails(_ref) {
-	  var title = _ref.title,
-	      description = _ref.description,
-	      image = _ref.image,
-	      techUsed = _ref.techUsed,
-	      toggleModal = _ref.toggleModal;
-
-	  var listedTech = techUsed.map(function (tech, i) {
-	    return _react2.default.createElement(
-	      'h4',
-	      { key: i },
-	      tech
-	    );
-	  });
-	  return _react2.default.createElement(
-	    'section',
-	    { className: 'project-details' },
-	    _react2.default.createElement(
-	      'h2',
-	      { className: 'project-detail-header' },
-	      title
-	    ),
-	    _react2.default.createElement('img', {
-	      className: 'project-detail-image', src: image,
-	      alt: 'Picture of my ' + title + ' project'
-	    }),
-	    _react2.default.createElement(
-	      'p',
-	      { className: 'project-detail-desc' },
-	      description
-	    ),
-	    _react2.default.createElement(
-	      'div',
-	      { className: 'project-detail-tech' },
-	      _react2.default.createElement(
-	        'h3',
-	        null,
-	        'Technologies Used'
-	      ),
-	      listedTech
-	    ),
-	    _react2.default.createElement(
-	      'button',
-	      {
-	        className: 'home-button',
-	        onClick: function onClick() {
-	          return toggleModal();
-	        } },
-	      'X'
-	    )
-	  );
-	};
-
-	exports.default = ProjectDetails;
-
-/***/ },
 /* 508 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ function(module, exports) {
 
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
+	var SkillsList = [{
+	  title: 'JavaScript',
+	  skills: ['ES6,', 'React,', 'React Router,', 'Redux,', 'Node,', 'jQuery,', 'Webpack.'],
+	  imagePath: 'images/code.svg',
+	  imageAlt: 'web browser with code symbols'
+	}, {
+	  title: 'Testing',
+	  skills: ['Mocha,', 'Chai,', 'Selenium,', 'Enzyme,', 'Jest,', 'Sinon.'],
+	  imagePath: 'images/testing_icon.svg',
+	  imageAlt: 'computer monitor with tick inside screen'
+	}, {
+	  title: 'Workflow',
+	  skills: ['Git,', 'Github.'],
+	  imagePath: 'images/workflow.svg',
+	  imageAlt: 'tree graph showing workflow'
+	}, {
+	  title: 'Web Design',
+	  skills: ['HTML5,', 'CSS3,', 'SCSS,', 'Bootstrap,', 'Canvas,', 'ARIA,', 'aXe.'],
+	  imagePath: 'images/design.svg',
+	  imageAlt: 'painters palette'
+	}];
 
-	var _react = __webpack_require__(299);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	var Footer = function Footer(_ref) {
-	  var scrollToTop = _ref.scrollToTop;
-
-
-	  return _react2.default.createElement(
-	    'footer',
-	    { id: 'footer' },
-	    _react2.default.createElement('a', {
-	      className: 'footer-icon github',
-	      href: 'https://github.com/Mickyfen17',
-	      target: '_blank',
-	      title: 'Github' }),
-	    _react2.default.createElement('a', {
-	      className: 'footer-icon linkedin',
-	      href: 'https://www.linkedin.com/in/michael-j-fenwick/',
-	      target: '_blank',
-	      title: 'Linkedin' }),
-	    _react2.default.createElement('a', {
-	      className: 'footer-icon twitter',
-	      href: 'https://twitter.com/mickyjfen',
-	      target: '_blank',
-	      title: 'Twitter' }),
-	    _react2.default.createElement('a', {
-	      className: 'footer-icon email',
-	      href: 'mailto:mickyfen17@aol.com',
-	      title: 'Email' }),
-	    _react2.default.createElement('button', {
-	      id: 'scroll-top-btn',
-	      type: 'button',
-	      onClick: function onClick() {
-	        return scrollToTop();
-	      } }),
-	    _react2.default.createElement(
-	      'h4',
-	      { className: 'footer-tag' },
-	      '\xA9',
-	      ' Mike Fenwick | 2017 '
-	    )
-	  );
-	};
-
-	exports.default = Footer;
+	exports.default = SkillsList;
 
 /***/ },
 /* 509 */
