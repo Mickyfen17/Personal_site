@@ -32881,6 +32881,28 @@
 	  value: true
 	});
 	var Projects = [{
+	  title: 'I Wanna Ride',
+	  description: 'This application was a personal driven project where I decided to use React & Redux and also build my own backend database with Node, Express, SQL & postgreSQL. The application is designed to match mountain bike riders who want to ride a trail but don\'t want to ride it alone. The app allows users to add the date, time and location where they want to ride and will then check the system for other riders with matching details. Create User & User sign in is not yet secure via OAuth. To test use the application, sign in with the credentials mikefen & password',
+	  image: 'images/I-wanna-ride.png',
+	  gitHubRepo: 'https://github.com/Mickyfen17/i-wanna-ride',
+	  siteURL: 'https://i-wanna-ride.herokuapp.com/',
+	  techUsed: ['Javascript ', 'React ', 'Redux ', 'React Router ', 'Express ', 'SQL ', 'postgreSQL ', 'Jest ', 'Enzyme ', 'HTML5 ', 'SCSS '],
+	  icons: {
+	    git: 'images/github.svg',
+	    site: 'images/browser.svg'
+	  }
+	}, {
+	  title: 'Movie Tracker',
+	  description: 'This application was a first introduction to Redux, Express, SQL & postgreSQL. The application allows users to log in and view the most recently released movies. Once the user is logged in they are able to favorite multiple movies which would be saved to their account. Create User & User sign in is not yet secure via OAuth. To test use the application, sign in with the credentials test@test.com & password.',
+	  image: 'images/movie-tracker.png',
+	  gitHubRepo: 'https://github.com/Mickyfen17/movie_tracker',
+	  siteURL: 'https://movie-track.herokuapp.com/',
+	  techUsed: ['Javascript ', 'React ', 'Redux ', 'React Router ', 'Express ', 'SQL ', 'postgreSQL ', 'Jest ', 'Enzyme ', 'HTML5 ', 'CSS3 '],
+	  icons: {
+	    git: 'images/github.svg',
+	    site: 'images/browser.svg'
+	  }
+	}, {
 	  title: 'Weathrly',
 	  description: 'Mobile weather application built in React JS and tested with Mocha and Enzyme. It utilizes Weather Underground’s API to render on demand weather forecasts to a stylish and accessible user interface that supports an auto-complete location search.',
 	  image: 'images/weathrly.png',
@@ -32894,7 +32916,7 @@
 	}, {
 	  title: 'GameTime',
 	  description: 'Desktop replica of the classic arcade game Breakout built using vanilla JavaScript, HTML canvas and Mocha/Chai for testing. The game supports 5 levels of play.',
-	  image: 'images/game_time.png',
+	  image: 'images/game-time.png',
 	  gitHubRepo: 'https://github.com/Mickyfen17/game-time',
 	  siteURL: 'https://mickyfen17.github.io/game-time/',
 	  techUsed: ['Javascript ', 'HTML Canvas ', 'CSS3 ', 'Mocha ', 'Chai'],
