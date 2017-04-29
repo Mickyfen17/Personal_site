@@ -32883,7 +32883,7 @@
 	var Projects = [{
 	  title: 'I Wanna Ride',
 	  description: 'This application was a personal driven project where I decided to use React & Redux and also build my own backend database with Node, Express, SQL & postgreSQL. The application is designed to match mountain bike riders who want to ride a trail but don\'t want to ride it alone. The app allows users to add the date, time and location where they want to ride and will then check the system for other riders with matching details. Create User & User sign in is not yet secure via OAuth. To test use the application, sign in with the credentials mikefen & password',
-	  image: 'images/i-wanna-ride.png',
+	  image: 'images/I-wanna-ride.png',
 	  gitHubRepo: 'https://github.com/Mickyfen17/i-wanna-ride',
 	  siteURL: 'https://i-wanna-ride.herokuapp.com/',
 	  techUsed: ['Javascript ', 'React ', 'Redux ', 'React Router ', 'Express ', 'SQL ', 'postgreSQL ', 'Jest ', 'Enzyme ', 'HTML5 ', 'SCSS '],
