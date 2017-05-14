@@ -19,6 +19,12 @@
 .ReactModal__Body--open {
   overflow: hidden;
 }
+
+.project-details {
+  height: 100%;
+  overflow: auto;
+}
+
 .project-detail-header {
   font-size: 1.4em;
   font-weight: 700;
@@ -42,7 +48,7 @@
 
 .home-button {
   position: absolute;
-  top: 5px;
+  top: 10px;
   left: 5px;
   border: none;
   border-radius: 11px;

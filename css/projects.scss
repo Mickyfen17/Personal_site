@@ -9,10 +9,13 @@
   }
 }
 
+.projects-wrapper {
+  max-width: 1800px;
+}
+
 .each-project {
   position: relative;
   max-width: 600px;
-  margin: 0 auto;
   .project-image {
     display: block;
     width: 100%;
@@ -74,12 +77,17 @@
   }
 }
 @media screen and (min-width: 600px) {
-  #projects {
+  .projects-wrapper {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
   }
   .each-project {
     width: 50%;
   }
 }
-
+@media screen and (min-width: 1200px) {
+  .each-project {
+    width: (100% / 3)
+  }
+}
