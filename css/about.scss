@@ -28,19 +28,34 @@
 
 .skills-block {
   display: flex;
-  max-width: 300px;
-  height: 125px;
-  margin: 10px auto;
-  align-items: center;
+  position: relative;
+  max-width: 350px;
+  margin: 25px auto;
+  padding-bottom: 25px;
+  align-items: flex-start;
   justify-content: center;
   h4 {
     font-size: 1.2em;
     padding: 5px 0 15px 0;
   }
   .inner-skills {
-    width: 50%;
-    height: 100px;
+    width: 55%;
     padding-left: 25px;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: 1px solid $about-grey;
+  }
+  &:last-child {
+    &:after {
+      border-bottom: none;
+    }
   }
 }
 
@@ -58,6 +73,9 @@
   .skills-block {
     width: 50%;
     text-align: center;
+    &:after {
+      border-bottom: none;
+    }
   }
   .inner-skills {
     padding-left: 8px;
