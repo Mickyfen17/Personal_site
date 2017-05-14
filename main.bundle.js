@@ -32886,7 +32886,18 @@
 	  image: 'images/I-wanna-ride.png',
 	  gitHubRepo: 'https://github.com/Mickyfen17/i-wanna-ride',
 	  siteURL: 'https://i-wanna-ride.herokuapp.com/',
-	  techUsed: ['Javascript ', 'React ', 'Redux ', 'React Router ', 'Express ', 'SQL ', 'postgreSQL ', 'Jest ', 'Enzyme ', 'HTML5 ', 'SCSS '],
+	  techUsed: ['Javascript ', 'React ', 'Redux ', 'React Router ', 'Node ', 'Express ', 'SQL ', 'postgreSQL ', 'Jest ', 'Enzyme ', 'HTML5 ', 'SCSS '],
+	  icons: {
+	    git: 'images/github.svg',
+	    site: 'images/browser.svg'
+	  }
+	}, {
+	  title: 'Jet-Fuel',
+	  description: 'This application is based on the bitly url shortener. Using Express.js to create our endpoints and Knex along with postgreSQL to store our data. The user is able to create specific folders and add long urls from any website to that folder. The Express server and Knex/postgreSQL DB will then create a shortened url that can be used anywhere to redirect a user back to the original long url.',
+	  image: 'images/jet-fuelled.png',
+	  gitHubRepo: 'https://github.com/Mickyfen17/jet-fuel',
+	  siteURL: 'https://jet-fuelled.herokuapp.com/',
+	  techUsed: ['Javascript ', 'jQuery ', 'HTML5 ', 'SCSS ', 'Node ', 'Express ', 'Knex ', 'postgreSQL ', 'Mocha ', 'Chai '],
 	  icons: {
 	    git: 'images/github.svg',
 	    site: 'images/browser.svg'
@@ -32897,7 +32908,7 @@
 	  image: 'images/movie-tracker.png',
 	  gitHubRepo: 'https://github.com/Mickyfen17/movie_tracker',
 	  siteURL: 'https://movie-track.herokuapp.com/',
-	  techUsed: ['Javascript ', 'React ', 'Redux ', 'React Router ', 'Express ', 'SQL ', 'postgreSQL ', 'Jest ', 'Enzyme ', 'HTML5 ', 'CSS3 '],
+	  techUsed: ['Javascript ', 'React ', 'Redux ', 'React Router ', 'Node ', 'Express ', 'SQL ', 'postgreSQL ', 'Jest ', 'Enzyme ', 'HTML5 ', 'CSS3 '],
 	  icons: {
 	    git: 'images/github.svg',
 	    site: 'images/browser.svg'
@@ -32908,7 +32919,7 @@
 	  image: 'images/weathrly.png',
 	  gitHubRepo: 'https://github.com/Mickyfen17/weathrly',
 	  siteURL: 'https://mickyfen17.github.io/weathrly/',
-	  techUsed: ['Javascript ', 'React ', 'Mocha ', 'Chai ', 'Enzyme ', 'Sinon ', 'HTML5 ', 'CSS3 ', 'ARIA'],
+	  techUsed: ['Javascript ', 'React ', 'Enzyme ', 'Sinon ', 'HTML5 ', 'CSS3 ', 'ARIA', 'Mocha ', 'Chai '],
 	  icons: {
 	    git: 'images/github.svg',
 	    site: 'images/browser.svg'
@@ -32941,7 +32952,7 @@
 	  image: 'images/2_do_box.png',
 	  gitHubRepo: 'https://github.com/Mickyfen17/2DoBox-Pivot',
 	  siteURL: 'https://mickyfen17.github.io/2DoBox-Pivot/',
-	  techUsed: ['Javascript ', 'Mocha ', 'Chai ', 'Selenium ', 'HTML5 ', 'SCSS ', 'ARIA'],
+	  techUsed: ['Javascript ', 'Selenium ', 'HTML5 ', 'SCSS ', 'ARIA', 'Mocha ', 'Chai '],
 	  icons: {
 	    git: 'images/github.svg',
 	    site: 'images/browser.svg'
@@ -32953,17 +32964,6 @@
 	  gitHubRepo: 'https://github.com/Mickyfen17/Linked_List',
 	  siteURL: 'https://mickyfen17.github.io/Linked_List/',
 	  techUsed: ['Javascript ', 'HTML5 ', 'CSS'],
-	  icons: {
-	    git: 'images/github.svg',
-	    site: 'images/browser.svg'
-	  }
-	}, {
-	  title: 'IdeaBox',
-	  description: 'Single page application wittren in jQuery while using Local Storage to keep track of ideas.',
-	  image: 'images/ideaBox.png',
-	  gitHubRepo: 'https://github.com/Mickyfen17/ideaBox',
-	  siteURL: 'https://mickyfen17.github.io/ideaBox/',
-	  techUsed: ['Javascript ', 'jQuery ', 'HTML5 ', 'CSS'],
 	  icons: {
 	    git: 'images/github.svg',
 	    site: 'images/browser.svg'
@@ -32983,7 +32983,7 @@
 	});
 	var SkillsList = [{
 	  title: 'Web Development',
-	  skills: ['JavaScript,', 'React,', 'React Router,', 'Redux,', 'jQuery,', 'Node,', 'Express,', 'SQL,', 'Webpack.'],
+	  skills: ['JavaScript,', 'React,', 'React Router,', 'Redux,', 'jQuery,', 'Node,', 'Express,', 'postgreSQL,', 'SQL,', 'Knex,', 'Webpack.'],
 	  imagePath: 'images/code.svg',
 	  imageAlt: 'web browser with code symbols'
 	}, {
@@ -32993,7 +32993,7 @@
 	  imageAlt: 'computer monitor with tick inside screen'
 	}, {
 	  title: 'Workflow',
-	  skills: ['Git,', 'Github.'],
+	  skills: ['Git,', 'Waffle.io,', 'Trello.'],
 	  imagePath: 'images/workflow.svg',
 	  imageAlt: 'tree graph showing workflow'
 	}, {
