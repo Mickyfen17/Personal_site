@@ -9,7 +9,7 @@ const config = {
       {
         test: /\.scss$/,
         use: ExtractTextWebpackPlugin.extract({
-          use: ['css-loader', 'sass-loader'],
+          use: ['css-loader', 'postcss-loader', 'sass-loader'],
           fallback: 'style-loader',
         }),
       },
