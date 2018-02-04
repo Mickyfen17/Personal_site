@@ -1,10 +1,11 @@
 const path = require('path');
 const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const config = {
-  entry: ['react-hot-loader/patch', './lib/index.js'],
+  entry: ['react-hot-loader/patch', './lib/'],
   output: {
-    filename: '[name].bundle.js',
+    filename: 'bundle.[hash].js',
     path: path.resolve(__dirname, '../', 'build'),
     publicPath: '/',
   },
@@ -22,6 +23,9 @@ const config = {
     extensions: ['.js', '.jsx', '.json', '.scss', '.css'],
   },
   plugins: [
+    new HtmlWebpackPlugin({
+      template: 'public/index.html',
+    }),
     new webpack.ProgressPlugin(),
     new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin(),
@@ -29,6 +33,7 @@ const config = {
   ],
   devServer: {
     hot: true,
+    open: true,
   },
 };
 
