@@ -5,9 +5,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const config = {
   entry: ['react-hot-loader/patch', './lib/'],
   output: {
-    filename: 'bundle.[hash].js',
+    filename: '[name].[hash].js',
     path: path.resolve(__dirname, '../', 'build'),
-    publicPath: '/',
   },
   module: {
     rules: [
