@@ -18,8 +18,8 @@ const config = {
   },
   plugins: [
     new UglifyJsWebpackPlugin({
+      sourceMap: true,
       uglifyOptions: {
-        sourceMap: true,
         output: {
           comments: false,
         },

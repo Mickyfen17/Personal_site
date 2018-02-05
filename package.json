@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --env.env=dev",
-    "build": "webpack --env.env=prod",
+    "build": "webpack -p --env.env=prod",
     "webpack-dev-server": "webpack-dev-server",
     "deploy": "npm run build && gh-pages -d build",
     "test": "mocha --require test/helpers/setup.js"
