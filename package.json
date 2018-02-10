@@ -4,11 +4,19 @@
   "description": "My Personal Website",
   "main": "index.js",
   "scripts": {
+    "precommit": "lint-staged",
+    "pretty": "prettier --print-width 80 --single-quote --trailing-comma es5 --write \"lib/**/*.js\"",
     "start": "webpack-dev-server --env.env=dev",
     "build": "webpack -p --env.env=prod",
     "webpack-dev-server": "webpack-dev-server",
     "deploy": "npm run build && gh-pages -d build",
     "test": "mocha --require test/helpers/setup.js"
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run pretty",
+      "git add"
+    ]
   },
   "repository": {
     "type": "git",
@@ -51,6 +59,10 @@
     "webpack-merge": "^4.1.1"
   },
   "dependencies": {
+    "eslint-plugin-prettier": "^2.6.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.1.0",
+    "prettier": "^1.10.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-hot-loader": "^3.1.3",

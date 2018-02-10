@@ -10,6 +10,16 @@
     "quotes": [2, "single"],
     "eol-last": [0],
     "no-mixed-requires": [0],
-    "no-underscore-dangle": [0]
-  }
+    "no-underscore-dangle": [0],
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "bracketSpacing": true,
+        "printWidth": 100
+      }
+    ]
+  },
+  "plugins": ["prettier"]
 }
