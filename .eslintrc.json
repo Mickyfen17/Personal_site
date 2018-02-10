@@ -16,6 +16,7 @@
     "function-paren-newline": ["error", "consistent"],
     "comma-dangle": ["error", "only-multiline"],
     "object-curly-newline": ["error", { "consistent": true }],
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
     "react/jsx-boolean-value": ["error", "never"],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "class-methods-use-this": 0,
