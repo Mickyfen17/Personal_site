@@ -1,3 +1,5 @@
+const webpack = require('webpack');
+
 const config = {
   devtool: 'eval-source-map',
   module: {
@@ -20,6 +22,14 @@ const config = {
         ],
       },
     ],
+  },
+  plugins: [
+    new webpack.NamedModulesPlugin(),
+    new webpack.HotModuleReplacementPlugin(),
+  ],
+  devServer: {
+    hot: true,
+    open: true,
   },
 };
 

@@ -24,16 +24,11 @@ const config = {
   plugins: [
     new HtmlWebpackPlugin({
       template: 'public/index.html',
+      favicon: 'public/favicon.ico',
     }),
     new webpack.ProgressPlugin(),
-    new webpack.NamedModulesPlugin(),
-    new webpack.HotModuleReplacementPlugin(),
     new webpack.NoEmitOnErrorsPlugin(),
   ],
-  devServer: {
-    hot: true,
-    open: true,
-  },
 };
 
 module.exports = config;
