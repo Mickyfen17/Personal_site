@@ -33,10 +33,15 @@
 
 .project-detail-image {
   display: block;
+  opacity: 0;
   width: 100%;
   max-width: 600px;
   min-height: 125px;
   margin: 30px auto;
+
+  &.loaded {
+    @include fade-in;
+  }
 }
 
 .project-detail-tech {
@@ -47,15 +52,21 @@
   }
 }
 
-.home-button {
+.close-modal {
   position: absolute;
   top: 10px;
   left: 5px;
   border: none;
-  border-radius: 11px;
+  border-radius: 50%;
   color: $white;
   background: grey;
+  line-height: 1rem;
   cursor: pointer;
+  transition: background 250ms ease-in-out;
+
+  &:hover {
+    background: lighten(grey, 10%);
+  }
 }
 
 /*MEDIA QUERIES*/

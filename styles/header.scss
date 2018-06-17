@@ -12,9 +12,15 @@ header {
 
 .main-macbook-img {
   display: block;
+  opacity: 0;
   width: 100%;
   max-width: 650px;
+  min-height: 186px;
   margin: 30px auto 0 auto;
+
+  &.loaded {
+    @include fade-in;
+  }
 }
 
 #main-title {
@@ -25,6 +31,7 @@ header {
   color: $white;
   text-align: center;
   line-height: 1;
+  z-index: 1;
   h1 {
     display: inline-block;
     font-size: 2.3em;
