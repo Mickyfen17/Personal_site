@@ -41,6 +41,17 @@
   .inner-skills {
     width: 55%;
     padding-left: 25px;
+    > span {
+      &:after {
+        content: ', ';
+      }
+
+      &:last-child {
+        &:after {
+          content: '';
+        }
+      }
+    }
   }
   &:after {
     content: '';
@@ -62,7 +73,6 @@
 .skill-image {
   width: 80px;
 }
-
 
 /*MEDIA QUERIES*/
 @media screen and (min-width: 568px) {
