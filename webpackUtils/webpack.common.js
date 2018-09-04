@@ -5,8 +5,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const config = {
   entry: ['react-hot-loader/patch', './lib/'],
   output: {
+    path: path.join(__dirname, '../', 'dist'),
     filename: '[name].[hash].js',
-    path: path.resolve(__dirname, '../', 'build'),
   },
   module: {
     rules: [
@@ -15,11 +15,15 @@ const config = {
         exclude: /node_modules/,
         use: { loader: 'babel-loader' },
       },
-      { test: /\.svg$/, loader: 'svg-url-loader' },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: ['file-loader'],
+      },
     ],
   },
   resolve: {
     extensions: ['.js', '.jsx', '.json', '.scss', '.css'],
+    alias: {},
   },
   plugins: [
     new HtmlWebpackPlugin({

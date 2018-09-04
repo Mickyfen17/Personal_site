@@ -1,30 +1,39 @@
 const UglifyJsWebpackPlugin = require('uglifyjs-webpack-plugin');
 const CompressionWebpackPlugin = require('compression-webpack-plugin');
-const ExtractTextWebpackPlugin = require('extract-text-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 const config = {
-  devtool: 'cheap-module-source-map',
   module: {
     rules: [
       {
-        test: /\.scss$/,
-        use: ExtractTextWebpackPlugin.extract({
-          use: ['css-loader', 'postcss-loader', 'sass-loader'],
-          fallback: 'style-loader',
-        }),
+        test: /\.(sa|sc|c)ss$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          'postcss-loader',
+          'sass-loader',
+        ],
       },
     ],
   },
-  plugins: [
-    new UglifyJsWebpackPlugin({
-      sourceMap: true,
-      uglifyOptions: {
-        output: {
-          comments: false,
+  optimization: {
+    minimizer: [
+      new UglifyJsWebpackPlugin({
+        sourceMap: true,
+        uglifyOptions: {
+          output: {
+            comments: false,
+          },
         },
-      },
-    }),
+      }),
+      new OptimizeCSSAssetsPlugin({}),
+    ],
+  },
+  plugins: [
+    new CleanWebpackPlugin('dist', {}),
     new CompressionWebpackPlugin({
       asset: '[path].gz[query]',
       algorithm: 'gzip',
@@ -32,7 +41,10 @@ const config = {
       threshold: 10240,
       minRatio: 0.8,
     }),
-    new ExtractTextWebpackPlugin('[name].[hash].css'),
+    new MiniCssExtractPlugin({
+      filename: '[name].[hash].css',
+      chunkFilename: '[id].[hash].css',
+    }),
     new CopyWebpackPlugin([{ from: 'images', to: 'images' }]),
   ],
 };

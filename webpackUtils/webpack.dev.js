@@ -1,7 +1,7 @@
 const webpack = require('webpack');
 
 const config = {
-  devtool: 'eval-source-map',
+  devtool: 'cheap-eval-source-map',
   module: {
     rules: [
       {
@@ -12,6 +12,7 @@ const config = {
           },
           {
             loader: 'css-loader',
+            options: { sourceMap: true },
           },
           {
             loader: 'postcss-loader',
