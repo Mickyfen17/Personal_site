@@ -69,6 +69,20 @@
   }
 }
 
+.ReactModal__Overlay,
+.ReactModal__Content {
+  transition: opacity 500ms ease-in-out;
+  opacity: 0;
+
+  &--after-open {
+    opacity: 1;
+  }
+
+  &--before-close {
+    opacity: 0;
+  }
+}
+
 /*MEDIA QUERIES*/
 @media screen and (min-width: 700px) {
   .project-details {
