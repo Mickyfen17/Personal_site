@@ -1,3 +1,4 @@
+const path = require('path');
 const UglifyJsWebpackPlugin = require('uglifyjs-webpack-plugin');
 const CompressionWebpackPlugin = require('compression-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -6,6 +7,10 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 const config = {
+  output: {
+    filename: '[name].[hash].js',
+    chunkFilename: '[name].[hash].chunk.js',
+  },
   module: {
     rules: [
       {
@@ -20,6 +25,10 @@ const config = {
     ],
   },
   optimization: {
+    splitChunks: {
+      chunks: 'all',
+      name: false,
+    },
     minimizer: [
       new UglifyJsWebpackPlugin({
         sourceMap: true,
@@ -33,7 +42,7 @@ const config = {
     ],
   },
   plugins: [
-    new CleanWebpackPlugin('dist', {}),
+    new CleanWebpackPlugin('dist', { root: path.join(__dirname, '..') }),
     new CompressionWebpackPlugin({
       asset: '[path].gz[query]',
       algorithm: 'gzip',
@@ -43,7 +52,7 @@ const config = {
     }),
     new MiniCssExtractPlugin({
       filename: '[name].[hash].css',
-      chunkFilename: '[id].[hash].css',
+      chunkFilename: '[name].[hash].css',
     }),
     new CopyWebpackPlugin([{ from: 'images', to: 'images' }]),
   ],
