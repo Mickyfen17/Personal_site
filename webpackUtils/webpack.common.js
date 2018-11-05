@@ -32,7 +32,7 @@ const config = {
   },
   resolve: {
     extensions: ['.js', '.jsx', '.json', '.scss', '.css'],
-    alias: {},
+    alias: { styles: path.resolve(__dirname, '../styles') },
   },
   plugins: [
     new HtmlWebpackPlugin({
