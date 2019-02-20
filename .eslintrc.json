@@ -29,11 +29,12 @@
     "prettier/prettier": [
       "error",
       { "singleQuote": true, "trailingComma": "es5", "bracketSpacing": true }
-    ]
+    ],
+    "react-hooks/rules-of-hooks": "error"
   },
   "env": {
     "browser": true,
     "node": true
   },
-  "plugins": ["prettier"]
+  "plugins": ["react-hooks", "prettier"]
 }
