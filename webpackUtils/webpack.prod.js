@@ -52,7 +52,7 @@ const config = {
     }),
     new MiniCssExtractPlugin({
       filename: '[name].[hash].css',
-      chunkFilename: '[name].[hash].css',
+      chunkFilename: '[id].[hash].css',
     }),
     new CopyWebpackPlugin([{ from: 'images', to: 'images' }]),
   ],
