@@ -72,6 +72,9 @@ header {
 
 /*MEDIA QUERIES*/
 @media screen and (min-width: 400px) {
+  .main-macbook-img {
+    width: 90%;
+  }
   #main-title h1 {
     font-size: 3em;
   }
