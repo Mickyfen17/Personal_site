@@ -1,0 +1,92 @@
+@import 'variables';
+
+.project-modal {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  border: 1px solid rgb(204, 204, 204);
+  background: rgba(255, 255, 255, 0.901961);
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+}
+
+.ReactModal__Body--open {
+  overflow: hidden;
+}
+
+.project-details {
+  height: 100%;
+  overflow: auto;
+}
+
+.project-detail-header {
+  font-size: 1.4em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.project-detail-image {
+  display: block;
+  opacity: 0;
+  width: 100%;
+  max-width: 600px;
+  min-height: 125px;
+  margin: 30px auto;
+
+  &.loaded {
+    @include fade-in;
+  }
+}
+
+.project-detail-tech {
+  h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    font-weight: 700;
+  }
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  border: none;
+  border-radius: 50%;
+  color: $white;
+  background: grey;
+  line-height: 1rem;
+  cursor: pointer;
+  transition: background 250ms ease-in-out;
+
+  &:hover {
+    background: lighten(grey, 10%);
+  }
+}
+
+.ReactModal__Overlay,
+.ReactModal__Content {
+  transition: opacity 500ms ease-in-out;
+  opacity: 0;
+
+  &--after-open {
+    opacity: 1;
+  }
+
+  &--before-close {
+    opacity: 0;
+  }
+}
+
+/*MEDIA QUERIES*/
+@media screen and (min-width: 700px) {
+  .project-details {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}

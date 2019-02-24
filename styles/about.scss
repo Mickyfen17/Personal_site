@@ -1,0 +1,123 @@
+@import 'variables';
+
+#about {
+  background: $about-grey;
+  color: $white;
+  h2 {
+    @include sectionH2;
+  }
+}
+
+.who-am-i-section {
+  padding-bottom: 40px;
+  p {
+    padding: 10px 15px 20px 15px;
+    max-width: 630px;
+    a {
+      font-weight: 700;
+      color: #1f4352;
+      text-decoration: none;
+    }
+  }
+}
+
+.skills-section {
+  padding-bottom: 20px;
+  background: $skills-grey;
+}
+
+.skills-block {
+  display: flex;
+  position: relative;
+  max-width: 350px;
+  margin: 25px auto;
+  padding-bottom: 25px;
+  align-items: flex-start;
+  justify-content: center;
+  h4 {
+    font-size: 1.2em;
+    padding: 5px 0 15px 0;
+  }
+  .inner-skills {
+    width: 55%;
+    padding-left: 25px;
+    > span {
+      &:after {
+        content: ', ';
+      }
+
+      &:last-child {
+        &:after {
+          content: '';
+        }
+      }
+    }
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: 1px solid $about-grey;
+  }
+  &:last-child {
+    &:after {
+      border-bottom: none;
+    }
+  }
+}
+
+.skill-image {
+  width: 80px;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (min-width: 568px) {
+  .skills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .skills-block {
+    width: 50%;
+    text-align: center;
+    &:after {
+      border-bottom: none;
+    }
+  }
+  .inner-skills {
+    padding-left: 8px;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 680px) {
+  .who-am-i-section {
+    p {
+      display: inline-block;
+      width: 47%;
+      padding: 10px 0 20px 18px;
+      vertical-align: top;
+    }
+  }
+  .skills-block {
+    max-width: 425px;
+  }
+  .skill-image {
+    width: 100px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .who-am-i-section {
+    text-align: center;
+    p {
+      text-align: left;
+    }
+  }
+  .skills-wrapper {
+    max-width: 945px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
