@@ -17,13 +17,21 @@ const config = {
       },
       {
         test: /\.(png|svg|jpg|gif)$/,
-        use: ['file-loader'],
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 8000,
+              name: 'images/[name].[hash:8].[ext]',
+            },
+          },
+        ],
       },
     ],
   },
   resolve: {
     extensions: ['.js', '.jsx', '.json', '.scss', '.css'],
-    alias: {},
+    alias: { styles: path.resolve(__dirname, '../styles') },
   },
   plugins: [
     new HtmlWebpackPlugin({

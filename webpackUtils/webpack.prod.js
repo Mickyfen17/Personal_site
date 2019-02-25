@@ -1,3 +1,4 @@
+const path = require('path');
 const UglifyJsWebpackPlugin = require('uglifyjs-webpack-plugin');
 const CompressionWebpackPlugin = require('compression-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -33,7 +34,7 @@ const config = {
     ],
   },
   plugins: [
-    new CleanWebpackPlugin('dist', {}),
+    new CleanWebpackPlugin('dist', { root: path.join(__dirname, '..') }),
     new CompressionWebpackPlugin({
       asset: '[path].gz[query]',
       algorithm: 'gzip',
