@@ -13,10 +13,11 @@
     "spaced-comment": 0,
     "react/react-in-jsx-scope": 0,
     "arrow-parens": ["error", "as-needed"],
-    "function-paren-newline": ["error", "consistent"],
     "comma-dangle": ["error", "only-multiline"],
     "object-curly-newline": ["error", { "consistent": true }],
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "implicit-arrow-linebreak": 0,
+    "function-paren-newline": 0,
     "react/jsx-boolean-value": ["error", "never"],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "class-methods-use-this": 0,
@@ -28,11 +29,12 @@
     "prettier/prettier": [
       "error",
       { "singleQuote": true, "trailingComma": "es5", "bracketSpacing": true }
-    ]
+    ],
+    "react-hooks/rules-of-hooks": "error"
   },
   "env": {
     "browser": true,
     "node": true
   },
-  "plugins": ["prettier"]
+  "plugins": ["react-hooks", "prettier"]
 }

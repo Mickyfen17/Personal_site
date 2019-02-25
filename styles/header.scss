@@ -64,18 +64,17 @@ header {
   text-transform: uppercase;
   color: $scroll-btn-grey;
   animation: $scroll-title-animation;
-  -webkit-animation: $scroll-title-animation;
 }
 
-@-webkit-keyframes scroll-color-change {
-  @include scoll-title-keyframe;
-}
 @keyframes scroll-color-change {
   @include scoll-title-keyframe;
 }
 
 /*MEDIA QUERIES*/
 @media screen and (min-width: 400px) {
+  .main-macbook-img {
+    width: 90%;
+  }
   #main-title h1 {
     font-size: 3em;
   }

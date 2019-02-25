@@ -6,7 +6,8 @@ const config = {
   entry: ['react-hot-loader/patch', './lib/'],
   output: {
     path: path.join(__dirname, '../', 'dist'),
-    filename: '[name].[hash].js',
+    filename: 'bundle.js',
+    chunkFilename: '[name].chunk.js',
   },
   module: {
     rules: [
@@ -17,13 +18,21 @@ const config = {
       },
       {
         test: /\.(png|svg|jpg|gif)$/,
-        use: ['file-loader'],
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 8000,
+              name: 'images/[name].[hash:8].[ext]',
+            },
+          },
+        ],
       },
     ],
   },
   resolve: {
     extensions: ['.js', '.jsx', '.json', '.scss', '.css'],
-    alias: {},
+    alias: { styles: path.resolve(__dirname, '../styles') },
   },
   plugins: [
     new HtmlWebpackPlugin({
