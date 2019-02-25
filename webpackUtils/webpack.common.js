@@ -6,8 +6,7 @@ const config = {
   entry: ['react-hot-loader/patch', './lib/'],
   output: {
     path: path.join(__dirname, '../', 'dist'),
-    filename: 'bundle.js',
-    chunkFilename: '[name].chunk.js',
+    filename: '[name].[hash].js',
   },
   module: {
     rules: [

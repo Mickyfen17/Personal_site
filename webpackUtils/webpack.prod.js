@@ -7,10 +7,6 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 const config = {
-  output: {
-    filename: '[name].[hash].js',
-    chunkFilename: '[name].[hash].chunk.js',
-  },
   module: {
     rules: [
       {
@@ -25,10 +21,6 @@ const config = {
     ],
   },
   optimization: {
-    splitChunks: {
-      chunks: 'all',
-      name: false,
-    },
     minimizer: [
       new UglifyJsWebpackPlugin({
         sourceMap: true,
