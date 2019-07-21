@@ -5,8 +5,14 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const config = {
+  mode: 'production',
+  output: {
+    path: path.join(__dirname, '../', 'dist'),
+    filename: '[name].[hash].bundle.js',
+  },
   module: {
     rules: [
       {
@@ -31,6 +37,15 @@ const config = {
         },
       }),
       new OptimizeCSSAssetsPlugin({}),
+      new HtmlWebpackPlugin({
+        template: 'public/index.html',
+        favicon: 'public/favicon.ico',
+        minify: {
+          removeAttributeQuotes: true,
+          collapseWhitespace: true,
+          removeComments: true,
+        },
+      }),
     ],
   },
   plugins: [
