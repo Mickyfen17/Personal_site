@@ -1,13 +1,8 @@
 const path = require('path');
 const webpack = require('webpack');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const config = {
   entry: ['react-hot-loader/patch', './lib/'],
-  output: {
-    path: path.join(__dirname, '../', 'dist'),
-    filename: '[name].[hash].js',
-  },
   module: {
     rules: [
       {
@@ -33,14 +28,7 @@ const config = {
     extensions: ['.js', '.jsx', '.json', '.scss', '.css'],
     alias: { styles: path.resolve(__dirname, '../styles') },
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: 'public/index.html',
-      favicon: 'public/favicon.ico',
-    }),
-    new webpack.ProgressPlugin(),
-    new webpack.NoEmitOnErrorsPlugin(),
-  ],
+  plugins: [new webpack.ProgressPlugin(), new webpack.NoEmitOnErrorsPlugin()],
 };
 
 module.exports = config;
