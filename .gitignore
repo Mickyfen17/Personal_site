@@ -18,7 +18,6 @@
 
 # webpack stats
 report.html
-stats.json
 
 npm-debug.log*
 yarn-debug.log*
