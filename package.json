@@ -10,7 +10,7 @@
     "build": "webpack -p --mode production --env.env=prod",
     "deploy": "npm run build && gh-pages -d dist",
     "test": "mocha --require test/helpers/setup.js",
-    "analyize": "webpack --env.env=prod --profile --json > stats.json && webpack-bundle-analyzer stats.json -m static"
+    "analyize": "webpack-bundle-analyzer ./dist/stats.json -m static"
   },
   "lint-staged": {
     "*.js": [
