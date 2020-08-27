@@ -6,8 +6,14 @@ const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const config = {
+  mode: 'production',
+  output: {
+    path: path.join(__dirname, '../', 'dist'),
+    filename: '[name].[hash].bundle.js',
+  },
   module: {
     rules: [
       {
@@ -25,6 +31,22 @@ const config = {
     minimizer: [
       new TerserPlugin({ sourceMap: true }),
       new OptimizeCSSAssetsPlugin({}),
+      new HtmlWebpackPlugin({
+        template: 'public/index.html',
+        favicon: 'public/favicon.ico',
+        meta: {
+          'msapplication-config': '/public/browserconfig.xml',
+          'msapplication-TileColor': '#00aba9',
+          'theme-color': '#000000',
+          Description: "Mike Fenwick's personal website.",
+          viewport: 'width=device-width, initial-scale=1, user-scalable=yes',
+        },
+        minify: {
+          removeAttributeQuotes: true,
+          collapseWhitespace: true,
+          removeComments: true,
+        },
+      }),
     ],
   },
   plugins: [
