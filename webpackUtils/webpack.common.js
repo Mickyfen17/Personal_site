@@ -36,6 +36,13 @@ const config = {
   plugins: [
     new HtmlWebpackPlugin({
       template: 'public/index.html',
+      meta: {
+        'msapplication-config': '/public/browserconfig.xml',
+        'msapplication-TileColor': '#00aba9',
+        'theme-color': '#000000',
+        Description: "Mike Fenwick's personal website.",
+        viewport: 'width=device-width, initial-scale=1, user-scalable=yes',
+      },
       favicon: 'public/favicon.ico',
     }),
     new webpack.ProgressPlugin(),
