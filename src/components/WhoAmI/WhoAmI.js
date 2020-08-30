@@ -4,8 +4,7 @@ import AnchorLink from '../AnchorLink';
 const WhoAmI = () => (
   <article className="who-am-i-section">
     <p>
-      Software Developments Engineer currently working at GoDaddy. Read more
-      about me via my
+      Software Developments Engineer currently working at GoDaddy. Read more about me via my
       <AnchorLink href="https://www.linkedin.com/in/michael-j-fenwick/">
         &nbsp;LinkedIn&nbsp;
       </AnchorLink>

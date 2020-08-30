@@ -1,19 +1,18 @@
 import React from 'react';
 import AnchorLink from '../AnchorLink';
-import Button from '../Button';
 import 'styles/footer.scss';
 
 const links = [
   { type: 'github', href: 'https://github.com/Mickyfen17' },
   {
     type: 'linkedin',
-    href: 'https://www.linkedin.com/in/michael-j-fenwick/',
+    href: 'https://www.linkedin.com/in/michael-j-fenwick/'
   },
   { type: 'twitter', href: 'https://twitter.com/mickyjfen' },
-  { type: 'email', href: 'mailto:mikefen14@gmail.com' },
+  { type: 'email', href: 'mailto:mikefen14@gmail.com' }
 ];
 
-const Footer = ({ scrollToTop }) => (
+const Footer = () => (
   <footer id="footer">
     <React.Fragment>
       {links.map(link => (
