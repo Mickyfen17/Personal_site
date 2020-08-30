@@ -1,0 +1,11 @@
+@import 'variables';
+
+.anchor {
+  font-weight: 700;
+  color: $royal-blue;
+  text-decoration: none;
+
+  &:visited {
+    color: $royal-blue;
+  }
+}

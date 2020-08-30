@@ -8,18 +8,35 @@ $about-grey: #668d9e;
 $scroll-btn-grey: #636464;
 $skills-grey: #445e69;
 
+// new colors
+$black: #090809;
+$dark-grey: #474651;
+$red: #5d0e02;
+$bright-red: #f32200;
+$yellow: #f8c606;
+$orange: #c93f02;
+$light-grey: #c2c1c6;
+$teal: #2f979e;
+
+// new colors two
+$black-two: #0d0110;
+$hot-pink: #d0015a;
+$deep-red: #54032f;
+$purple: #200b4a;
+$orange-red: #bd2925;
+$mid-yellow: #fe9f29;
+$royal-blue: #0b38c8;
+$olive: #67561f;
+
+$mobile-breakpoint: 420px;
+$plus-mobile-breakpoint: 568px;
+$tablet-breakpoint: 768px;
+$desktop-breakpoints: 1280px;
+$xl-breakpoint: 1440px;
+
 $button-svg: transparent url(../images/down_arrow.svg) no-repeat 10px 10px /
   30px;
 $scroll-title-animation: scroll-color-change 4s ease-in-out 2s 6;
-
-@mixin scoll-title-keyframe {
-  from {
-    color: $scroll-btn-grey;
-  }
-  to {
-    color: $white;
-  }
-}
 
 @mixin sectionH2 {
   width: 100%;

@@ -40,7 +40,6 @@
     "babel-eslint": "^9.0.0",
     "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^0.1.19",
-    "cloudinary-react": "^1.6.6",
     "compression-webpack-plugin": "^5.0.1",
     "copy-webpack-plugin": "^6.0.3",
     "css-loader": "^1.0.1",
@@ -62,7 +61,6 @@
     "postcss-loader": "^3.0.0",
     "prettier": "^1.19.1",
     "sass-loader": "^7.3.1",
-    "smoothscroll-polyfill": "^0.4.4",
     "style-loader": "^0.23.1",
     "svg-url-loader": "^2.3.3",
     "terser-webpack-plugin": "^4.1.0",
@@ -76,9 +74,6 @@
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-hot-loader": "^4.12.21",
-    "react-loadable": "^5.5.0",
-    "react-modal": "^3.11.2",
-    "react-typist": "^2.0.5"
+    "react-hot-loader": "^4.12.21"
   }
 }

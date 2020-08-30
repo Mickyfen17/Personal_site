@@ -31,26 +31,26 @@ const config = {
     minimizer: [
       new TerserPlugin({ sourceMap: true }),
       new OptimizeCSSAssetsPlugin({}),
-      new HtmlWebpackPlugin({
-        template: 'public/index.html',
-        favicon: 'public/favicon.ico',
-        meta: {
-          'msapplication-config': '/public/browserconfig.xml',
-          'msapplication-TileColor': '#00aba9',
-          'theme-color': '#000000',
-          Description: "Mike Fenwick's personal website.",
-          viewport: 'width=device-width, initial-scale=1, user-scalable=yes',
-        },
-        minify: {
-          removeAttributeQuotes: true,
-          collapseWhitespace: true,
-          removeComments: true,
-        },
-      }),
     ],
   },
   plugins: [
     new CleanWebpackPlugin('dist', { root: path.join(__dirname, '..') }),
+    new HtmlWebpackPlugin({
+      template: 'public/index.html',
+      favicon: 'public/favicon.ico',
+      meta: {
+        'msapplication-config': '/public/browserconfig.xml',
+        'msapplication-TileColor': '#00aba9',
+        'theme-color': '#000000',
+        Description: "Mike Fenwick's personal website.",
+        viewport: 'width=device-width, initial-scale=1, user-scalable=yes',
+      },
+      minify: {
+        removeAttributeQuotes: true,
+        collapseWhitespace: true,
+        removeComments: true,
+      },
+    }),
     new CompressionWebpackPlugin({
       filename: '[path].br',
       algorithm: 'brotliCompress',
