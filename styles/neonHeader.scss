@@ -1,0 +1,47 @@
+@import 'variables';
+@include flicker-mixin(text-flicker, text-shadow, color, $neon-pink-glow);
+@include flicker-mixin(
+  border-flicker,
+  box-shadow,
+  border-color,
+  $neon-blue-border-glow
+);
+
+#neon-title {
+  display: flex;
+  justify-content: center;
+  font-family: $neon-glow;
+  margin: 5rem auto;
+  padding: 45px 0px;
+  border: 5px solid $neon-bulb-white;
+  width: fit-content;
+  border-radius: 50%;
+  box-shadow: $neon-blue-border-glow;
+  animation: border-flicker step-end 8 10s;
+
+  h1 {
+    font-size: 4em;
+    color: $neon-bulb-white;
+    text-align: center;
+    text-shadow: $neon-pink-glow;
+
+    .flicker {
+      animation: text-flicker step-end infinite 5s;
+    }
+  }
+
+  /*MEDIA QUERIES*/
+  @media screen and (min-width: $plus-mobile-breakpoint) {
+    padding: 55px 0px;
+    h1 {
+      font-size: 5em;
+    }
+  }
+
+  @media screen and (min-width: $tablet-breakpoint) {
+    padding: 60px 0px;
+    h1 {
+      font-size: 6em;
+    }
+  }
+}
