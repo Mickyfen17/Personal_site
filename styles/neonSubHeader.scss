@@ -1,0 +1,15 @@
+@import 'variables';
+
+.sub-header {
+  color: $neon-bulb-white;
+  text-shadow: $neon-blue-title-glow;
+  font-family: $neon-glow;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: $section-header-margin-bottom;
+
+  /*MEDIA QUERIES*/
+  @media screen and (min-width: $tablet-breakpoint) {
+    font-size: 1.5rem;
+  }
+}
