@@ -2,10 +2,17 @@
 
 .anchor {
   font-weight: 700;
-  color: $royal-blue;
-  text-decoration: none;
+  color: $neon-pink-bright;
+
+  &:hover {
+    color: $neon-cyan-bright;
+  }
 
   &:visited {
-    color: $royal-blue;
+    color: $neon-pink-bright;
+
+    &:hover {
+      color: $neon-cyan-bright;
+    }
   }
 }
