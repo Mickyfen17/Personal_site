@@ -1,14 +1,27 @@
 @import 'variables';
 
 .sub-header {
+  position: absolute;
+  top: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
   color: $neon-bulb-white;
-  text-shadow: $neon-blue-title-glow;
+  background: $neon-black;
+  text-shadow: $neon-cyan-title-glow;
   font-family: $neon-glow;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: bold;
-  margin-bottom: $section-header-margin-bottom;
+  padding: 0.3rem 0.5rem;
+  border-left: 3px solid $neon-bulb-white;
+  border-right: 3px solid $neon-bulb-white;
+  box-shadow: 0 -6px $neon-black, 0 6px $neon-black, -2px 0 4px 0px $neon-cyan,
+    2px 0px 4px 0px $neon-cyan;
 
   /*MEDIA QUERIES*/
+  @media screen and (min-width: $plus-mobile-breakpoint) {
+    font-size: 1.4rem;
+  }
+
   @media screen and (min-width: $tablet-breakpoint) {
     font-size: 1.5rem;
   }

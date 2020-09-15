@@ -4,7 +4,7 @@
   border-flicker,
   box-shadow,
   border-color,
-  $neon-blue-border-glow
+  $neon-cyan-border-glow
 );
 
 #neon-title {
@@ -16,8 +16,8 @@
   border: 5px solid $neon-bulb-white;
   width: fit-content;
   border-radius: 50%;
-  box-shadow: $neon-blue-border-glow;
-  animation: border-flicker step-end 8 10s;
+  box-shadow: $neon-cyan-border-glow;
+  animation: border-flicker step-end infinite 10s;
 
   h1 {
     font-size: 4em;

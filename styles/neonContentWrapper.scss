@@ -1,0 +1,19 @@
+@import 'variables';
+
+.neon-content-wrapper {
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  max-width: 630px;
+  position: relative;
+  padding: 1.2rem 1rem;
+  margin: 0 auto 2.5rem;
+  border: 3px solid $neon-bulb-white;
+  border-radius: 1rem;
+  box-shadow: $neon-cyan-border-glow;
+
+  /*MEDIA QUERIES*/
+  @media screen and (min-width: $tablet-breakpoint) {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+}
