@@ -1,9 +1,9 @@
 import React from 'react';
 import 'styles/anchorLink';
 
-const AnchorLink = ({ type, href, children }) => (
+const AnchorLink = ({ children, href, type = '' }) => (
   <a
-    className={`anchor footer-icon ${type}`}
+    className={`anchor ${type}`}
     href={href}
     title={type}
     target={type === 'email' ? '' : '_blank'}

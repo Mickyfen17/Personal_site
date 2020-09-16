@@ -7,9 +7,14 @@
   position: relative;
   padding: 1.2rem 1rem;
   margin: 0 auto 2.5rem;
-  border: 3px solid $neon-bulb-white;
+  border: 3px solid $neon-cyan-off;
   border-radius: 1rem;
-  box-shadow: $neon-cyan-border-glow;
+  box-shadow: $border-off-shadow;
+
+  &.neon-on {
+    border: 3px solid $neon-bulb-white;
+    box-shadow: $neon-cyan-border-glow;
+  }
 
   /*MEDIA QUERIES*/
   @media screen and (min-width: $tablet-breakpoint) {

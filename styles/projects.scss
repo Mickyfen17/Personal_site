@@ -1,5 +1,27 @@
 @import 'variables';
 
 #projects {
-  padding-bottom: 40px;
+  .project {
+    .project-link {
+      &:first-child {
+        margin-right: 10px;
+      }
+    }
+
+    h3 {
+      @include section-header3;
+      margin: 10px 0 5px;
+    }
+  }
+
+  /*MEDIA QUERIES*/
+  @media screen and (min-width: $plus-mobile-breakpoint) {
+    font-size: 1rem;
+
+    .project {
+      h3 {
+        font-size: 1.1rem;
+      }
+    }
+  }
 }

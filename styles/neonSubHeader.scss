@@ -5,17 +5,23 @@
   top: -1rem;
   left: 50%;
   transform: translateX(-50%);
-  color: $neon-bulb-white;
-  background: $neon-black;
-  text-shadow: $neon-cyan-title-glow;
+  color: $neon-cyan-off;
+  background: $backround-black;
+  text-shadow: $text-off-shadow;
   font-family: $neon-glow;
   font-size: 1.2rem;
   font-weight: bold;
   padding: 0.3rem 0.5rem;
-  border-left: 3px solid $neon-bulb-white;
-  border-right: 3px solid $neon-bulb-white;
-  box-shadow: 0 -6px $neon-black, 0 6px $neon-black, -2px 0 4px 0px $neon-cyan,
-    2px 0px 4px 0px $neon-cyan;
+  border-left: 3px solid $neon-cyan-off;
+  border-right: 3px solid $neon-cyan-off;
+
+  &.neon-on {
+    color: $neon-bulb-white;
+    text-shadow: $neon-cyan-title-glow;
+    border-left: 3px solid $neon-bulb-white;
+    border-right: 3px solid $neon-bulb-white;
+    box-shadow: $neon-subheader-cyan-glow;
+  }
 
   /*MEDIA QUERIES*/
   @media screen and (min-width: $plus-mobile-breakpoint) {

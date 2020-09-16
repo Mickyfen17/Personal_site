@@ -1,11 +1,20 @@
 @import 'variables';
 @import 'reset';
 
-body,
-html {
-  height: 100%;
-  background: $black-two;
-  color: $hot-pink;
-  font-family: $main-font-overpass;
-  font-weight: 300;
+body {
+  color: $neon-grey;
+  background: $backround-black;
+  font-size: 1rem;
+  font-family: $body-font-lato;
+  margin: 0 auto;
+  padding: 0 0.9rem;
+
+  /*MEDIA QUERIES*/
+  @media screen and (min-width: $plus-mobile-breakpoint) {
+    padding: 0 1.8rem;
+  }
+
+  @media screen and (min-width: $tablet-breakpoint) {
+    padding: 0 2.4rem;
+  }
 }

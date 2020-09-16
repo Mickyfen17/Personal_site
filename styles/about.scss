@@ -1,31 +1,35 @@
 @import 'variables';
 
 #about {
-  .who-am-i-section {
-    padding-bottom: 40px;
-    p {
-      padding: 10px 15px 20px 15px;
-      max-width: 630px;
+  .skills-wrapper {
+    h3 {
+      @include section-header3;
+      color: $neon-blue;
     }
-  }
 
-  .skills-section {
-    padding-bottom: 40px;
+    .skill-block {
+      margin: 0.75rem 0;
+    }
 
-    .skills-wrapper {
-      .each-skill {
+    .each-skill {
+      &:after {
+        content: ', ';
+      }
+
+      &:last-child {
         &:after {
-          content: ', ';
-        }
-
-        &:last-child {
-          &:after {
-            content: '';
-          }
+          content: '';
         }
       }
     }
   }
 
   /*MEDIA QUERIES*/
+  @media screen and (min-width: $tablet-breakpoint) {
+    .skills-wrapper {
+      h3 {
+        font-size: 1.1rem;
+      }
+    }
+  }
 }

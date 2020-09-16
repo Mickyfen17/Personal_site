@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import Header from './components/Header';
+import React, { Fragment, useState, useEffect } from 'react';
+import NeonHeader from './components/NeonHeader';
 import About from './components/About';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 
 const useFetch = url => {
-  const [apiData, setApiData] = useState({ skills: [], projects: [] });
+  const [apiData, setApiData] = useState({ skills: null, projects: null });
 
   const fetchData = async () => {
     try {
@@ -29,12 +29,16 @@ const App = () => {
   );
 
   return (
-    <React.Fragment>
-      <Header />
-      <About skills={skills} />
-      <Projects projectsList={projects} />
-      <Footer />
-    </React.Fragment>
+    <Fragment>
+      {projects && skills && (
+        <React.Fragment>
+          <NeonHeader>Mike Fenwick</NeonHeader>
+          <About skills={skills} />
+          <Projects projectsList={projects} />
+          <Footer />
+        </React.Fragment>
+      )}
+    </Fragment>
   );
 };
 

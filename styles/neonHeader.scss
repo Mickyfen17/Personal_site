@@ -1,5 +1,5 @@
 @import 'variables';
-@include flicker-mixin(text-flicker, text-shadow, color, $neon-pink-glow);
+@include flicker-mixin(text-flicker, text-shadow, color, $neon-pink-title-glow);
 @include flicker-mixin(
   border-flicker,
   box-shadow,
@@ -13,20 +13,30 @@
   font-family: $neon-glow;
   margin: 5rem auto;
   padding: 45px 0px;
-  border: 5px solid $neon-bulb-white;
+  border: 5px solid $neon-cyan-off;
   width: fit-content;
   border-radius: 50%;
-  box-shadow: $neon-cyan-border-glow;
-  animation: border-flicker step-end infinite 10s;
+  box-shadow: $border-off-shadow;
 
   h1 {
     font-size: 4em;
-    color: $neon-bulb-white;
+    color: $neon-pink-off;
     text-align: center;
-    text-shadow: $neon-pink-glow;
+    text-shadow: $text-off-shadow;
+  }
 
-    .flicker {
-      animation: text-flicker step-end infinite 5s;
+  &.neon-on {
+    border: 5px solid $neon-bulb-white;
+    box-shadow: $neon-cyan-border-glow;
+    animation: border-flicker step-end infinite 10s;
+
+    h1 {
+      color: $neon-bulb-white;
+      text-shadow: $neon-pink-title-glow;
+
+      .flicker {
+        animation: text-flicker step-end infinite 5s;
+      }
     }
   }
 

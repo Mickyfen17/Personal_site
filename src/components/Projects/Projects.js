@@ -1,24 +1,26 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import AnchorLink from '../AnchorLink';
+import NeonContentWrapper from '../NeonContentWrapper';
 import 'styles/projects.scss';
 
 const Projects = ({ projectsList }) => {
   return (
     <section id="projects">
-      <h2>Projects</h2>
-      <Fragment>
+      <NeonContentWrapper title="Projects">
         {projectsList.map(({ title, gitHubRepo, siteURL }) => (
-          <div>
-            <span>{title}</span>
-            <span>
-              <AnchorLink href={gitHubRepo}>Code</AnchorLink>
-            </span>
-            <span>
-              <AnchorLink href={siteURL}>Live Site</AnchorLink>
-            </span>
+          <div className="project">
+            <h3>{title}</h3>
+            <div>
+              <AnchorLink type="project-link" href={gitHubRepo}>
+                Code
+              </AnchorLink>
+              <AnchorLink type="project-link" href={siteURL}>
+                Live Site
+              </AnchorLink>
+            </div>
           </div>
         ))}
-      </Fragment>
+      </NeonContentWrapper>
     </section>
   );
 };

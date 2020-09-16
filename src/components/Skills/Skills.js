@@ -1,14 +1,14 @@
 import React, { Fragment } from 'react';
+import NeonContentWrapper from '../NeonContentWrapper';
 
 const Skills = ({ skills }) => (
-  <article className="skills-section">
+  <NeonContentWrapper title="Things I Know">
     <div className="skills-wrapper">
-      <h2>Things I Know</h2>
       {skills.map(({ title, skills: skillList }) => {
         return (
           <Fragment key={title}>
-            <h2>{title}</h2>
-            <div>
+            <h3>{title}</h3>
+            <div className="skill-block">
               {skillList.map(skill => (
                 <span className="each-skill" key={skill}>
                   {skill}
@@ -19,7 +19,7 @@ const Skills = ({ skills }) => (
         );
       })}
     </div>
-  </article>
+  </NeonContentWrapper>
 );
 
 export default Skills;
