@@ -6,30 +6,30 @@ const config = {
   mode: 'development',
   output: {
     path: path.join(__dirname, '../', 'dist'),
-    filename: '[name].bundle.js',
+    filename: '[name].bundle.js'
   },
-  devtool: 'cheap-eval-source-map',
+  devtool: 'eval-source-map',
   module: {
     rules: [
       {
         test: /\.scss$/,
         use: [
           {
-            loader: 'style-loader',
+            loader: 'style-loader'
           },
           {
             loader: 'css-loader',
-            options: { sourceMap: true },
+            options: { sourceMap: true }
           },
           {
-            loader: 'postcss-loader',
+            loader: 'postcss-loader'
           },
           {
-            loader: 'sass-loader',
-          },
-        ],
-      },
-    ],
+            loader: 'sass-loader'
+          }
+        ]
+      }
+    ]
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -40,16 +40,16 @@ const config = {
         'msapplication-TileColor': '#00aba9',
         'theme-color': '#000000',
         Description: "Mike Fenwick's personal website.",
-        viewport: 'width=device-width, initial-scale=1, user-scalable=yes',
-      },
+        viewport: 'width=device-width, initial-scale=1, user-scalable=yes'
+      }
     }),
     new webpack.NamedModulesPlugin(),
-    new webpack.HotModuleReplacementPlugin(),
+    new webpack.HotModuleReplacementPlugin()
   ],
   devServer: {
     hot: true,
-    open: true,
-  },
+    open: true
+  }
 };
 
 module.exports = config;
