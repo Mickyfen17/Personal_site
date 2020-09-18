@@ -25,7 +25,7 @@
     text-shadow: $text-off-shadow;
   }
 
-  &.neon-on {
+  &.lights-on {
     border: 5px solid $neon-bulb-white;
     box-shadow: $neon-cyan-border-glow;
     animation: border-flicker step-end infinite 10s;
