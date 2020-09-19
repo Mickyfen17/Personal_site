@@ -13,36 +13,30 @@
     transition: background 250ms;
 
     &.github {
-      background: transparent url(../images/github.svg) no-repeat 8px 8px / 30px;
+      @include footer-icon('../images/github.svg');
       &:hover {
-        background: transparent url(../images/github_hover.svg) no-repeat 8px
-          8px / 30px;
+        @include footer-icon('../images/github_hover.svg');
       }
     }
 
     &.linkedin {
-      background: transparent url(../images/linkedin.svg) no-repeat 8px 8px /
-        30px;
+      @include footer-icon('../images/linkedin.svg');
       &:hover {
-        background: transparent url(../images/linkedin_hover.svg) no-repeat 8px
-          8px / 30px;
+        @include footer-icon('../images/linkedin_hover.svg');
       }
     }
 
     &.twitter {
-      background: transparent url(../images/twitter.svg) no-repeat 8px 8px /
-        30px;
+      @include footer-icon('../images/twitter.svg');
       &:hover {
-        background: transparent url(../images/twitter_hover.svg) no-repeat 8px
-          8px / 30px;
+        @include footer-icon('../images/twitter_hover.svg');
       }
     }
 
     &.email {
-      background: transparent url(../images/email.svg) no-repeat 8px 8px / 30px;
+      @include footer-icon('../images/email.svg');
       &:hover {
-        background: transparent url(../images/email_hover.svg) no-repeat 8px 8px /
-          30px;
+        @include footer-icon('../images/email_hover.svg');
       }
     }
   }

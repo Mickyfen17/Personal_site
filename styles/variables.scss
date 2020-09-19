@@ -58,6 +58,11 @@ $border-off-shadow: -4px 3px 2px 0px $backround-black, -8px 7px 2px 0px $black,
 
 $text-off-shadow: -4px 4px 2px $black;
 
+@mixin footer-icon($img-url) {
+  background: transparent url(#{$img-url}) no-repeat 8px / 30px;
+  background-position: center;
+}
+
 @mixin section-header3 {
   color: $neon-grey;
   font-size: 1rem;
