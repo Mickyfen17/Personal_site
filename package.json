@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "precommit": "lint-staged",
-    "pretty": "prettier --print-width 100 --single-quote --trailing-comma none --write \"src/**/*.js\"",
+    "pretty": "prettier --print-width 100 --single-quote --trailing-comma none --jsx-single-quote true --write \"src/**/*.js\"",
     "start": "webpack-dev-server --mode development --env.env=dev",
     "build": "webpack -p --mode production --env.env=prod",
     "deploy": "npm run build && gh-pages -d dist",
     "test": "mocha --require test/helpers/setup.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
     "analyize": "webpack-bundle-analyzer ./dist/stats.json -m static"
   },
   "lint-staged": {
@@ -44,11 +46,10 @@
     "copy-webpack-plugin": "^6.0.3",
     "css-loader": "^1.0.1",
     "eslint": "^5.16.0",
-    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-prettier": "^2.7.0",
-    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react": "^7.21.2",
     "eslint-plugin-react-hooks": "^1.7.0",
     "file-loader": "^2.0.0",
     "gh-pages": "^1.2.0",
