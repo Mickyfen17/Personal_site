@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import '../styles/main.scss';
 
-const render = Component => {
+const render = (Component) => {
   ReactDOM.render(
     <AppContainer>
       <Component />

@@ -11,13 +11,13 @@ const NeonHeader = ({ children: textString }) => {
   const flickeringLastName = (
     <React.Fragment>
       {lastName.slice(0, idx)}
-      <span className="flicker">{letterToFlicker}</span>
+      <span className='flicker'>{letterToFlicker}</span>
       {lastName.slice(idx + 1)}
     </React.Fragment>
   );
 
   return (
-    <header id="neon-title" className={`${lightsOn ? 'lights-on' : ''}`}>
+    <header id='neon-title' className={`${lightsOn ? 'lights-on' : ''}`}>
       <h1>
         {firstName} <br /> {flickeringLastName}
       </h1>

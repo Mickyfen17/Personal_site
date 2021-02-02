@@ -4,7 +4,7 @@ import Skills from '../Skills';
 import 'styles/about.scss';
 
 const About = ({ skills }) => (
-  <section id="about">
+  <section id='about'>
     <WhoAmI />
     <Skills skills={skills} />
   </section>

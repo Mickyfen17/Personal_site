@@ -11,16 +11,16 @@ const Projects = ({ projectsMap }) => {
 
   return (
     <Fragment>
-      <section id="projects">
-        <NeonContentWrapper title="Projects">
+      <section id='projects'>
+        <NeonContentWrapper title='Projects'>
           {Array.from(projectsMap).map(([key, { title, gitHubRepo, siteURL }]) => (
-            <div key={key} className="project">
+            <div key={key} className='project'>
               <h3>{title}</h3>
               <div>
-                <AnchorLink type="project-link" href={gitHubRepo}>
+                <AnchorLink type='project-link' href={gitHubRepo}>
                   Code
                 </AnchorLink>
-                <AnchorLink type="project-link" href={siteURL}>
+                <AnchorLink type='project-link' href={siteURL}>
                   Live Site
                 </AnchorLink>
                 <button onClick={() => toggleModal(key)}>open project</button>

@@ -31,10 +31,10 @@ const reducer = (state, action) => {
   }
 };
 
-const formatProjects = projectsList => {
+const formatProjects = (projectsList) => {
   const projectMap = new Map();
 
-  projectsList.forEach(project => projectMap.set(project.title, project));
+  projectsList.forEach((project) => projectMap.set(project.title, project));
   return projectMap;
 };
 

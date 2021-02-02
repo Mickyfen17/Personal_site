@@ -7,7 +7,7 @@ const AnchorLink = ({ children, href, type = '' }) => (
     href={href}
     title={type}
     target={type === 'email' ? '' : '_blank'}
-    rel="noopener noreferrer"
+    rel='noopener noreferrer'
   >
     {children}
   </a>

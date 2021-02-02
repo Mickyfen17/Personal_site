@@ -12,8 +12,8 @@ const Modal = ({ children, toggleModal }) => {
   }, []);
 
   return ReactDOM.createPortal(
-    <div id="overlay" onClick={() => toggleModal(null)}>
-      <div id="modal">
+    <div id='overlay' onClick={() => toggleModal(null)}>
+      <div id='modal'>
         <button onClick={() => toggleModal(null)}>Close</button>
         {children}
       </div>

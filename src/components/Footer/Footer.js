@@ -13,13 +13,13 @@ const links = [
 ];
 
 const Footer = () => (
-  <footer id="footer">
+  <footer id='footer'>
     <React.Fragment>
-      {links.map(link => (
+      {links.map((link) => (
         <AnchorLink key={link.type} type={link.type} href={link.href} />
       ))}
     </React.Fragment>
-    <h4 className="footer-tag">
+    <h4 className='footer-tag'>
       {'\u00A9'}
       Mike Fenwick | 2020
     </h4>

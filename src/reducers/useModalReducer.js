@@ -24,7 +24,7 @@ export const useModalReducer = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   const toggleModal = useCallback(
-    projectId => {
+    (projectId) => {
       dispatch({
         type: TOGGLE_MODAL,
         payload: { modalOpen: !state.modalOpen, projectId }
