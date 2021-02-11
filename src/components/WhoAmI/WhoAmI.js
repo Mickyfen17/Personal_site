@@ -3,7 +3,7 @@ import AnchorLink from '../AnchorLink';
 import NeonContentWrapper from '../NeonContentWrapper';
 
 const WhoAmI = () => (
-  <NeonContentWrapper>
+  <NeonContentWrapper color='cyan'>
     <strong>Software Developments Engineer</strong> currently working at <strong>GoDaddy</strong>.
     Read more about me via my
     <AnchorLink href='https://www.linkedin.com/in/michael-j-fenwick/'>

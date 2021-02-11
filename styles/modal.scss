@@ -1,0 +1,56 @@
+@import 'variables';
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(22, 22, 22, 0.9);
+
+  .neon-content-wrapper {
+    height: 90%;
+    width: 90%;
+    max-width: 700px;
+    margin: 0rem;
+    padding: 0rem;
+
+    .sub-header {
+      font-size: 1rem;
+    }
+
+    #modal {
+      height: 100%;
+      background: $backround-black;
+      border-radius: inherit;
+    }
+  }
+
+  /*MEDIA QUERIES*/
+  @media screen and (min-width: $mobile-breakpoint) {
+    .neon-content-wrapper {
+      .sub-header {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  @media screen and (min-width: $plus-mobile-breakpoint) {
+    .neon-content-wrapper {
+      .sub-header {
+        font-size: 1.6rem;
+      }
+    }
+  }
+
+  @media screen and (min-width: $tablet-breakpoint) {
+    .neon-content-wrapper {
+      .sub-header {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}

@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import NeonContentWrapper from '../NeonContentWrapper';
 
 const Skills = ({ skills }) => (
-  <NeonContentWrapper title='Things I Know'>
+  <NeonContentWrapper color='cyan' title='Things I Know'>
     <div className='skills-wrapper'>
       {skills.map(({ title, skills: skillList }) => {
         return (

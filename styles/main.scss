@@ -9,6 +9,10 @@ body {
   margin: 0 auto;
   padding: 0 0.9rem;
 
+  &.modal_open {
+    overflow: hidden;
+  }
+
   /*MEDIA QUERIES*/
   @media screen and (min-width: $plus-mobile-breakpoint) {
     padding: 0 1.8rem;

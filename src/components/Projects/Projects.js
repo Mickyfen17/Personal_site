@@ -12,7 +12,7 @@ const Projects = ({ projectsMap }) => {
   return (
     <Fragment>
       <section id='projects'>
-        <NeonContentWrapper title='Projects'>
+        <NeonContentWrapper color='cyan' title='Projects'>
           {Array.from(projectsMap).map(([key, { title, gitHubRepo, siteURL }]) => (
             <div key={key} className='project'>
               <h3>{title}</h3>
@@ -29,7 +29,11 @@ const Projects = ({ projectsMap }) => {
           ))}
         </NeonContentWrapper>
       </section>
-      {modalOpen && <Modal toggleModal={toggleModal}>Selected Project</Modal>}
+      {modalOpen && (
+        <Modal title={activeProject.title} toggleModal={toggleModal}>
+          Selected Project
+        </Modal>
+      )}
     </Fragment>
   );
 };

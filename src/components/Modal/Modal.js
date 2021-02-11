@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
+import NeonContentWrapper from '../NeonContentWrapper';
 import 'styles/modal.scss';
 
-const Modal = ({ children, toggleModal }) => {
+const Modal = ({ children, title, toggleModal }) => {
   useEffect(() => {
     document.body.classList.add('modal_open');
 
@@ -12,12 +13,14 @@ const Modal = ({ children, toggleModal }) => {
   }, []);
 
   return ReactDOM.createPortal(
-    <div id='overlay' onClick={() => toggleModal(null)}>
-      <div id='modal'>
-        <button onClick={() => toggleModal(null)}>Close</button>
-        {children}
-      </div>
-    </div>,
+    <setion id='overlay' onClick={() => toggleModal(null)}>
+      <NeonContentWrapper color='pink' title={title}>
+        <div id='modal'>
+          <button onClick={() => toggleModal(null)}>Close</button>
+          {children}
+        </div>
+      </NeonContentWrapper>
+    </setion>,
     document.getElementById('modal-anchor')
   );
 };

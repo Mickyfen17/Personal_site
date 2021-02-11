@@ -5,22 +5,39 @@
   top: -1rem;
   left: 50%;
   transform: translateX(-50%);
-  color: $neon-cyan-off;
   background: $backround-black;
   text-shadow: $text-off-shadow;
   font-family: $neon-glow;
   font-size: 1.2rem;
   font-weight: bold;
   padding: 0.3rem 0.5rem;
-  border-left: 3px solid $neon-cyan-off;
-  border-right: 3px solid $neon-cyan-off;
+
+  &.cyan {
+    color: $neon-cyan-off;
+    border-left: 3px solid $neon-cyan-off;
+    border-right: 3px solid $neon-cyan-off;
+  }
+
+  &.pink {
+    color: $neon-pink-off;
+    border-left: 3px solid $neon-pink-off;
+    border-right: 3px solid $neon-pink-off;
+  }
 
   &.lights-on {
     color: $neon-bulb-white;
-    text-shadow: $neon-cyan-title-glow;
     border-left: 3px solid $neon-bulb-white;
     border-right: 3px solid $neon-bulb-white;
-    box-shadow: $neon-subheader-cyan-glow;
+
+    &.cyan {
+      text-shadow: $neon-cyan-title-glow;
+      box-shadow: $neon-subheader-cyan-glow;
+    }
+
+    &.pink {
+      text-shadow: $neon-pink-title-glow;
+      box-shadow: $neon-subheader-pink-glow;
+    }
   }
 
   /*MEDIA QUERIES*/
