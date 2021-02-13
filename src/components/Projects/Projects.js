@@ -23,7 +23,7 @@ const Projects = ({ projectsMap }) => {
                 <AnchorLink type='project-link' href={siteURL}>
                   Live Site
                 </AnchorLink>
-                <button onClick={() => toggleModal(key)}>open project</button>
+                <button className='project-btn' onClick={() => toggleModal(key)} />
               </div>
             </div>
           ))}
@@ -31,7 +31,11 @@ const Projects = ({ projectsMap }) => {
       </section>
       {modalOpen && (
         <Modal title={activeProject.title} toggleModal={toggleModal}>
-          Selected Project
+          <div>
+            <p className='project-description'>{activeProject.description}</p>
+            <img className='project-image' src='https://via.placeholder.com/500x300' />
+            <p className='project-tech-used'>{activeProject.techUsed.join(', ')}</p>
+          </div>
         </Modal>
       )}
     </Fragment>
