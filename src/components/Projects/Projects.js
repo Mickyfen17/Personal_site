@@ -13,18 +13,10 @@ const Projects = ({ projectsMap }) => {
     <Fragment>
       <section id='projects'>
         <NeonContentWrapper color='cyan' title='Projects'>
-          {Array.from(projectsMap).map(([key, { title, gitHubRepo, siteURL }]) => (
+          {Array.from(projectsMap).map(([key, { title }]) => (
             <div key={key} className='project'>
               <h3>{title}</h3>
-              <div>
-                <AnchorLink type='project-link' href={gitHubRepo}>
-                  Code
-                </AnchorLink>
-                <AnchorLink type='project-link' href={siteURL}>
-                  Live Site
-                </AnchorLink>
-                <button className='project-btn' onClick={() => toggleModal(key)} />
-              </div>
+              <button className='project-btn' onClick={() => toggleModal(key)} />
             </div>
           ))}
         </NeonContentWrapper>
@@ -36,6 +28,14 @@ const Projects = ({ projectsMap }) => {
             <img className='project-image' src='https://via.placeholder.com/500x300' />
             <p className='project-tech-used'>{activeProject.techUsed.join(', ')}</p>
           </div>
+          <footer>
+            <AnchorLink type='project-link' href={activeProject.gitHubRepo}>
+              <img src={activeProject.icons.git} alt='icon of github cat' />
+            </AnchorLink>
+            <AnchorLink type='project-link' href={activeProject.siteURL}>
+              <img src={activeProject.icons.site} alt='icon of laptop' />
+            </AnchorLink>
+          </footer>
         </Modal>
       )}
     </Fragment>

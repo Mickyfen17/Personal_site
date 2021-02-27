@@ -18,7 +18,7 @@ const Modal = ({ children, title, toggleModal }) => {
   return ReactDOM.createPortal(
     <setion id='overlay' onClick={() => toggleModal(null)}>
       <NeonContentWrapper color='pink' title={title}>
-        <div id='modal'>
+        <div id='modal' onClick={(e) => e.stopPropagation()}>
           <button
             className={`flicker ${lightsOn ? 'lights-on' : ''}`}
             onClick={() => toggleModal(null)}
