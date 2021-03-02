@@ -7,9 +7,13 @@ import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Toggle from './components/Toggle';
 import Loading from './components/Loading';
+import Error from './components/Error';
 
 const App = () => {
-  const { isLoading, hasError, projects, skills } = useAppReducer();
+  const {
+    state: { isLoading, hasError, projects, skills },
+    retry
+  } = useAppReducer();
   const [lightsOn, toggleLights] = useState(true);
 
   if (isLoading) {
@@ -17,7 +21,7 @@ const App = () => {
   }
 
   if (hasError) {
-    return <div>Error</div>;
+    return <Error retry={retry} />;
   }
 
   return (

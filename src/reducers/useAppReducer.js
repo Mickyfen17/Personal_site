@@ -1,5 +1,6 @@
 import { useEffect, useReducer } from 'react';
 
+const LOAD_DATA = 'LOAD_DATA';
 const LOAD_DATA_SUCCESS = 'LOAD_DATA_SUCCESS';
 const LOAD_DATA_FAILED = 'LOAD_DATA_FAILED';
 
@@ -12,6 +13,12 @@ const initialState = {
 
 const reducer = (state, action) => {
   switch (action.type) {
+    case LOAD_DATA:
+      return {
+        ...state,
+        isLoading: true,
+        hasError: false
+      };
     case LOAD_DATA_SUCCESS:
       return {
         ...state,
@@ -58,9 +65,14 @@ export const useAppReducer = () => {
     }
   };
 
+  const retry = () => {
+    dispatch({ type: LOAD_DATA });
+    fetchData();
+  };
+
   useEffect(() => {
     fetchData();
   }, []);
 
-  return state;
+  return { state, retry };
 };

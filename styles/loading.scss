@@ -1,5 +1,4 @@
 @import 'variables';
-@include flicker-mixin(underline-flicker, box-shadow, color, $neon-pink-title-glow);
 
 .loading {
   position: absolute;
