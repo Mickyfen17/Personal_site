@@ -6,13 +6,14 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Toggle from './components/Toggle';
+import Loading from './components/Loading';
 
 const App = () => {
   const { isLoading, hasError, projects, skills } = useAppReducer();
   const [lightsOn, toggleLights] = useState(true);
 
   if (isLoading) {
-    return <div>Loading...</div>;
+    return <Loading />;
   }
 
   if (hasError) {

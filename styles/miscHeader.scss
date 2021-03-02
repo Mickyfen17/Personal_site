@@ -1,0 +1,36 @@
+@import 'variables';
+@include flicker-mixin(underline-flicker, box-shadow, color, $neon-pink-title-glow);
+
+#misc-header {
+  font-family: $neon-glow;
+  font-size: 3rem;
+  text-align: center;
+  color: $neon-bulb-white;
+  text-shadow: $neon-pink-title-glow;
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+    height: 4px;
+    border-radius: 1rem;
+    background: $neon-bulb-white;
+    box-shadow: $neon-pink-title-glow;
+    animation: underline-flicker step-end infinite 6s;
+  }
+
+  /*MEDIA QUERIES*/
+  @media screen and (min-width: $plus-mobile-breakpoint) {
+    font-size: 3.5em;
+  }
+
+  @media screen and (min-width: $tablet-breakpoint) {
+    font-size: 4em;
+  }
+
+  @media screen and (min-width: $desktop-breakpoint) {
+    font-size: 5em;
+  }
+}

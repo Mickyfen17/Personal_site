@@ -1,0 +1,12 @@
+@import 'variables';
+@include flicker-mixin(underline-flicker, box-shadow, color, $neon-pink-title-glow);
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%) skew(0, -5deg);
+  width: fit-content;
+  margin: 0 auto;
+}
