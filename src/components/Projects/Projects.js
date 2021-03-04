@@ -25,7 +25,7 @@ const Projects = ({ projectsMap }) => {
         <Modal title={activeProject.title} toggleModal={toggleModal}>
           <div>
             <p className='project-description'>{activeProject.description}</p>
-            <img className='project-image' src='https://via.placeholder.com/500x300' />
+            <img className='project-image' src={activeProject.image} />
             <p className='project-tech-used'>{activeProject.techUsed.join(', ')}</p>
           </div>
           <footer>
