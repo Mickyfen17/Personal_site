@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import AnchorLink from '../AnchorLink';
 import NeonContentWrapper from '../NeonContentWrapper';
 import Modal from '../Modal';
@@ -8,6 +8,10 @@ import 'styles/projects.scss';
 const Projects = ({ projectsMap }) => {
   const { activeProjectId, modalOpen, toggleModal } = useModalReducer();
   const activeProject = projectsMap.get(activeProjectId);
+
+  useEffect(() => {
+    Array.from(projectsMap).forEach(([_, project]) => (new Image().src = project.image));
+  }, [projectsMap]);
 
   return (
     <Fragment>
