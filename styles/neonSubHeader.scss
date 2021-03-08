@@ -1,0 +1,52 @@
+@import 'variables';
+
+.sub-header {
+  position: absolute;
+  top: -16px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: fit-content;
+  background: $backround-black;
+  text-shadow: $text-off-shadow;
+  font-family: $neon-glow;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 5px 8px;
+
+  &.cyan {
+    color: $neon-cyan-off;
+    border-left: 3px solid $neon-cyan-off;
+    border-right: 3px solid $neon-cyan-off;
+  }
+
+  &.pink {
+    color: $neon-pink-off;
+    border-left: 3px solid $neon-pink-off;
+    border-right: 3px solid $neon-pink-off;
+  }
+
+  &.lights-on {
+    color: $neon-bulb-white;
+    border-left: 3px solid $neon-bulb-white;
+    border-right: 3px solid $neon-bulb-white;
+
+    &.cyan {
+      text-shadow: $neon-cyan-title-glow;
+      box-shadow: $neon-subheader-cyan-glow;
+    }
+
+    &.pink {
+      text-shadow: $neon-pink-title-glow;
+      box-shadow: $neon-subheader-pink-glow;
+    }
+  }
+
+  /*MEDIA QUERIES*/
+  @media screen and (min-width: $plus-mobile-breakpoint) {
+    font-size: 1.4rem;
+  }
+
+  @media screen and (min-width: $tablet-breakpoint) {
+    font-size: 1.5rem;
+  }
+}

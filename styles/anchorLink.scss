@@ -1,0 +1,18 @@
+@import 'variables';
+
+.anchor {
+  font-weight: 700;
+  color: $neon-pink-bright;
+
+  &:hover {
+    color: $neon-cyan-bright;
+  }
+
+  &:visited {
+    color: $neon-pink-bright;
+
+    &:hover {
+      color: $neon-cyan-bright;
+    }
+  }
+}

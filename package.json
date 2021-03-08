@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "precommit": "lint-staged",
-    "pretty": "prettier --print-width 80 --single-quote --trailing-comma es5 --write \"lib/**/*.js\"",
+    "pretty": "prettier --print-width 100 --single-quote --trailing-comma none --jsx-single-quote true --write \"src/**/*.js\"",
     "start": "webpack-dev-server --mode development --env.env=dev",
     "build": "webpack -p --mode production --env.env=prod",
     "deploy": "npm run build && gh-pages -d dist",
     "test": "mocha --require test/helpers/setup.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
     "analyize": "webpack-bundle-analyzer ./dist/stats.json -m static"
   },
   "lint-staged": {
@@ -40,16 +42,14 @@
     "babel-eslint": "^9.0.0",
     "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^0.1.19",
-    "cloudinary-react": "^1.6.6",
     "compression-webpack-plugin": "^5.0.1",
     "copy-webpack-plugin": "^6.0.3",
     "css-loader": "^1.0.1",
     "eslint": "^5.16.0",
-    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-prettier": "^2.7.0",
-    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react": "^7.21.2",
     "eslint-plugin-react-hooks": "^1.7.0",
     "file-loader": "^2.0.0",
     "gh-pages": "^1.2.0",
@@ -62,7 +62,6 @@
     "postcss-loader": "^3.0.0",
     "prettier": "^1.19.1",
     "sass-loader": "^7.3.1",
-    "smoothscroll-polyfill": "^0.4.4",
     "style-loader": "^0.23.1",
     "svg-url-loader": "^2.3.3",
     "terser-webpack-plugin": "^4.1.0",
@@ -76,9 +75,6 @@
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-hot-loader": "^4.12.21",
-    "react-loadable": "^5.5.0",
-    "react-modal": "^3.11.2",
-    "react-typist": "^2.0.5"
+    "react-hot-loader": "^4.12.21"
   }
 }

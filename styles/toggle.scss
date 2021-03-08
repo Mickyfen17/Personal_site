@@ -1,0 +1,35 @@
+@import 'variables';
+
+.toggle {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  height: $toggle-height;
+  width: $toggle-width;
+  appearance: none;
+  cursor: pointer;
+  border-radius: 1rem;
+  border: $border-width solid $neon-cyan-off;
+  box-shadow: $border-off-shadow;
+  transition: all 0.2s ease;
+
+  &:after {
+    content: '';
+    position: absolute;
+    height: $toggle-btn-size;
+    width: $toggle-btn-size;
+    background: $neon-cyan-off;
+    border-radius: 50%;
+    transition: transform 0.2s ease-in;
+  }
+
+  &:checked {
+    border-color: $neon-bulb-white;
+    box-shadow: $neon-cyan-border-glow;
+
+    &:after {
+      background: $neon-bulb-white;
+      transform: translatex(16px);
+    }
+  }
+}
