@@ -21,7 +21,7 @@ const Footer = () => (
     </React.Fragment>
     <h4 className='footer-tag'>
       {'\u00A9'}
-      Mike Fenwick | 2020
+      Mike Fenwick | 2021
     </h4>
   </footer>
 );
