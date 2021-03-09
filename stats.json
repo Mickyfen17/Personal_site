@@ -4,15 +4,15 @@
   "warnings": [
   ],
   "version": "4.44.1",
-  "hash": "c52fa5fb0ca1c9e1fcdf",
-  "time": 9746,
-  "builtAt": 1615180248202,
+  "hash": "57c6076db3a7c3759145",
+  "time": 9852,
+  "builtAt": 1615270976201,
   "publicPath": "",
   "outputPath": "/home/travis/build/Mickyfen17/Personal_site/dist",
   "assetsByChunkName": {
     "main": [
-      "main.c52fa5fb0ca1c9e1fcdf.css",
-      "main.c52fa5fb0ca1c9e1fcdf.bundle.js"
+      "main.57c6076db3a7c3759145.css",
+      "main.57c6076db3a7c3759145.bundle.js"
     ]
   },
   "assets": [
@@ -182,7 +182,7 @@
       "emitted": true
     },
     {
-      "name": "main.c52fa5fb0ca1c9e1fcdf.bundle.js",
+      "name": "main.57c6076db3a7c3759145.bundle.js",
       "size": 164916,
       "chunks": [
         0
@@ -194,13 +194,13 @@
         "immutable": true,
         "minimized": true,
         "related": {
-          "brotliCompressed": "main.c52fa5fb0ca1c9e1fcdf.bundle.js.br"
+          "brotliCompressed": "main.57c6076db3a7c3759145.bundle.js.br"
         }
       },
       "emitted": true
     },
     {
-      "name": "main.c52fa5fb0ca1c9e1fcdf.bundle.js.LICENSE.txt",
+      "name": "main.57c6076db3a7c3759145.bundle.js.LICENSE.txt",
       "size": 790,
       "chunks": [
       ],
@@ -211,8 +211,8 @@
       "emitted": true
     },
     {
-      "name": "main.c52fa5fb0ca1c9e1fcdf.bundle.js.br",
-      "size": 41903,
+      "name": "main.57c6076db3a7c3759145.bundle.js.br",
+      "size": 41910,
       "chunks": [
       ],
       "chunkNames": [
@@ -223,8 +223,8 @@
       "emitted": true
     },
     {
-      "name": "main.c52fa5fb0ca1c9e1fcdf.css",
-      "size": 28765,
+      "name": "main.57c6076db3a7c3759145.css",
+      "size": 28743,
       "chunks": [
         0
       ],
@@ -234,14 +234,14 @@
       "info": {
         "immutable": true,
         "related": {
-          "brotliCompressed": "main.c52fa5fb0ca1c9e1fcdf.css.br"
+          "brotliCompressed": "main.57c6076db3a7c3759145.css.br"
         }
       },
       "emitted": true
     },
     {
-      "name": "main.c52fa5fb0ca1c9e1fcdf.css.br",
-      "size": 6449,
+      "name": "main.57c6076db3a7c3759145.css.br",
+      "size": 6425,
       "chunks": [
       ],
       "chunkNames": [
@@ -259,8 +259,8 @@
         0
       ],
       "assets": [
-        "main.c52fa5fb0ca1c9e1fcdf.css",
-        "main.c52fa5fb0ca1c9e1fcdf.bundle.js"
+        "main.57c6076db3a7c3759145.css",
+        "main.57c6076db3a7c3759145.bundle.js"
       ],
       "children": {
       },
@@ -274,8 +274,8 @@
         0
       ],
       "assets": [
-        "main.c52fa5fb0ca1c9e1fcdf.css",
-        "main.c52fa5fb0ca1c9e1fcdf.bundle.js"
+        "main.57c6076db3a7c3759145.css",
+        "main.57c6076db3a7c3759145.bundle.js"
       ],
       "children": {
       },
@@ -289,15 +289,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 243128,
+      "size": 243105,
       "names": [
         "main"
       ],
       "files": [
-        "main.c52fa5fb0ca1c9e1fcdf.css",
-        "main.c52fa5fb0ca1c9e1fcdf.bundle.js"
+        "main.57c6076db3a7c3759145.css",
+        "main.57c6076db3a7c3759145.bundle.js"
       ],
-      "hash": "42324007ba0ddf0c6dfe",
+      "hash": "a4cecce9a0a13e9b296f",
       "siblings": [
       ],
       "parents": [
@@ -7094,7 +7094,7 @@
           "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/projects.scss (1)",
           "index": 64,
           "index2": 58,
-          "size": 3496,
+          "size": 3541,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -8096,7 +8096,7 @@
           "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/modal.scss (1)",
           "index": 60,
           "index2": 52,
-          "size": 2812,
+          "size": 2744,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -15711,7 +15711,7 @@
       "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/projects.scss (1)",
       "index": 64,
       "index2": 58,
-      "size": 3496,
+      "size": 3541,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -16305,7 +16305,7 @@
       "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/modal.scss (1)",
       "index": 60,
       "index2": 52,
-      "size": 2812,
+      "size": 2744,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -22053,14 +22053,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 6058,
+          "size": 5990,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "1275c5808826a09ef380",
+          "hash": "8561fcca184e172609b3",
           "siblings": [
           ],
           "parents": [
@@ -22076,7 +22076,7 @@
               "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/modal.scss",
               "index": 0,
               "index2": 4,
-              "size": 3185,
+              "size": 3117,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -22110,7 +22110,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}@-webkit-keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}#overlay{position:fixed;top:0;left:0;bottom:0;right:0;display:flex;align-items:center;justify-content:center;background:rgba(22,22,22,0.9);cursor:pointer}#overlay button{position:absolute;top:10px;right:10px;background:transparent;border:none;color:#a888ad;text-shadow:-4px 4px 2px #000;font-size:1.5rem;font-family:NeonGlow,sans-serif;cursor:pointer}#overlay button.lights-on{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}#overlay button.lights-on.flicker{-webkit-animation:text-flicker step-end infinite 6s;animation:text-flicker step-end infinite 6s}#overlay .neon-content-wrapper{height:90%;width:90%;max-width:700px;margin:0px;padding:0px}#overlay .neon-content-wrapper .sub-header{font-size:1rem}#overlay .neon-content-wrapper #modal{height:100%;background:#161616;border-radius:inherit;cursor:default}@media screen and (min-width: 420px){#overlay .neon-content-wrapper .sub-header{font-size:1.2rem}}@media screen and (min-width: 568px){#overlay .neon-content-wrapper .sub-header{font-size:1.6rem}}@media screen and (min-width: 768px){#overlay .neon-content-wrapper .sub-header{font-size:1.8rem}}\\n\", \"\"]);\n\n// exports\n"
+              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}@-webkit-keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}#overlay{position:fixed;top:0;left:0;bottom:0;right:0;display:flex;align-items:center;justify-content:center;background:rgba(22,22,22,0.9);cursor:pointer}#overlay button{position:absolute;top:10px;right:10px;background:transparent;border:none;color:#a888ad;text-shadow:-4px 4px 2px #000;font-size:1.5rem;font-family:NeonGlow,sans-serif;cursor:pointer}#overlay button.lights-on{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}#overlay button.lights-on.flicker{-webkit-animation:text-flicker step-end infinite 6s;animation:text-flicker step-end infinite 6s}#overlay .neon-content-wrapper{height:85%;width:90%;max-width:700px;margin:0px;padding:0px}#overlay .neon-content-wrapper .sub-header{font-size:1.2rem;z-index:1}#overlay .neon-content-wrapper #modal{height:100%;background:#161616;border-radius:inherit;overflow-y:scroll;cursor:default}@media screen and (min-width: 568px){#overlay .neon-content-wrapper .sub-header{font-size:1.6rem}}@media screen and (min-width: 768px){#overlay .neon-content-wrapper .sub-header{font-size:1.8rem}}\\n\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -22326,7 +22326,7 @@
           "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/modal.scss",
           "index": 0,
           "index2": 4,
-          "size": 3185,
+          "size": 3117,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -22360,7 +22360,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}@-webkit-keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}#overlay{position:fixed;top:0;left:0;bottom:0;right:0;display:flex;align-items:center;justify-content:center;background:rgba(22,22,22,0.9);cursor:pointer}#overlay button{position:absolute;top:10px;right:10px;background:transparent;border:none;color:#a888ad;text-shadow:-4px 4px 2px #000;font-size:1.5rem;font-family:NeonGlow,sans-serif;cursor:pointer}#overlay button.lights-on{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}#overlay button.lights-on.flicker{-webkit-animation:text-flicker step-end infinite 6s;animation:text-flicker step-end infinite 6s}#overlay .neon-content-wrapper{height:90%;width:90%;max-width:700px;margin:0px;padding:0px}#overlay .neon-content-wrapper .sub-header{font-size:1rem}#overlay .neon-content-wrapper #modal{height:100%;background:#161616;border-radius:inherit;cursor:default}@media screen and (min-width: 420px){#overlay .neon-content-wrapper .sub-header{font-size:1.2rem}}@media screen and (min-width: 568px){#overlay .neon-content-wrapper .sub-header{font-size:1.6rem}}@media screen and (min-width: 768px){#overlay .neon-content-wrapper .sub-header{font-size:1.8rem}}\\n\", \"\"]);\n\n// exports\n"
+          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}@-webkit-keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}#overlay{position:fixed;top:0;left:0;bottom:0;right:0;display:flex;align-items:center;justify-content:center;background:rgba(22,22,22,0.9);cursor:pointer}#overlay button{position:absolute;top:10px;right:10px;background:transparent;border:none;color:#a888ad;text-shadow:-4px 4px 2px #000;font-size:1.5rem;font-family:NeonGlow,sans-serif;cursor:pointer}#overlay button.lights-on{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}#overlay button.lights-on.flicker{-webkit-animation:text-flicker step-end infinite 6s;animation:text-flicker step-end infinite 6s}#overlay .neon-content-wrapper{height:85%;width:90%;max-width:700px;margin:0px;padding:0px}#overlay .neon-content-wrapper .sub-header{font-size:1.2rem;z-index:1}#overlay .neon-content-wrapper #modal{height:100%;background:#161616;border-radius:inherit;overflow-y:scroll;cursor:default}@media screen and (min-width: 568px){#overlay .neon-content-wrapper .sub-header{font-size:1.6rem}}@media screen and (min-width: 768px){#overlay .neon-content-wrapper .sub-header{font-size:1.8rem}}\\n\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
@@ -24297,14 +24297,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 6890,
+          "size": 6935,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "4a5eb83d3497cd3d4321",
+          "hash": "a724672943e065735a4a",
           "siblings": [
           ],
           "parents": [
@@ -24320,7 +24320,7 @@
               "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/projects.scss",
               "index": 0,
               "index2": 6,
-              "size": 1743,
+              "size": 1788,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -24354,7 +24354,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}#projects .project{display:flex;align-items:center;justify-items:center;height:30px}#projects .project h3{color:#1569e0;font-size:1rem;font-weight:bold;margin-right:10px}#projects .project .project-btn{height:20px;width:20px;padding:0;background:transparent url(\" + escape(require(\"../images/open_window.svg\")) + \") no-repeat 0px/20px;background-position:center;border:none;cursor:pointer}#projects .project .project-btn:hover{background:transparent url(\" + escape(require(\"../images/open_window_hover.svg\")) + \") no-repeat 0px/20px}@media screen and (min-width: 568px){#projects{font-size:1rem}}#modal div{padding:40px 20px 0px;text-align:center}#modal div .project-image{width:100%;margin:30px 0;border-radius:1rem;-webkit-animation:fadeIn ease-in 1;animation:fadeIn ease-in 1;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-duration:0.25s;animation-duration:0.25s}@-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}#modal footer{position:absolute;bottom:0;display:flex;justify-content:center;width:100%}#modal footer img{height:30px;margin:20px 10px}@media screen and (min-width: 568px){#modal div .project-image{width:90%}}\\n\", \"\"]);\n\n// exports\n"
+              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}#projects .project{display:flex;align-items:center;justify-items:center;height:30px}#projects .project h3{color:#1569e0;font-size:1rem;font-weight:bold;margin-right:10px}#projects .project .project-btn{height:20px;width:20px;padding:0;background:transparent url(\" + escape(require(\"../images/open_window.svg\")) + \") no-repeat 0px/20px;background-position:center;border:none;cursor:pointer}#projects .project .project-btn:hover{background:transparent url(\" + escape(require(\"../images/open_window_hover.svg\")) + \") no-repeat 0px/20px}@media screen and (min-width: 568px){#projects{font-size:1rem}}#modal{display:flex;flex-direction:column;justify-content:space-between}#modal div{padding:40px 20px 0px;text-align:center}#modal div .project-image{width:100%;margin:30px 0;border-radius:1rem;-webkit-animation:fadeIn ease-in 1;animation:fadeIn ease-in 1;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-duration:0.25s;animation-duration:0.25s}@-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}#modal footer{display:flex;justify-content:center;width:100%}#modal footer img{height:30px;margin:20px 10px}@media screen and (min-width: 568px){#modal div .project-image{width:90%}}\\n\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -24666,7 +24666,7 @@
           "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/projects.scss",
           "index": 0,
           "index2": 6,
-          "size": 1743,
+          "size": 1788,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -24700,7 +24700,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}#projects .project{display:flex;align-items:center;justify-items:center;height:30px}#projects .project h3{color:#1569e0;font-size:1rem;font-weight:bold;margin-right:10px}#projects .project .project-btn{height:20px;width:20px;padding:0;background:transparent url(\" + escape(require(\"../images/open_window.svg\")) + \") no-repeat 0px/20px;background-position:center;border:none;cursor:pointer}#projects .project .project-btn:hover{background:transparent url(\" + escape(require(\"../images/open_window_hover.svg\")) + \") no-repeat 0px/20px}@media screen and (min-width: 568px){#projects{font-size:1rem}}#modal div{padding:40px 20px 0px;text-align:center}#modal div .project-image{width:100%;margin:30px 0;border-radius:1rem;-webkit-animation:fadeIn ease-in 1;animation:fadeIn ease-in 1;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-duration:0.25s;animation-duration:0.25s}@-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}#modal footer{position:absolute;bottom:0;display:flex;justify-content:center;width:100%}#modal footer img{height:30px;margin:20px 10px}@media screen and (min-width: 568px){#modal div .project-image{width:90%}}\\n\", \"\"]);\n\n// exports\n"
+          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}#projects .project{display:flex;align-items:center;justify-items:center;height:30px}#projects .project h3{color:#1569e0;font-size:1rem;font-weight:bold;margin-right:10px}#projects .project .project-btn{height:20px;width:20px;padding:0;background:transparent url(\" + escape(require(\"../images/open_window.svg\")) + \") no-repeat 0px/20px;background-position:center;border:none;cursor:pointer}#projects .project .project-btn:hover{background:transparent url(\" + escape(require(\"../images/open_window_hover.svg\")) + \") no-repeat 0px/20px}@media screen and (min-width: 568px){#projects{font-size:1rem}}#modal{display:flex;flex-direction:column;justify-content:space-between}#modal div{padding:40px 20px 0px;text-align:center}#modal div .project-image{width:100%;margin:30px 0;border-radius:1rem;-webkit-animation:fadeIn ease-in 1;animation:fadeIn ease-in 1;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-duration:0.25s;animation-duration:0.25s}@-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}#modal footer{display:flex;justify-content:center;width:100%}#modal footer img{height:30px;margin:20px 10px}@media screen and (min-width: 568px){#modal div .project-image{width:90%}}\\n\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
