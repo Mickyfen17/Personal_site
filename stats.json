@@ -4,15 +4,15 @@
   "warnings": [
   ],
   "version": "4.44.1",
-  "hash": "57c6076db3a7c3759145",
-  "time": 9910,
-  "builtAt": 1615271220882,
+  "hash": "3033f266d7d954bc8aea",
+  "time": 10831,
+  "builtAt": 1615272187601,
   "publicPath": "",
   "outputPath": "/home/travis/build/Mickyfen17/Personal_site/dist",
   "assetsByChunkName": {
     "main": [
-      "main.57c6076db3a7c3759145.css",
-      "main.57c6076db3a7c3759145.bundle.js"
+      "main.3033f266d7d954bc8aea.css",
+      "main.3033f266d7d954bc8aea.bundle.js"
     ]
   },
   "assets": [
@@ -182,8 +182,8 @@
       "emitted": true
     },
     {
-      "name": "main.57c6076db3a7c3759145.bundle.js",
-      "size": 164916,
+      "name": "main.3033f266d7d954bc8aea.bundle.js",
+      "size": 164883,
       "chunks": [
         0
       ],
@@ -194,13 +194,13 @@
         "immutable": true,
         "minimized": true,
         "related": {
-          "brotliCompressed": "main.57c6076db3a7c3759145.bundle.js.br"
+          "brotliCompressed": "main.3033f266d7d954bc8aea.bundle.js.br"
         }
       },
       "emitted": true
     },
     {
-      "name": "main.57c6076db3a7c3759145.bundle.js.LICENSE.txt",
+      "name": "main.3033f266d7d954bc8aea.bundle.js.LICENSE.txt",
       "size": 790,
       "chunks": [
       ],
@@ -211,8 +211,8 @@
       "emitted": true
     },
     {
-      "name": "main.57c6076db3a7c3759145.bundle.js.br",
-      "size": 41910,
+      "name": "main.3033f266d7d954bc8aea.bundle.js.br",
+      "size": 41852,
       "chunks": [
       ],
       "chunkNames": [
@@ -223,8 +223,8 @@
       "emitted": true
     },
     {
-      "name": "main.57c6076db3a7c3759145.css",
-      "size": 28743,
+      "name": "main.3033f266d7d954bc8aea.css",
+      "size": 28779,
       "chunks": [
         0
       ],
@@ -234,14 +234,14 @@
       "info": {
         "immutable": true,
         "related": {
-          "brotliCompressed": "main.57c6076db3a7c3759145.css.br"
+          "brotliCompressed": "main.3033f266d7d954bc8aea.css.br"
         }
       },
       "emitted": true
     },
     {
-      "name": "main.57c6076db3a7c3759145.css.br",
-      "size": 6425,
+      "name": "main.3033f266d7d954bc8aea.css.br",
+      "size": 6458,
       "chunks": [
       ],
       "chunkNames": [
@@ -259,8 +259,8 @@
         0
       ],
       "assets": [
-        "main.57c6076db3a7c3759145.css",
-        "main.57c6076db3a7c3759145.bundle.js"
+        "main.3033f266d7d954bc8aea.css",
+        "main.3033f266d7d954bc8aea.bundle.js"
       ],
       "children": {
       },
@@ -274,8 +274,8 @@
         0
       ],
       "assets": [
-        "main.57c6076db3a7c3759145.css",
-        "main.57c6076db3a7c3759145.bundle.js"
+        "main.3033f266d7d954bc8aea.css",
+        "main.3033f266d7d954bc8aea.bundle.js"
       ],
       "children": {
       },
@@ -289,15 +289,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 243105,
+      "size": 243090,
       "names": [
         "main"
       ],
       "files": [
-        "main.57c6076db3a7c3759145.css",
-        "main.57c6076db3a7c3759145.bundle.js"
+        "main.3033f266d7d954bc8aea.css",
+        "main.3033f266d7d954bc8aea.bundle.js"
       ],
-      "hash": "a4cecce9a0a13e9b296f",
+      "hash": "f9c19f462884d5cb3478",
       "siblings": [
       ],
       "parents": [
@@ -499,15 +499,6 @@
               "type": "harmony import specifier",
               "userRequest": "react",
               "loc": "33:18-23"
-            },
-            {
-              "moduleId": 14,
-              "moduleIdentifier": "/home/travis/build/Mickyfen17/Personal_site/node_modules/babel-loader/lib/index.js!/home/travis/build/Mickyfen17/Personal_site/src/components/NeonHeader/NeonHeader.js",
-              "module": "./src/components/NeonHeader/NeonHeader.js",
-              "moduleName": "./src/components/NeonHeader/NeonHeader.js",
-              "type": "harmony import specifier",
-              "userRequest": "react",
-              "loc": "33:79-84"
             },
             {
               "moduleId": 15,
@@ -2750,7 +2741,7 @@
           "name": "./src/components/NeonHeader/NeonHeader.js",
           "index": 26,
           "index2": 25,
-          "size": 2209,
+          "size": 2158,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2818,7 +2809,7 @@
             "ModuleConcatenation bailout: Module uses injected variables (module)"
           ],
           "depth": 4,
-          "source": "import _slicedToArray from \"@babel/runtime/helpers/slicedToArray\";\n\n(function () {\n  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;\n  enterModule && enterModule(module);\n})();\n\nvar __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal[\"default\"].signature : function (a) {\n  return a;\n};\n\nimport React from 'react';\nimport { useNeonLightsContext } from '../../context/NeonLightsContext';\nimport 'styles/neonHeader';\n\nvar NeonHeader = function NeonHeader(_ref) {\n  var textString = _ref.children;\n\n  var _textString$split = textString.split(' '),\n      _textString$split2 = _slicedToArray(_textString$split, 2),\n      firstName = _textString$split2[0],\n      lastName = _textString$split2[1];\n\n  var idx = Math.floor(Math.random() * lastName.length);\n  var letterToFlicker = lastName[idx];\n  var lightsOn = useNeonLightsContext();\n  var flickeringLastName = /*#__PURE__*/React.createElement(React.Fragment, null, lastName.slice(0, idx), /*#__PURE__*/React.createElement(\"span\", {\n    className: \"flicker\"\n  }, letterToFlicker), lastName.slice(idx + 1));\n  return /*#__PURE__*/React.createElement(\"header\", {\n    id: \"neon-title\",\n    className: \"\".concat(lightsOn ? 'lights-on' : '')\n  }, /*#__PURE__*/React.createElement(\"h1\", null, firstName, \" \", /*#__PURE__*/React.createElement(\"br\", null), \" \", flickeringLastName));\n};\n\n__signature__(NeonHeader, \"useNeonLightsContext{lightsOn}\", function () {\n  return [useNeonLightsContext];\n});\n\nvar _default = NeonHeader;\nexport default _default;\n;\n\n(function () {\n  var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(NeonHeader, \"NeonHeader\", \"/home/travis/build/Mickyfen17/Personal_site/src/components/NeonHeader/NeonHeader.js\");\n  reactHotLoader.register(_default, \"default\", \"/home/travis/build/Mickyfen17/Personal_site/src/components/NeonHeader/NeonHeader.js\");\n})();\n\n;\n\n(function () {\n  var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;\n  leaveModule && leaveModule(module);\n})();"
+          "source": "import _slicedToArray from \"@babel/runtime/helpers/slicedToArray\";\n\n(function () {\n  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;\n  enterModule && enterModule(module);\n})();\n\nvar __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal[\"default\"].signature : function (a) {\n  return a;\n};\n\nimport React from 'react';\nimport { useNeonLightsContext } from '../../context/NeonLightsContext';\nimport 'styles/neonHeader';\n\nvar NeonHeader = function NeonHeader(_ref) {\n  var textString = _ref.children;\n\n  var _textString$split = textString.split(' '),\n      _textString$split2 = _slicedToArray(_textString$split, 2),\n      firstName = _textString$split2[0],\n      lastName = _textString$split2[1];\n\n  var idx = Math.floor(Math.random() * lastName.length);\n  var letterToFlicker = lastName[idx];\n  var lightsOn = useNeonLightsContext();\n  var flickeringLastName = /*#__PURE__*/React.createElement(React.Fragment, null, lastName.slice(0, idx), /*#__PURE__*/React.createElement(\"span\", {\n    className: \"flicker\"\n  }, letterToFlicker), lastName.slice(idx + 1));\n  return /*#__PURE__*/React.createElement(\"header\", {\n    id: \"neon-title\",\n    className: \"\".concat(lightsOn ? 'lights-on' : '')\n  }, /*#__PURE__*/React.createElement(\"h1\", null, firstName, \" \", flickeringLastName));\n};\n\n__signature__(NeonHeader, \"useNeonLightsContext{lightsOn}\", function () {\n  return [useNeonLightsContext];\n});\n\nvar _default = NeonHeader;\nexport default _default;\n;\n\n(function () {\n  var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(NeonHeader, \"NeonHeader\", \"/home/travis/build/Mickyfen17/Personal_site/src/components/NeonHeader/NeonHeader.js\");\n  reactHotLoader.register(_default, \"default\", \"/home/travis/build/Mickyfen17/Personal_site/src/components/NeonHeader/NeonHeader.js\");\n})();\n\n;\n\n(function () {\n  var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;\n  leaveModule && leaveModule(module);\n})();"
         },
         {
           "id": 15,
@@ -6822,7 +6813,7 @@
           "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/neonHeader.scss (1)",
           "index": 29,
           "index2": 23,
-          "size": 5204,
+          "size": 5240,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -8708,15 +8699,6 @@
           "type": "harmony import specifier",
           "userRequest": "react",
           "loc": "33:18-23"
-        },
-        {
-          "moduleId": 14,
-          "moduleIdentifier": "/home/travis/build/Mickyfen17/Personal_site/node_modules/babel-loader/lib/index.js!/home/travis/build/Mickyfen17/Personal_site/src/components/NeonHeader/NeonHeader.js",
-          "module": "./src/components/NeonHeader/NeonHeader.js",
-          "moduleName": "./src/components/NeonHeader/NeonHeader.js",
-          "type": "harmony import specifier",
-          "userRequest": "react",
-          "loc": "33:79-84"
         },
         {
           "moduleId": 15,
@@ -10959,7 +10941,7 @@
       "name": "./src/components/NeonHeader/NeonHeader.js",
       "index": 26,
       "index2": 25,
-      "size": 2209,
+      "size": 2158,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -11027,7 +11009,7 @@
         "ModuleConcatenation bailout: Module uses injected variables (module)"
       ],
       "depth": 4,
-      "source": "import _slicedToArray from \"@babel/runtime/helpers/slicedToArray\";\n\n(function () {\n  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;\n  enterModule && enterModule(module);\n})();\n\nvar __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal[\"default\"].signature : function (a) {\n  return a;\n};\n\nimport React from 'react';\nimport { useNeonLightsContext } from '../../context/NeonLightsContext';\nimport 'styles/neonHeader';\n\nvar NeonHeader = function NeonHeader(_ref) {\n  var textString = _ref.children;\n\n  var _textString$split = textString.split(' '),\n      _textString$split2 = _slicedToArray(_textString$split, 2),\n      firstName = _textString$split2[0],\n      lastName = _textString$split2[1];\n\n  var idx = Math.floor(Math.random() * lastName.length);\n  var letterToFlicker = lastName[idx];\n  var lightsOn = useNeonLightsContext();\n  var flickeringLastName = /*#__PURE__*/React.createElement(React.Fragment, null, lastName.slice(0, idx), /*#__PURE__*/React.createElement(\"span\", {\n    className: \"flicker\"\n  }, letterToFlicker), lastName.slice(idx + 1));\n  return /*#__PURE__*/React.createElement(\"header\", {\n    id: \"neon-title\",\n    className: \"\".concat(lightsOn ? 'lights-on' : '')\n  }, /*#__PURE__*/React.createElement(\"h1\", null, firstName, \" \", /*#__PURE__*/React.createElement(\"br\", null), \" \", flickeringLastName));\n};\n\n__signature__(NeonHeader, \"useNeonLightsContext{lightsOn}\", function () {\n  return [useNeonLightsContext];\n});\n\nvar _default = NeonHeader;\nexport default _default;\n;\n\n(function () {\n  var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(NeonHeader, \"NeonHeader\", \"/home/travis/build/Mickyfen17/Personal_site/src/components/NeonHeader/NeonHeader.js\");\n  reactHotLoader.register(_default, \"default\", \"/home/travis/build/Mickyfen17/Personal_site/src/components/NeonHeader/NeonHeader.js\");\n})();\n\n;\n\n(function () {\n  var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;\n  leaveModule && leaveModule(module);\n})();"
+      "source": "import _slicedToArray from \"@babel/runtime/helpers/slicedToArray\";\n\n(function () {\n  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;\n  enterModule && enterModule(module);\n})();\n\nvar __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal[\"default\"].signature : function (a) {\n  return a;\n};\n\nimport React from 'react';\nimport { useNeonLightsContext } from '../../context/NeonLightsContext';\nimport 'styles/neonHeader';\n\nvar NeonHeader = function NeonHeader(_ref) {\n  var textString = _ref.children;\n\n  var _textString$split = textString.split(' '),\n      _textString$split2 = _slicedToArray(_textString$split, 2),\n      firstName = _textString$split2[0],\n      lastName = _textString$split2[1];\n\n  var idx = Math.floor(Math.random() * lastName.length);\n  var letterToFlicker = lastName[idx];\n  var lightsOn = useNeonLightsContext();\n  var flickeringLastName = /*#__PURE__*/React.createElement(React.Fragment, null, lastName.slice(0, idx), /*#__PURE__*/React.createElement(\"span\", {\n    className: \"flicker\"\n  }, letterToFlicker), lastName.slice(idx + 1));\n  return /*#__PURE__*/React.createElement(\"header\", {\n    id: \"neon-title\",\n    className: \"\".concat(lightsOn ? 'lights-on' : '')\n  }, /*#__PURE__*/React.createElement(\"h1\", null, firstName, \" \", flickeringLastName));\n};\n\n__signature__(NeonHeader, \"useNeonLightsContext{lightsOn}\", function () {\n  return [useNeonLightsContext];\n});\n\nvar _default = NeonHeader;\nexport default _default;\n;\n\n(function () {\n  var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(NeonHeader, \"NeonHeader\", \"/home/travis/build/Mickyfen17/Personal_site/src/components/NeonHeader/NeonHeader.js\");\n  reactHotLoader.register(_default, \"default\", \"/home/travis/build/Mickyfen17/Personal_site/src/components/NeonHeader/NeonHeader.js\");\n})();\n\n;\n\n(function () {\n  var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;\n  leaveModule && leaveModule(module);\n})();"
     },
     {
       "id": 15,
@@ -15575,7 +15557,7 @@
       "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/neonHeader.scss (1)",
       "index": 29,
       "index2": 23,
-      "size": 5204,
+      "size": 5240,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -23175,14 +23157,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 8450,
+          "size": 8486,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "762a4a386252fb57e767",
+          "hash": "dd8c62d663b318191ac6",
           "siblings": [
           ],
           "parents": [
@@ -23198,7 +23180,7 @@
               "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/neonHeader.scss",
               "index": 0,
               "index2": 4,
-              "size": 5577,
+              "size": 5613,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -23232,7 +23214,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}@-webkit-keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@-webkit-keyframes border-flicker{20%{box-shadow:none}21%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}50%{box-shadow:none}51%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}51.5%{box-shadow:none}52%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}89%{border-color:#333;box-shadow:none}91%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}92%{border-color:#333;box-shadow:none}92.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}99%{border-color:#333;box-shadow:none}99.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}}@keyframes border-flicker{20%{box-shadow:none}21%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}50%{box-shadow:none}51%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}51.5%{box-shadow:none}52%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}89%{border-color:#333;box-shadow:none}91%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}92%{border-color:#333;box-shadow:none}92.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}99%{border-color:#333;box-shadow:none}99.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}}#neon-title{display:flex;justify-content:center;font-family:NeonGlow,sans-serif;margin:80px auto;padding:45px 0px;border:5px solid #8da5eb;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;border-radius:50%;box-shadow:-4px 3px 2px 0px #161616,-8px 7px 2px 0px #000,inset -4px 3px 2px 0px #161616,inset -8px 7px 2px 0px #000}#neon-title h1{font-size:4em;color:#a888ad;text-align:center;text-shadow:-4px 4px 2px #000}#neon-title.lights-on{border:5px solid #fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe;-webkit-animation:border-flicker step-end infinite 10s;animation:border-flicker step-end infinite 10s}#neon-title.lights-on h1{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}#neon-title.lights-on h1 .flicker{-webkit-animation:text-flicker step-end infinite 5s;animation:text-flicker step-end infinite 5s}@media screen and (min-width: 568px){#neon-title{padding:55px 0px}#neon-title h1{font-size:5em}}@media screen and (min-width: 768px){#neon-title{padding:60px 0px}#neon-title h1{font-size:6em}}\\n\", \"\"]);\n\n// exports\n"
+              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}@-webkit-keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@-webkit-keyframes border-flicker{20%{box-shadow:none}21%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}50%{box-shadow:none}51%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}51.5%{box-shadow:none}52%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}89%{border-color:#333;box-shadow:none}91%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}92%{border-color:#333;box-shadow:none}92.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}99%{border-color:#333;box-shadow:none}99.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}}@keyframes border-flicker{20%{box-shadow:none}21%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}50%{box-shadow:none}51%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}51.5%{box-shadow:none}52%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}89%{border-color:#333;box-shadow:none}91%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}92%{border-color:#333;box-shadow:none}92.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}99%{border-color:#333;box-shadow:none}99.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}}#neon-title{display:flex;justify-content:center;font-family:NeonGlow,sans-serif;margin:80px auto;padding:45px 0px;border:5px solid #8da5eb;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;border-radius:50%;box-shadow:-4px 3px 2px 0px #161616,-8px 7px 2px 0px #000,inset -4px 3px 2px 0px #161616,inset -8px 7px 2px 0px #000}#neon-title h1{width:225px;font-size:4em;color:#a888ad;text-align:center;text-shadow:-4px 4px 2px #000}#neon-title.lights-on{border:5px solid #fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe;-webkit-animation:border-flicker step-end infinite 10s;animation:border-flicker step-end infinite 10s}#neon-title.lights-on h1{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}#neon-title.lights-on h1 .flicker{-webkit-animation:text-flicker step-end infinite 5s;animation:text-flicker step-end infinite 5s}@media screen and (min-width: 568px){#neon-title{padding:55px 0px}#neon-title h1{width:280px;font-size:5em}}@media screen and (min-width: 768px){#neon-title{padding:60px 0px}#neon-title h1{width:335px;font-size:6em}}\\n\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -23448,7 +23430,7 @@
           "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/neonHeader.scss",
           "index": 0,
           "index2": 4,
-          "size": 5577,
+          "size": 5613,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -23482,7 +23464,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}@-webkit-keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@-webkit-keyframes border-flicker{20%{box-shadow:none}21%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}50%{box-shadow:none}51%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}51.5%{box-shadow:none}52%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}89%{border-color:#333;box-shadow:none}91%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}92%{border-color:#333;box-shadow:none}92.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}99%{border-color:#333;box-shadow:none}99.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}}@keyframes border-flicker{20%{box-shadow:none}21%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}50%{box-shadow:none}51%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}51.5%{box-shadow:none}52%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}89%{border-color:#333;box-shadow:none}91%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}92%{border-color:#333;box-shadow:none}92.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}99%{border-color:#333;box-shadow:none}99.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}}#neon-title{display:flex;justify-content:center;font-family:NeonGlow,sans-serif;margin:80px auto;padding:45px 0px;border:5px solid #8da5eb;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;border-radius:50%;box-shadow:-4px 3px 2px 0px #161616,-8px 7px 2px 0px #000,inset -4px 3px 2px 0px #161616,inset -8px 7px 2px 0px #000}#neon-title h1{font-size:4em;color:#a888ad;text-align:center;text-shadow:-4px 4px 2px #000}#neon-title.lights-on{border:5px solid #fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe;-webkit-animation:border-flicker step-end infinite 10s;animation:border-flicker step-end infinite 10s}#neon-title.lights-on h1{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}#neon-title.lights-on h1 .flicker{-webkit-animation:text-flicker step-end infinite 5s;animation:text-flicker step-end infinite 5s}@media screen and (min-width: 568px){#neon-title{padding:55px 0px}#neon-title h1{font-size:5em}}@media screen and (min-width: 768px){#neon-title{padding:60px 0px}#neon-title h1{font-size:6em}}\\n\", \"\"]);\n\n// exports\n"
+          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}@-webkit-keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@-webkit-keyframes border-flicker{20%{box-shadow:none}21%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}50%{box-shadow:none}51%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}51.5%{box-shadow:none}52%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}89%{border-color:#333;box-shadow:none}91%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}92%{border-color:#333;box-shadow:none}92.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}99%{border-color:#333;box-shadow:none}99.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}}@keyframes border-flicker{20%{box-shadow:none}21%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}50%{box-shadow:none}51%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}51.5%{box-shadow:none}52%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}89%{border-color:#333;box-shadow:none}91%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}92%{border-color:#333;box-shadow:none}92.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}99%{border-color:#333;box-shadow:none}99.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}}#neon-title{display:flex;justify-content:center;font-family:NeonGlow,sans-serif;margin:80px auto;padding:45px 0px;border:5px solid #8da5eb;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;border-radius:50%;box-shadow:-4px 3px 2px 0px #161616,-8px 7px 2px 0px #000,inset -4px 3px 2px 0px #161616,inset -8px 7px 2px 0px #000}#neon-title h1{width:225px;font-size:4em;color:#a888ad;text-align:center;text-shadow:-4px 4px 2px #000}#neon-title.lights-on{border:5px solid #fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe;-webkit-animation:border-flicker step-end infinite 10s;animation:border-flicker step-end infinite 10s}#neon-title.lights-on h1{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}#neon-title.lights-on h1 .flicker{-webkit-animation:text-flicker step-end infinite 5s;animation:text-flicker step-end infinite 5s}@media screen and (min-width: 568px){#neon-title{padding:55px 0px}#neon-title h1{width:280px;font-size:5em}}@media screen and (min-width: 768px){#neon-title{padding:60px 0px}#neon-title h1{width:335px;font-size:6em}}\\n\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
