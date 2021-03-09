@@ -36,33 +36,27 @@
   }
 
   .neon-content-wrapper {
-    height: 90%;
+    height: 85%;
     width: 90%;
     max-width: 700px;
     margin: 0px;
     padding: 0px;
 
     .sub-header {
-      font-size: 1rem;
+      font-size: 1.2rem;
+      z-index: 1;
     }
 
     #modal {
       height: 100%;
       background: $backround-black;
       border-radius: inherit;
+      overflow-y: scroll;
       cursor: default;
     }
   }
 
   /*MEDIA QUERIES*/
-  @media screen and (min-width: $mobile-breakpoint) {
-    .neon-content-wrapper {
-      .sub-header {
-        font-size: 1.2rem;
-      }
-    }
-  }
-
   @media screen and (min-width: $plus-mobile-breakpoint) {
     .neon-content-wrapper {
       .sub-header {

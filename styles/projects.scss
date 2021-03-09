@@ -34,6 +34,10 @@
 }
 
 #modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   div {
     padding: 40px 20px 0px;
     text-align: center;
@@ -59,8 +63,6 @@
   }
 
   footer {
-    position: absolute;
-    bottom: 0;
     display: flex;
     justify-content: center;
     width: 100%;
