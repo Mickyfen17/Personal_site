@@ -19,7 +19,7 @@ const NeonHeader = ({ children: textString }) => {
   return (
     <header id='neon-title' className={`${lightsOn ? 'lights-on' : ''}`}>
       <h1>
-        {firstName} <br /> {flickeringLastName}
+        {firstName} {flickeringLastName}
       </h1>
     </header>
   );

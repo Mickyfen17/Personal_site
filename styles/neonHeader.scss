@@ -14,6 +14,7 @@
   box-shadow: $border-off-shadow;
 
   h1 {
+    width: 225px;
     font-size: 4em;
     color: $neon-pink-off;
     text-align: center;
@@ -39,6 +40,7 @@
   @media screen and (min-width: $plus-mobile-breakpoint) {
     padding: 55px 0px;
     h1 {
+      width: 280px;
       font-size: 5em;
     }
   }
@@ -46,6 +48,7 @@
   @media screen and (min-width: $tablet-breakpoint) {
     padding: 60px 0px;
     h1 {
+      width: 335px;
       font-size: 6em;
     }
   }
