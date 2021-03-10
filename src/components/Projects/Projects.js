@@ -20,7 +20,11 @@ const Projects = ({ projectsMap }) => {
           {Array.from(projectsMap).map(([key, { title }]) => (
             <div key={key} className='project'>
               <h3>{title}</h3>
-              <button className='project-btn' onClick={() => toggleModal(key)} />
+              <button
+                className='project-btn'
+                onClick={() => toggleModal(key)}
+                aria-label={`open ${title} in model`}
+              />
             </div>
           ))}
         </NeonContentWrapper>
@@ -29,7 +33,11 @@ const Projects = ({ projectsMap }) => {
         <Modal title={activeProject.title} toggleModal={toggleModal}>
           <div>
             <p className='project-description'>{activeProject.description}</p>
-            <img className='project-image' src={activeProject.image} />
+            <img
+              className='project-image'
+              src={activeProject.image}
+              alt={`screenhot of ${activeProject.title} project`}
+            />
             <p className='project-tech-used'>{activeProject.techUsed.join(', ')}</p>
           </div>
           <footer>
