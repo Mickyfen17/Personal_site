@@ -4,6 +4,7 @@
   font-family: NeonGlow;
   src: url('../fonts/neon_glow_light.woff') format('woff'),
     url('../fonts//neon_glow_light.ttf') format('truetype');
+  font-display: swap;
 }
 
 $neon-glow: NeonGlow, sans-serif;
