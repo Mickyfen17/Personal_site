@@ -4,15 +4,15 @@
   "warnings": [
   ],
   "version": "4.44.1",
-  "hash": "3033f266d7d954bc8aea",
-  "time": 10054,
-  "builtAt": 1615272261620,
+  "hash": "61e280a86694a3c71ed7",
+  "time": 10422,
+  "builtAt": 1615354076714,
   "publicPath": "",
   "outputPath": "/home/travis/build/Mickyfen17/Personal_site/dist",
   "assetsByChunkName": {
     "main": [
-      "main.3033f266d7d954bc8aea.css",
-      "main.3033f266d7d954bc8aea.bundle.js"
+      "main.61e280a86694a3c71ed7.css",
+      "main.61e280a86694a3c71ed7.bundle.js"
     ]
   },
   "assets": [
@@ -182,8 +182,8 @@
       "emitted": true
     },
     {
-      "name": "main.3033f266d7d954bc8aea.bundle.js",
-      "size": 164883,
+      "name": "main.61e280a86694a3c71ed7.bundle.js",
+      "size": 164973,
       "chunks": [
         0
       ],
@@ -194,13 +194,13 @@
         "immutable": true,
         "minimized": true,
         "related": {
-          "brotliCompressed": "main.3033f266d7d954bc8aea.bundle.js.br"
+          "brotliCompressed": "main.61e280a86694a3c71ed7.bundle.js.br"
         }
       },
       "emitted": true
     },
     {
-      "name": "main.3033f266d7d954bc8aea.bundle.js.LICENSE.txt",
+      "name": "main.61e280a86694a3c71ed7.bundle.js.LICENSE.txt",
       "size": 790,
       "chunks": [
       ],
@@ -211,8 +211,8 @@
       "emitted": true
     },
     {
-      "name": "main.3033f266d7d954bc8aea.bundle.js.br",
-      "size": 41852,
+      "name": "main.61e280a86694a3c71ed7.bundle.js.br",
+      "size": 41912,
       "chunks": [
       ],
       "chunkNames": [
@@ -223,8 +223,8 @@
       "emitted": true
     },
     {
-      "name": "main.3033f266d7d954bc8aea.css",
-      "size": 28779,
+      "name": "main.61e280a86694a3c71ed7.css",
+      "size": 28687,
       "chunks": [
         0
       ],
@@ -234,14 +234,14 @@
       "info": {
         "immutable": true,
         "related": {
-          "brotliCompressed": "main.3033f266d7d954bc8aea.css.br"
+          "brotliCompressed": "main.61e280a86694a3c71ed7.css.br"
         }
       },
       "emitted": true
     },
     {
-      "name": "main.3033f266d7d954bc8aea.css.br",
-      "size": 6458,
+      "name": "main.61e280a86694a3c71ed7.css.br",
+      "size": 6451,
       "chunks": [
       ],
       "chunkNames": [
@@ -259,8 +259,8 @@
         0
       ],
       "assets": [
-        "main.3033f266d7d954bc8aea.css",
-        "main.3033f266d7d954bc8aea.bundle.js"
+        "main.61e280a86694a3c71ed7.css",
+        "main.61e280a86694a3c71ed7.bundle.js"
       ],
       "children": {
       },
@@ -274,8 +274,8 @@
         0
       ],
       "assets": [
-        "main.3033f266d7d954bc8aea.css",
-        "main.3033f266d7d954bc8aea.bundle.js"
+        "main.61e280a86694a3c71ed7.css",
+        "main.61e280a86694a3c71ed7.bundle.js"
       ],
       "children": {
       },
@@ -289,15 +289,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 243090,
+      "size": 243118,
       "names": [
         "main"
       ],
       "files": [
-        "main.3033f266d7d954bc8aea.css",
-        "main.3033f266d7d954bc8aea.bundle.js"
+        "main.61e280a86694a3c71ed7.css",
+        "main.61e280a86694a3c71ed7.bundle.js"
       ],
-      "hash": "f9c19f462884d5cb3478",
+      "hash": "041ccce05767d884cd8e",
       "siblings": [
       ],
       "parents": [
@@ -813,7 +813,7 @@
               "moduleName": "./src/components/Projects/Projects.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "56:34-39"
+              "loc": "57:34-39"
             },
             {
               "moduleId": 21,
@@ -822,7 +822,7 @@
               "moduleName": "./src/components/Projects/Projects.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "59:18-23"
+              "loc": "60:18-23"
             },
             {
               "moduleId": 21,
@@ -831,7 +831,7 @@
               "moduleName": "./src/components/Projects/Projects.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "59:64-69"
+              "loc": "60:64-69"
             },
             {
               "moduleId": 21,
@@ -840,7 +840,7 @@
               "moduleName": "./src/components/Projects/Projects.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "61:46-51"
+              "loc": "62:46-51"
             },
             {
               "moduleId": 21,
@@ -849,7 +849,7 @@
               "moduleName": "./src/components/Projects/Projects.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "64:19-24"
+              "loc": "66:19-24"
             },
             {
               "moduleId": 21,
@@ -858,7 +858,7 @@
               "moduleName": "./src/components/Projects/Projects.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "66:55-60"
+              "loc": "68:55-60"
             },
             {
               "moduleId": 21,
@@ -867,7 +867,7 @@
               "moduleName": "./src/components/Projects/Projects.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "66:104-109"
+              "loc": "68:104-109"
             },
             {
               "moduleId": 21,
@@ -876,7 +876,7 @@
               "moduleName": "./src/components/Projects/Projects.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "69:18-23"
+              "loc": "71:18-23"
             },
             {
               "moduleId": 21,
@@ -885,7 +885,7 @@
               "moduleName": "./src/components/Projects/Projects.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "72:20-25"
+              "loc": "74:20-25"
             },
             {
               "moduleId": 21,
@@ -894,7 +894,7 @@
               "moduleName": "./src/components/Projects/Projects.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "75:18-23"
+              "loc": "77:18-23"
             },
             {
               "moduleId": 22,
@@ -2030,7 +2030,7 @@
               "moduleName": "./src/components/Projects/Projects.js",
               "type": "harmony import specifier",
               "userRequest": "../AnchorLink",
-              "loc": "66:124-134"
+              "loc": "68:124-134"
             },
             {
               "moduleId": 21,
@@ -2039,7 +2039,7 @@
               "moduleName": "./src/components/Projects/Projects.js",
               "type": "harmony import specifier",
               "userRequest": "../AnchorLink",
-              "loc": "72:40-50"
+              "loc": "74:40-50"
             },
             {
               "moduleId": 23,
@@ -2581,7 +2581,7 @@
               "moduleName": "./src/components/Projects/Projects.js",
               "type": "harmony import specifier",
               "userRequest": "../../reducers/useModalReducer",
-              "loc": "82:10-25"
+              "loc": "84:10-25"
             }
           ],
           "usedExports": [
@@ -3333,7 +3333,7 @@
           "name": "./src/components/Projects/Projects.js",
           "index": 55,
           "index2": 60,
-          "size": 3767,
+          "size": 3889,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -3401,7 +3401,7 @@
             "ModuleConcatenation bailout: Module uses injected variables (module)"
           ],
           "depth": 4,
-          "source": "import _slicedToArray from \"@babel/runtime/helpers/slicedToArray\";\n\n(function () {\n  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;\n  enterModule && enterModule(module);\n})();\n\nvar __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal[\"default\"].signature : function (a) {\n  return a;\n};\n\nimport React, { Fragment, useEffect } from 'react';\nimport AnchorLink from '../AnchorLink';\nimport NeonContentWrapper from '../NeonContentWrapper';\nimport Modal from '../Modal';\nimport { useModalReducer } from '../../reducers/useModalReducer';\nimport 'styles/projects.scss';\n\nvar Projects = function Projects(_ref) {\n  var projectsMap = _ref.projectsMap;\n\n  var _useModalReducer = useModalReducer(),\n      activeProjectId = _useModalReducer.activeProjectId,\n      modalOpen = _useModalReducer.modalOpen,\n      toggleModal = _useModalReducer.toggleModal;\n\n  var activeProject = projectsMap.get(activeProjectId);\n  useEffect(function () {\n    Array.from(projectsMap).forEach(function (_ref2) {\n      var _ref3 = _slicedToArray(_ref2, 2),\n          _ = _ref3[0],\n          project = _ref3[1];\n\n      return new Image().src = project.image;\n    });\n  }, [projectsMap]);\n  return /*#__PURE__*/React.createElement(Fragment, null, /*#__PURE__*/React.createElement(\"section\", {\n    id: \"projects\"\n  }, /*#__PURE__*/React.createElement(NeonContentWrapper, {\n    color: \"cyan\",\n    title: \"Projects\"\n  }, Array.from(projectsMap).map(function (_ref4) {\n    var _ref5 = _slicedToArray(_ref4, 2),\n        key = _ref5[0],\n        title = _ref5[1].title;\n\n    return /*#__PURE__*/React.createElement(\"div\", {\n      key: key,\n      className: \"project\"\n    }, /*#__PURE__*/React.createElement(\"h3\", null, title), /*#__PURE__*/React.createElement(\"button\", {\n      className: \"project-btn\",\n      onClick: function onClick() {\n        return toggleModal(key);\n      }\n    }));\n  }))), modalOpen && /*#__PURE__*/React.createElement(Modal, {\n    title: activeProject.title,\n    toggleModal: toggleModal\n  }, /*#__PURE__*/React.createElement(\"div\", null, /*#__PURE__*/React.createElement(\"p\", {\n    className: \"project-description\"\n  }, activeProject.description), /*#__PURE__*/React.createElement(\"img\", {\n    className: \"project-image\",\n    src: activeProject.image\n  }), /*#__PURE__*/React.createElement(\"p\", {\n    className: \"project-tech-used\"\n  }, activeProject.techUsed.join(', '))), /*#__PURE__*/React.createElement(\"footer\", null, /*#__PURE__*/React.createElement(AnchorLink, {\n    type: \"project-link\",\n    href: activeProject.gitHubRepo\n  }, /*#__PURE__*/React.createElement(\"img\", {\n    src: activeProject.icons.git,\n    alt: \"icon of github cat\"\n  })), /*#__PURE__*/React.createElement(AnchorLink, {\n    type: \"project-link\",\n    href: activeProject.siteURL\n  }, /*#__PURE__*/React.createElement(\"img\", {\n    src: activeProject.icons.site,\n    alt: \"icon of laptop\"\n  })))));\n};\n\n__signature__(Projects, \"useModalReducer{{ activeProjectId, modalOpen, toggleModal }}\\nuseEffect{}\", function () {\n  return [useModalReducer];\n});\n\nvar _default = Projects;\nexport default _default;\n;\n\n(function () {\n  var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(Projects, \"Projects\", \"/home/travis/build/Mickyfen17/Personal_site/src/components/Projects/Projects.js\");\n  reactHotLoader.register(_default, \"default\", \"/home/travis/build/Mickyfen17/Personal_site/src/components/Projects/Projects.js\");\n})();\n\n;\n\n(function () {\n  var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;\n  leaveModule && leaveModule(module);\n})();"
+          "source": "import _slicedToArray from \"@babel/runtime/helpers/slicedToArray\";\n\n(function () {\n  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;\n  enterModule && enterModule(module);\n})();\n\nvar __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal[\"default\"].signature : function (a) {\n  return a;\n};\n\nimport React, { Fragment, useEffect } from 'react';\nimport AnchorLink from '../AnchorLink';\nimport NeonContentWrapper from '../NeonContentWrapper';\nimport Modal from '../Modal';\nimport { useModalReducer } from '../../reducers/useModalReducer';\nimport 'styles/projects.scss';\n\nvar Projects = function Projects(_ref) {\n  var projectsMap = _ref.projectsMap;\n\n  var _useModalReducer = useModalReducer(),\n      activeProjectId = _useModalReducer.activeProjectId,\n      modalOpen = _useModalReducer.modalOpen,\n      toggleModal = _useModalReducer.toggleModal;\n\n  var activeProject = projectsMap.get(activeProjectId);\n  useEffect(function () {\n    Array.from(projectsMap).forEach(function (_ref2) {\n      var _ref3 = _slicedToArray(_ref2, 2),\n          _ = _ref3[0],\n          project = _ref3[1];\n\n      return new Image().src = project.image;\n    });\n  }, [projectsMap]);\n  return /*#__PURE__*/React.createElement(Fragment, null, /*#__PURE__*/React.createElement(\"section\", {\n    id: \"projects\"\n  }, /*#__PURE__*/React.createElement(NeonContentWrapper, {\n    color: \"cyan\",\n    title: \"Projects\"\n  }, Array.from(projectsMap).map(function (_ref4) {\n    var _ref5 = _slicedToArray(_ref4, 2),\n        key = _ref5[0],\n        title = _ref5[1].title;\n\n    return /*#__PURE__*/React.createElement(\"div\", {\n      key: key,\n      className: \"project\"\n    }, /*#__PURE__*/React.createElement(\"h3\", null, title), /*#__PURE__*/React.createElement(\"button\", {\n      className: \"project-btn\",\n      onClick: function onClick() {\n        return toggleModal(key);\n      },\n      \"aria-label\": \"open \".concat(title, \" in model\")\n    }));\n  }))), modalOpen && /*#__PURE__*/React.createElement(Modal, {\n    title: activeProject.title,\n    toggleModal: toggleModal\n  }, /*#__PURE__*/React.createElement(\"div\", null, /*#__PURE__*/React.createElement(\"p\", {\n    className: \"project-description\"\n  }, activeProject.description), /*#__PURE__*/React.createElement(\"img\", {\n    className: \"project-image\",\n    src: activeProject.image,\n    alt: \"screenhot of \".concat(activeProject.title, \" project\")\n  }), /*#__PURE__*/React.createElement(\"p\", {\n    className: \"project-tech-used\"\n  }, activeProject.techUsed.join(', '))), /*#__PURE__*/React.createElement(\"footer\", null, /*#__PURE__*/React.createElement(AnchorLink, {\n    type: \"project-link\",\n    href: activeProject.gitHubRepo\n  }, /*#__PURE__*/React.createElement(\"img\", {\n    src: activeProject.icons.git,\n    alt: \"icon of github cat\"\n  })), /*#__PURE__*/React.createElement(AnchorLink, {\n    type: \"project-link\",\n    href: activeProject.siteURL\n  }, /*#__PURE__*/React.createElement(\"img\", {\n    src: activeProject.icons.site,\n    alt: \"icon of laptop\"\n  })))));\n};\n\n__signature__(Projects, \"useModalReducer{{ activeProjectId, modalOpen, toggleModal }}\\nuseEffect{}\", function () {\n  return [useModalReducer];\n});\n\nvar _default = Projects;\nexport default _default;\n;\n\n(function () {\n  var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(Projects, \"Projects\", \"/home/travis/build/Mickyfen17/Personal_site/src/components/Projects/Projects.js\");\n  reactHotLoader.register(_default, \"default\", \"/home/travis/build/Mickyfen17/Personal_site/src/components/Projects/Projects.js\");\n})();\n\n;\n\n(function () {\n  var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;\n  leaveModule && leaveModule(module);\n})();"
         },
         {
           "id": 22,
@@ -4545,7 +4545,7 @@
               "moduleName": "./src/components/Projects/Projects.js",
               "type": "harmony import specifier",
               "userRequest": "../Modal",
-              "loc": "56:54-59"
+              "loc": "57:54-59"
             }
           ],
           "usedExports": [
@@ -6949,7 +6949,7 @@
           "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/about.scss (1)",
           "index": 53,
           "index2": 47,
-          "size": 476,
+          "size": 397,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -7085,7 +7085,7 @@
           "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/projects.scss (1)",
           "index": 64,
           "index2": 58,
-          "size": 3541,
+          "size": 3543,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -7931,7 +7931,7 @@
           "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/neonContentWrapper.scss (1)",
           "index": 48,
           "index2": 38,
-          "size": 1046,
+          "size": 1029,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -9013,7 +9013,7 @@
           "moduleName": "./src/components/Projects/Projects.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "56:34-39"
+          "loc": "57:34-39"
         },
         {
           "moduleId": 21,
@@ -9022,7 +9022,7 @@
           "moduleName": "./src/components/Projects/Projects.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "59:18-23"
+          "loc": "60:18-23"
         },
         {
           "moduleId": 21,
@@ -9031,7 +9031,7 @@
           "moduleName": "./src/components/Projects/Projects.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "59:64-69"
+          "loc": "60:64-69"
         },
         {
           "moduleId": 21,
@@ -9040,7 +9040,7 @@
           "moduleName": "./src/components/Projects/Projects.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "61:46-51"
+          "loc": "62:46-51"
         },
         {
           "moduleId": 21,
@@ -9049,7 +9049,7 @@
           "moduleName": "./src/components/Projects/Projects.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "64:19-24"
+          "loc": "66:19-24"
         },
         {
           "moduleId": 21,
@@ -9058,7 +9058,7 @@
           "moduleName": "./src/components/Projects/Projects.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "66:55-60"
+          "loc": "68:55-60"
         },
         {
           "moduleId": 21,
@@ -9067,7 +9067,7 @@
           "moduleName": "./src/components/Projects/Projects.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "66:104-109"
+          "loc": "68:104-109"
         },
         {
           "moduleId": 21,
@@ -9076,7 +9076,7 @@
           "moduleName": "./src/components/Projects/Projects.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "69:18-23"
+          "loc": "71:18-23"
         },
         {
           "moduleId": 21,
@@ -9085,7 +9085,7 @@
           "moduleName": "./src/components/Projects/Projects.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "72:20-25"
+          "loc": "74:20-25"
         },
         {
           "moduleId": 21,
@@ -9094,7 +9094,7 @@
           "moduleName": "./src/components/Projects/Projects.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "75:18-23"
+          "loc": "77:18-23"
         },
         {
           "moduleId": 22,
@@ -10230,7 +10230,7 @@
           "moduleName": "./src/components/Projects/Projects.js",
           "type": "harmony import specifier",
           "userRequest": "../AnchorLink",
-          "loc": "66:124-134"
+          "loc": "68:124-134"
         },
         {
           "moduleId": 21,
@@ -10239,7 +10239,7 @@
           "moduleName": "./src/components/Projects/Projects.js",
           "type": "harmony import specifier",
           "userRequest": "../AnchorLink",
-          "loc": "72:40-50"
+          "loc": "74:40-50"
         },
         {
           "moduleId": 23,
@@ -10781,7 +10781,7 @@
           "moduleName": "./src/components/Projects/Projects.js",
           "type": "harmony import specifier",
           "userRequest": "../../reducers/useModalReducer",
-          "loc": "82:10-25"
+          "loc": "84:10-25"
         }
       ],
       "usedExports": [
@@ -11533,7 +11533,7 @@
       "name": "./src/components/Projects/Projects.js",
       "index": 55,
       "index2": 60,
-      "size": 3767,
+      "size": 3889,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -11601,7 +11601,7 @@
         "ModuleConcatenation bailout: Module uses injected variables (module)"
       ],
       "depth": 4,
-      "source": "import _slicedToArray from \"@babel/runtime/helpers/slicedToArray\";\n\n(function () {\n  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;\n  enterModule && enterModule(module);\n})();\n\nvar __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal[\"default\"].signature : function (a) {\n  return a;\n};\n\nimport React, { Fragment, useEffect } from 'react';\nimport AnchorLink from '../AnchorLink';\nimport NeonContentWrapper from '../NeonContentWrapper';\nimport Modal from '../Modal';\nimport { useModalReducer } from '../../reducers/useModalReducer';\nimport 'styles/projects.scss';\n\nvar Projects = function Projects(_ref) {\n  var projectsMap = _ref.projectsMap;\n\n  var _useModalReducer = useModalReducer(),\n      activeProjectId = _useModalReducer.activeProjectId,\n      modalOpen = _useModalReducer.modalOpen,\n      toggleModal = _useModalReducer.toggleModal;\n\n  var activeProject = projectsMap.get(activeProjectId);\n  useEffect(function () {\n    Array.from(projectsMap).forEach(function (_ref2) {\n      var _ref3 = _slicedToArray(_ref2, 2),\n          _ = _ref3[0],\n          project = _ref3[1];\n\n      return new Image().src = project.image;\n    });\n  }, [projectsMap]);\n  return /*#__PURE__*/React.createElement(Fragment, null, /*#__PURE__*/React.createElement(\"section\", {\n    id: \"projects\"\n  }, /*#__PURE__*/React.createElement(NeonContentWrapper, {\n    color: \"cyan\",\n    title: \"Projects\"\n  }, Array.from(projectsMap).map(function (_ref4) {\n    var _ref5 = _slicedToArray(_ref4, 2),\n        key = _ref5[0],\n        title = _ref5[1].title;\n\n    return /*#__PURE__*/React.createElement(\"div\", {\n      key: key,\n      className: \"project\"\n    }, /*#__PURE__*/React.createElement(\"h3\", null, title), /*#__PURE__*/React.createElement(\"button\", {\n      className: \"project-btn\",\n      onClick: function onClick() {\n        return toggleModal(key);\n      }\n    }));\n  }))), modalOpen && /*#__PURE__*/React.createElement(Modal, {\n    title: activeProject.title,\n    toggleModal: toggleModal\n  }, /*#__PURE__*/React.createElement(\"div\", null, /*#__PURE__*/React.createElement(\"p\", {\n    className: \"project-description\"\n  }, activeProject.description), /*#__PURE__*/React.createElement(\"img\", {\n    className: \"project-image\",\n    src: activeProject.image\n  }), /*#__PURE__*/React.createElement(\"p\", {\n    className: \"project-tech-used\"\n  }, activeProject.techUsed.join(', '))), /*#__PURE__*/React.createElement(\"footer\", null, /*#__PURE__*/React.createElement(AnchorLink, {\n    type: \"project-link\",\n    href: activeProject.gitHubRepo\n  }, /*#__PURE__*/React.createElement(\"img\", {\n    src: activeProject.icons.git,\n    alt: \"icon of github cat\"\n  })), /*#__PURE__*/React.createElement(AnchorLink, {\n    type: \"project-link\",\n    href: activeProject.siteURL\n  }, /*#__PURE__*/React.createElement(\"img\", {\n    src: activeProject.icons.site,\n    alt: \"icon of laptop\"\n  })))));\n};\n\n__signature__(Projects, \"useModalReducer{{ activeProjectId, modalOpen, toggleModal }}\\nuseEffect{}\", function () {\n  return [useModalReducer];\n});\n\nvar _default = Projects;\nexport default _default;\n;\n\n(function () {\n  var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(Projects, \"Projects\", \"/home/travis/build/Mickyfen17/Personal_site/src/components/Projects/Projects.js\");\n  reactHotLoader.register(_default, \"default\", \"/home/travis/build/Mickyfen17/Personal_site/src/components/Projects/Projects.js\");\n})();\n\n;\n\n(function () {\n  var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;\n  leaveModule && leaveModule(module);\n})();"
+      "source": "import _slicedToArray from \"@babel/runtime/helpers/slicedToArray\";\n\n(function () {\n  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;\n  enterModule && enterModule(module);\n})();\n\nvar __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal[\"default\"].signature : function (a) {\n  return a;\n};\n\nimport React, { Fragment, useEffect } from 'react';\nimport AnchorLink from '../AnchorLink';\nimport NeonContentWrapper from '../NeonContentWrapper';\nimport Modal from '../Modal';\nimport { useModalReducer } from '../../reducers/useModalReducer';\nimport 'styles/projects.scss';\n\nvar Projects = function Projects(_ref) {\n  var projectsMap = _ref.projectsMap;\n\n  var _useModalReducer = useModalReducer(),\n      activeProjectId = _useModalReducer.activeProjectId,\n      modalOpen = _useModalReducer.modalOpen,\n      toggleModal = _useModalReducer.toggleModal;\n\n  var activeProject = projectsMap.get(activeProjectId);\n  useEffect(function () {\n    Array.from(projectsMap).forEach(function (_ref2) {\n      var _ref3 = _slicedToArray(_ref2, 2),\n          _ = _ref3[0],\n          project = _ref3[1];\n\n      return new Image().src = project.image;\n    });\n  }, [projectsMap]);\n  return /*#__PURE__*/React.createElement(Fragment, null, /*#__PURE__*/React.createElement(\"section\", {\n    id: \"projects\"\n  }, /*#__PURE__*/React.createElement(NeonContentWrapper, {\n    color: \"cyan\",\n    title: \"Projects\"\n  }, Array.from(projectsMap).map(function (_ref4) {\n    var _ref5 = _slicedToArray(_ref4, 2),\n        key = _ref5[0],\n        title = _ref5[1].title;\n\n    return /*#__PURE__*/React.createElement(\"div\", {\n      key: key,\n      className: \"project\"\n    }, /*#__PURE__*/React.createElement(\"h3\", null, title), /*#__PURE__*/React.createElement(\"button\", {\n      className: \"project-btn\",\n      onClick: function onClick() {\n        return toggleModal(key);\n      },\n      \"aria-label\": \"open \".concat(title, \" in model\")\n    }));\n  }))), modalOpen && /*#__PURE__*/React.createElement(Modal, {\n    title: activeProject.title,\n    toggleModal: toggleModal\n  }, /*#__PURE__*/React.createElement(\"div\", null, /*#__PURE__*/React.createElement(\"p\", {\n    className: \"project-description\"\n  }, activeProject.description), /*#__PURE__*/React.createElement(\"img\", {\n    className: \"project-image\",\n    src: activeProject.image,\n    alt: \"screenhot of \".concat(activeProject.title, \" project\")\n  }), /*#__PURE__*/React.createElement(\"p\", {\n    className: \"project-tech-used\"\n  }, activeProject.techUsed.join(', '))), /*#__PURE__*/React.createElement(\"footer\", null, /*#__PURE__*/React.createElement(AnchorLink, {\n    type: \"project-link\",\n    href: activeProject.gitHubRepo\n  }, /*#__PURE__*/React.createElement(\"img\", {\n    src: activeProject.icons.git,\n    alt: \"icon of github cat\"\n  })), /*#__PURE__*/React.createElement(AnchorLink, {\n    type: \"project-link\",\n    href: activeProject.siteURL\n  }, /*#__PURE__*/React.createElement(\"img\", {\n    src: activeProject.icons.site,\n    alt: \"icon of laptop\"\n  })))));\n};\n\n__signature__(Projects, \"useModalReducer{{ activeProjectId, modalOpen, toggleModal }}\\nuseEffect{}\", function () {\n  return [useModalReducer];\n});\n\nvar _default = Projects;\nexport default _default;\n;\n\n(function () {\n  var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(Projects, \"Projects\", \"/home/travis/build/Mickyfen17/Personal_site/src/components/Projects/Projects.js\");\n  reactHotLoader.register(_default, \"default\", \"/home/travis/build/Mickyfen17/Personal_site/src/components/Projects/Projects.js\");\n})();\n\n;\n\n(function () {\n  var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;\n  leaveModule && leaveModule(module);\n})();"
     },
     {
       "id": 22,
@@ -12745,7 +12745,7 @@
           "moduleName": "./src/components/Projects/Projects.js",
           "type": "harmony import specifier",
           "userRequest": "../Modal",
-          "loc": "56:54-59"
+          "loc": "57:54-59"
         }
       ],
       "usedExports": [
@@ -15013,7 +15013,7 @@
       "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/about.scss (1)",
       "index": 53,
       "index2": 47,
-      "size": 476,
+      "size": 397,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -15693,7 +15693,7 @@
       "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/projects.scss (1)",
       "index": 64,
       "index2": 58,
-      "size": 3541,
+      "size": 3543,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -16443,7 +16443,7 @@
       "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/neonContentWrapper.scss (1)",
       "index": 48,
       "index2": 38,
-      "size": 1046,
+      "size": 1029,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -17340,14 +17340,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 3722,
+          "size": 3643,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "612476f8056df256c1a7",
+          "hash": "bae7973865520931ce8c",
           "siblings": [
           ],
           "parents": [
@@ -17363,7 +17363,7 @@
               "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/about.scss",
               "index": 0,
               "index2": 4,
-              "size": 849,
+              "size": 770,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -17397,7 +17397,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}#about .skills-wrapper h3{color:#1569e0;font-size:1rem;font-weight:bold}#about .skills-wrapper .skill-block{margin:12px 0}#about .skills-wrapper .each-skill:after{content:', '}#about .skills-wrapper .each-skill:last-child:after{content:''}@media screen and (min-width: 768px){#about .skills-wrapper h3{font-size:1.1rem}}\\n\", \"\"]);\n\n// exports\n"
+              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}#about .skills-wrapper h3{color:#1569e0;font-size:1.2rem;font-weight:bold}#about .skills-wrapper .skill-block{margin:12px 0}#about .skills-wrapper .each-skill:after{content:', '}#about .skills-wrapper .each-skill:last-child:after{content:''}\\n\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -17613,7 +17613,7 @@
           "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/about.scss",
           "index": 0,
           "index2": 4,
-          "size": 849,
+          "size": 770,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -17647,7 +17647,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}#about .skills-wrapper h3{color:#1569e0;font-size:1rem;font-weight:bold}#about .skills-wrapper .skill-block{margin:12px 0}#about .skills-wrapper .each-skill:after{content:', '}#about .skills-wrapper .each-skill:last-child:after{content:''}@media screen and (min-width: 768px){#about .skills-wrapper h3{font-size:1.1rem}}\\n\", \"\"]);\n\n// exports\n"
+          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}#about .skills-wrapper h3{color:#1569e0;font-size:1.2rem;font-weight:bold}#about .skills-wrapper .skill-block{margin:12px 0}#about .skills-wrapper .each-skill:after{content:', '}#about .skills-wrapper .each-skill:last-child:after{content:''}\\n\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
@@ -22596,14 +22596,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 4292,
+          "size": 4275,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "5e02cb4c65eb9407ed18",
+          "hash": "6a2cd43805b7aca33613",
           "siblings": [
           ],
           "parents": [
@@ -22619,7 +22619,7 @@
               "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/neonContentWrapper.scss",
               "index": 0,
               "index2": 4,
-              "size": 1419,
+              "size": 1402,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -22653,7 +22653,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}.neon-content-wrapper{font-size:0.9rem;line-height:1.1rem;max-width:630px;position:relative;padding:20px 16px;margin:0 auto 40px;border-radius:1rem;box-shadow:-4px 3px 2px 0px #161616,-8px 7px 2px 0px #000,inset -4px 3px 2px 0px #161616,inset -8px 7px 2px 0px #000}.neon-content-wrapper.cyan{border:3px solid #8da5eb}.neon-content-wrapper.pink{border:3px solid #a888ad}.neon-content-wrapper.lights-on{border:3px solid #fffffe}.neon-content-wrapper.lights-on.cyan{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}.neon-content-wrapper.lights-on.pink{box-shadow:inset 0 0 3px #ce00ce,inset 0 0 8px #ce00ce,inset 0 0 16px #ce00ce,0 0 3px #ce00ce,0 0 8px #ce00ce,0 0 16px #ce00ce,-3px 3px 3px #f813f5}@media screen and (min-width: 768px){.neon-content-wrapper{font-size:1rem;line-height:1.2rem}}\\n\", \"\"]);\n\n// exports\n"
+              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}.neon-content-wrapper{line-height:1.1rem;max-width:630px;position:relative;padding:20px 16px;margin:0 auto 40px;border-radius:1rem;box-shadow:-4px 3px 2px 0px #161616,-8px 7px 2px 0px #000,inset -4px 3px 2px 0px #161616,inset -8px 7px 2px 0px #000}.neon-content-wrapper.cyan{border:3px solid #8da5eb}.neon-content-wrapper.pink{border:3px solid #a888ad}.neon-content-wrapper.lights-on{border:3px solid #fffffe}.neon-content-wrapper.lights-on.cyan{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}.neon-content-wrapper.lights-on.pink{box-shadow:inset 0 0 3px #ce00ce,inset 0 0 8px #ce00ce,inset 0 0 16px #ce00ce,0 0 3px #ce00ce,0 0 8px #ce00ce,0 0 16px #ce00ce,-3px 3px 3px #f813f5}@media screen and (min-width: 768px){.neon-content-wrapper{font-size:1rem;line-height:1.2rem}}\\n\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -22869,7 +22869,7 @@
           "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/neonContentWrapper.scss",
           "index": 0,
           "index2": 4,
-          "size": 1419,
+          "size": 1402,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -22903,7 +22903,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}.neon-content-wrapper{font-size:0.9rem;line-height:1.1rem;max-width:630px;position:relative;padding:20px 16px;margin:0 auto 40px;border-radius:1rem;box-shadow:-4px 3px 2px 0px #161616,-8px 7px 2px 0px #000,inset -4px 3px 2px 0px #161616,inset -8px 7px 2px 0px #000}.neon-content-wrapper.cyan{border:3px solid #8da5eb}.neon-content-wrapper.pink{border:3px solid #a888ad}.neon-content-wrapper.lights-on{border:3px solid #fffffe}.neon-content-wrapper.lights-on.cyan{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}.neon-content-wrapper.lights-on.pink{box-shadow:inset 0 0 3px #ce00ce,inset 0 0 8px #ce00ce,inset 0 0 16px #ce00ce,0 0 3px #ce00ce,0 0 8px #ce00ce,0 0 16px #ce00ce,-3px 3px 3px #f813f5}@media screen and (min-width: 768px){.neon-content-wrapper{font-size:1rem;line-height:1.2rem}}\\n\", \"\"]);\n\n// exports\n"
+          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}.neon-content-wrapper{line-height:1.1rem;max-width:630px;position:relative;padding:20px 16px;margin:0 auto 40px;border-radius:1rem;box-shadow:-4px 3px 2px 0px #161616,-8px 7px 2px 0px #000,inset -4px 3px 2px 0px #161616,inset -8px 7px 2px 0px #000}.neon-content-wrapper.cyan{border:3px solid #8da5eb}.neon-content-wrapper.pink{border:3px solid #a888ad}.neon-content-wrapper.lights-on{border:3px solid #fffffe}.neon-content-wrapper.lights-on.cyan{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}.neon-content-wrapper.lights-on.pink{box-shadow:inset 0 0 3px #ce00ce,inset 0 0 8px #ce00ce,inset 0 0 16px #ce00ce,0 0 3px #ce00ce,0 0 8px #ce00ce,0 0 16px #ce00ce,-3px 3px 3px #f813f5}@media screen and (min-width: 768px){.neon-content-wrapper{font-size:1rem;line-height:1.2rem}}\\n\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
@@ -24279,14 +24279,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 6935,
+          "size": 6937,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "a724672943e065735a4a",
+          "hash": "00ae90a68af262d2ad10",
           "siblings": [
           ],
           "parents": [
@@ -24302,7 +24302,7 @@
               "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/projects.scss",
               "index": 0,
               "index2": 6,
-              "size": 1788,
+              "size": 1790,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -24336,7 +24336,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}#projects .project{display:flex;align-items:center;justify-items:center;height:30px}#projects .project h3{color:#1569e0;font-size:1rem;font-weight:bold;margin-right:10px}#projects .project .project-btn{height:20px;width:20px;padding:0;background:transparent url(\" + escape(require(\"../images/open_window.svg\")) + \") no-repeat 0px/20px;background-position:center;border:none;cursor:pointer}#projects .project .project-btn:hover{background:transparent url(\" + escape(require(\"../images/open_window_hover.svg\")) + \") no-repeat 0px/20px}@media screen and (min-width: 568px){#projects{font-size:1rem}}#modal{display:flex;flex-direction:column;justify-content:space-between}#modal div{padding:40px 20px 0px;text-align:center}#modal div .project-image{width:100%;margin:30px 0;border-radius:1rem;-webkit-animation:fadeIn ease-in 1;animation:fadeIn ease-in 1;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-duration:0.25s;animation-duration:0.25s}@-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}#modal footer{display:flex;justify-content:center;width:100%}#modal footer img{height:30px;margin:20px 10px}@media screen and (min-width: 568px){#modal div .project-image{width:90%}}\\n\", \"\"]);\n\n// exports\n"
+              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}#projects .project{display:flex;align-items:center;justify-items:center;height:30px}#projects .project h3{color:#1569e0;font-size:1.2rem;font-weight:bold;margin-right:10px}#projects .project .project-btn{height:20px;width:20px;padding:0;background:transparent url(\" + escape(require(\"../images/open_window.svg\")) + \") no-repeat 0px/20px;background-position:center;border:none;cursor:pointer}#projects .project .project-btn:hover{background:transparent url(\" + escape(require(\"../images/open_window_hover.svg\")) + \") no-repeat 0px/20px}@media screen and (min-width: 568px){#projects{font-size:1rem}}#modal{display:flex;flex-direction:column;justify-content:space-between}#modal div{padding:40px 20px 0px;text-align:center}#modal div .project-image{width:100%;margin:30px 0;border-radius:1rem;-webkit-animation:fadeIn ease-in 1;animation:fadeIn ease-in 1;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-duration:0.25s;animation-duration:0.25s}@-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}#modal footer{display:flex;justify-content:center;width:100%}#modal footer img{height:30px;margin:20px 10px}@media screen and (min-width: 568px){#modal div .project-image{width:90%}}\\n\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -24567,7 +24567,7 @@
                   "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/projects.scss",
                   "type": "cjs require",
                   "userRequest": "../images/open_window.svg",
-                  "loc": "7:497-533"
+                  "loc": "7:499-535"
                 }
               ],
               "usedExports": true,
@@ -24615,7 +24615,7 @@
                   "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/projects.scss",
                   "type": "cjs require",
                   "userRequest": "../images/open_window_hover.svg",
-                  "loc": "7:689-731"
+                  "loc": "7:691-733"
                 }
               ],
               "usedExports": true,
@@ -24648,7 +24648,7 @@
           "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/projects.scss",
           "index": 0,
           "index2": 6,
-          "size": 1788,
+          "size": 1790,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -24682,7 +24682,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}#projects .project{display:flex;align-items:center;justify-items:center;height:30px}#projects .project h3{color:#1569e0;font-size:1rem;font-weight:bold;margin-right:10px}#projects .project .project-btn{height:20px;width:20px;padding:0;background:transparent url(\" + escape(require(\"../images/open_window.svg\")) + \") no-repeat 0px/20px;background-position:center;border:none;cursor:pointer}#projects .project .project-btn:hover{background:transparent url(\" + escape(require(\"../images/open_window_hover.svg\")) + \") no-repeat 0px/20px}@media screen and (min-width: 568px){#projects{font-size:1rem}}#modal{display:flex;flex-direction:column;justify-content:space-between}#modal div{padding:40px 20px 0px;text-align:center}#modal div .project-image{width:100%;margin:30px 0;border-radius:1rem;-webkit-animation:fadeIn ease-in 1;animation:fadeIn ease-in 1;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-duration:0.25s;animation-duration:0.25s}@-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}#modal footer{display:flex;justify-content:center;width:100%}#modal footer img{height:30px;margin:20px 10px}@media screen and (min-width: 568px){#modal div .project-image{width:90%}}\\n\", \"\"]);\n\n// exports\n"
+          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}#projects .project{display:flex;align-items:center;justify-items:center;height:30px}#projects .project h3{color:#1569e0;font-size:1.2rem;font-weight:bold;margin-right:10px}#projects .project .project-btn{height:20px;width:20px;padding:0;background:transparent url(\" + escape(require(\"../images/open_window.svg\")) + \") no-repeat 0px/20px;background-position:center;border:none;cursor:pointer}#projects .project .project-btn:hover{background:transparent url(\" + escape(require(\"../images/open_window_hover.svg\")) + \") no-repeat 0px/20px}@media screen and (min-width: 568px){#projects{font-size:1rem}}#modal{display:flex;flex-direction:column;justify-content:space-between}#modal div{padding:40px 20px 0px;text-align:center}#modal div .project-image{width:100%;margin:30px 0;border-radius:1rem;-webkit-animation:fadeIn ease-in 1;animation:fadeIn ease-in 1;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-duration:0.25s;animation-duration:0.25s}@-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}#modal footer{display:flex;justify-content:center;width:100%}#modal footer img{height:30px;margin:20px 10px}@media screen and (min-width: 568px){#modal div .project-image{width:90%}}\\n\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
@@ -24913,7 +24913,7 @@
               "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/projects.scss",
               "type": "cjs require",
               "userRequest": "../images/open_window.svg",
-              "loc": "7:497-533"
+              "loc": "7:499-535"
             }
           ],
           "usedExports": true,
@@ -24961,7 +24961,7 @@
               "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/projects.scss",
               "type": "cjs require",
               "userRequest": "../images/open_window_hover.svg",
-              "loc": "7:689-731"
+              "loc": "7:691-733"
             }
           ],
           "usedExports": true,
