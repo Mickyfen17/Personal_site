@@ -1,4 +1,4 @@
-# Person Website
+# Personal Website
 
 [![Build Status](https://travis-ci.com/Mickyfen17/Personal_site.svg?branch=master)](https://travis-ci.com/Mickyfen17/Personal_site)
 
