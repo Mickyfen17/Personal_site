@@ -4,15 +4,15 @@
   "warnings": [
   ],
   "version": "4.44.1",
-  "hash": "61e280a86694a3c71ed7",
-  "time": 10422,
-  "builtAt": 1615354076714,
+  "hash": "bb02954d7d8e60b07150",
+  "time": 10221,
+  "builtAt": 1615354743380,
   "publicPath": "",
   "outputPath": "/home/travis/build/Mickyfen17/Personal_site/dist",
   "assetsByChunkName": {
     "main": [
-      "main.61e280a86694a3c71ed7.css",
-      "main.61e280a86694a3c71ed7.bundle.js"
+      "main.bb02954d7d8e60b07150.css",
+      "main.bb02954d7d8e60b07150.bundle.js"
     ]
   },
   "assets": [
@@ -182,7 +182,7 @@
       "emitted": true
     },
     {
-      "name": "main.61e280a86694a3c71ed7.bundle.js",
+      "name": "main.bb02954d7d8e60b07150.bundle.js",
       "size": 164973,
       "chunks": [
         0
@@ -194,13 +194,13 @@
         "immutable": true,
         "minimized": true,
         "related": {
-          "brotliCompressed": "main.61e280a86694a3c71ed7.bundle.js.br"
+          "brotliCompressed": "main.bb02954d7d8e60b07150.bundle.js.br"
         }
       },
       "emitted": true
     },
     {
-      "name": "main.61e280a86694a3c71ed7.bundle.js.LICENSE.txt",
+      "name": "main.bb02954d7d8e60b07150.bundle.js.LICENSE.txt",
       "size": 790,
       "chunks": [
       ],
@@ -211,8 +211,8 @@
       "emitted": true
     },
     {
-      "name": "main.61e280a86694a3c71ed7.bundle.js.br",
-      "size": 41912,
+      "name": "main.bb02954d7d8e60b07150.bundle.js.br",
+      "size": 41881,
       "chunks": [
       ],
       "chunkNames": [
@@ -223,8 +223,8 @@
       "emitted": true
     },
     {
-      "name": "main.61e280a86694a3c71ed7.css",
-      "size": 28687,
+      "name": "main.bb02954d7d8e60b07150.css",
+      "size": 28705,
       "chunks": [
         0
       ],
@@ -234,14 +234,14 @@
       "info": {
         "immutable": true,
         "related": {
-          "brotliCompressed": "main.61e280a86694a3c71ed7.css.br"
+          "brotliCompressed": "main.bb02954d7d8e60b07150.css.br"
         }
       },
       "emitted": true
     },
     {
-      "name": "main.61e280a86694a3c71ed7.css.br",
-      "size": 6451,
+      "name": "main.bb02954d7d8e60b07150.css.br",
+      "size": 6455,
       "chunks": [
       ],
       "chunkNames": [
@@ -259,8 +259,8 @@
         0
       ],
       "assets": [
-        "main.61e280a86694a3c71ed7.css",
-        "main.61e280a86694a3c71ed7.bundle.js"
+        "main.bb02954d7d8e60b07150.css",
+        "main.bb02954d7d8e60b07150.bundle.js"
       ],
       "children": {
       },
@@ -274,8 +274,8 @@
         0
       ],
       "assets": [
-        "main.61e280a86694a3c71ed7.css",
-        "main.61e280a86694a3c71ed7.bundle.js"
+        "main.bb02954d7d8e60b07150.css",
+        "main.bb02954d7d8e60b07150.bundle.js"
       ],
       "children": {
       },
@@ -289,15 +289,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 243118,
+      "size": 243352,
       "names": [
         "main"
       ],
       "files": [
-        "main.61e280a86694a3c71ed7.css",
-        "main.61e280a86694a3c71ed7.bundle.js"
+        "main.bb02954d7d8e60b07150.css",
+        "main.bb02954d7d8e60b07150.bundle.js"
       ],
-      "hash": "041ccce05767d884cd8e",
+      "hash": "d4c742ac42b1e40e8c3a",
       "siblings": [
       ],
       "parents": [
@@ -6692,7 +6692,7 @@
           "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/main.scss (1)",
           "index": 92,
           "index2": 89,
-          "size": 1206,
+          "size": 1224,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -6813,7 +6813,7 @@
           "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/neonHeader.scss (1)",
           "index": 29,
           "index2": 23,
-          "size": 5240,
+          "size": 5258,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -6949,7 +6949,7 @@
           "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/about.scss (1)",
           "index": 53,
           "index2": 47,
-          "size": 397,
+          "size": 415,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -7085,7 +7085,7 @@
           "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/projects.scss (1)",
           "index": 64,
           "index2": 58,
-          "size": 3543,
+          "size": 3561,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -7221,7 +7221,7 @@
           "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/footer.scss (1)",
           "index": 69,
           "index2": 63,
-          "size": 12952,
+          "size": 12970,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -7357,7 +7357,7 @@
           "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/toggle.scss (1)",
           "index": 74,
           "index2": 68,
-          "size": 901,
+          "size": 919,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -7493,7 +7493,7 @@
           "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/loading.scss (1)",
           "index": 79,
           "index2": 73,
-          "size": 329,
+          "size": 347,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -7629,7 +7629,7 @@
           "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/error.scss (1)",
           "index": 89,
           "index2": 83,
-          "size": 1111,
+          "size": 1129,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -7775,7 +7775,7 @@
           "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/anchorLink.scss (1)",
           "index": 38,
           "index2": 28,
-          "size": 288,
+          "size": 306,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -7931,7 +7931,7 @@
           "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/neonContentWrapper.scss (1)",
           "index": 48,
           "index2": 38,
-          "size": 1029,
+          "size": 1047,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -8087,7 +8087,7 @@
           "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/modal.scss (1)",
           "index": 60,
           "index2": 52,
-          "size": 2744,
+          "size": 2762,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -8243,7 +8243,7 @@
           "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/miscHeader.scss (1)",
           "index": 84,
           "index2": 76,
-          "size": 2330,
+          "size": 2348,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -8409,7 +8409,7 @@
           "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/neonSubHeader.scss (1)",
           "index": 45,
           "index2": 33,
-          "size": 1237,
+          "size": 1255,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -14892,7 +14892,7 @@
       "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/main.scss (1)",
       "index": 92,
       "index2": 89,
-      "size": 1206,
+      "size": 1224,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -15013,7 +15013,7 @@
       "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/about.scss (1)",
       "index": 53,
       "index2": 47,
-      "size": 397,
+      "size": 415,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -15149,7 +15149,7 @@
       "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/error.scss (1)",
       "index": 89,
       "index2": 83,
-      "size": 1111,
+      "size": 1129,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -15285,7 +15285,7 @@
       "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/footer.scss (1)",
       "index": 69,
       "index2": 63,
-      "size": 12952,
+      "size": 12970,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -15421,7 +15421,7 @@
       "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/loading.scss (1)",
       "index": 79,
       "index2": 73,
-      "size": 329,
+      "size": 347,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -15557,7 +15557,7 @@
       "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/neonHeader.scss (1)",
       "index": 29,
       "index2": 23,
-      "size": 5240,
+      "size": 5258,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -15693,7 +15693,7 @@
       "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/projects.scss (1)",
       "index": 64,
       "index2": 58,
-      "size": 3543,
+      "size": 3561,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -15829,7 +15829,7 @@
       "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/toggle.scss (1)",
       "index": 74,
       "index2": 68,
-      "size": 901,
+      "size": 919,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -15975,7 +15975,7 @@
       "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/anchorLink.scss (1)",
       "index": 38,
       "index2": 28,
-      "size": 288,
+      "size": 306,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -16131,7 +16131,7 @@
       "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/miscHeader.scss (1)",
       "index": 84,
       "index2": 76,
-      "size": 2330,
+      "size": 2348,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -16287,7 +16287,7 @@
       "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/modal.scss (1)",
       "index": 60,
       "index2": 52,
-      "size": 2744,
+      "size": 2762,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -16443,7 +16443,7 @@
       "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/neonContentWrapper.scss (1)",
       "index": 48,
       "index2": 38,
-      "size": 1029,
+      "size": 1047,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -16609,7 +16609,7 @@
       "name": "css ./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/neonSubHeader.scss (1)",
       "index": 45,
       "index2": 33,
-      "size": 1237,
+      "size": 1255,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -17340,14 +17340,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 3643,
+          "size": 3661,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "bae7973865520931ce8c",
+          "hash": "c9efec846186a40d25d9",
           "siblings": [
           ],
           "parents": [
@@ -17363,7 +17363,7 @@
               "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/about.scss",
               "index": 0,
               "index2": 4,
-              "size": 770,
+              "size": 788,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -17397,7 +17397,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}#about .skills-wrapper h3{color:#1569e0;font-size:1.2rem;font-weight:bold}#about .skills-wrapper .skill-block{margin:12px 0}#about .skills-wrapper .each-skill:after{content:', '}#about .skills-wrapper .each-skill:last-child:after{content:''}\\n\", \"\"]);\n\n// exports\n"
+              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}#about .skills-wrapper h3{color:#1569e0;font-size:1.2rem;font-weight:bold}#about .skills-wrapper .skill-block{margin:12px 0}#about .skills-wrapper .each-skill:after{content:', '}#about .skills-wrapper .each-skill:last-child:after{content:''}\\n\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -17613,7 +17613,7 @@
           "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/about.scss",
           "index": 0,
           "index2": 4,
-          "size": 770,
+          "size": 788,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -17647,7 +17647,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}#about .skills-wrapper h3{color:#1569e0;font-size:1.2rem;font-weight:bold}#about .skills-wrapper .skill-block{margin:12px 0}#about .skills-wrapper .each-skill:after{content:', '}#about .skills-wrapper .each-skill:last-child:after{content:''}\\n\", \"\"]);\n\n// exports\n"
+          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}#about .skills-wrapper h3{color:#1569e0;font-size:1.2rem;font-weight:bold}#about .skills-wrapper .skill-block{margin:12px 0}#about .skills-wrapper .each-skill:after{content:', '}#about .skills-wrapper .each-skill:last-child:after{content:''}\\n\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
@@ -17901,14 +17901,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 3534,
+          "size": 3552,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "95312e2fbcc7efd64ad3",
+          "hash": "8ebc263bc7b94609044e",
           "siblings": [
           ],
           "parents": [
@@ -17924,7 +17924,7 @@
               "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/anchorLink.scss",
               "index": 0,
               "index2": 4,
-              "size": 661,
+              "size": 679,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -17958,7 +17958,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}.anchor{font-weight:700;color:#f813f5}.anchor:hover{color:#77d8fe}.anchor:visited{color:#f813f5}.anchor:visited:hover{color:#77d8fe}\\n\", \"\"]);\n\n// exports\n"
+              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}.anchor{font-weight:700;color:#f813f5}.anchor:hover{color:#77d8fe}.anchor:visited{color:#f813f5}.anchor:visited:hover{color:#77d8fe}\\n\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -18174,7 +18174,7 @@
           "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/anchorLink.scss",
           "index": 0,
           "index2": 4,
-          "size": 661,
+          "size": 679,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -18208,7 +18208,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}.anchor{font-weight:700;color:#f813f5}.anchor:hover{color:#77d8fe}.anchor:visited{color:#f813f5}.anchor:visited:hover{color:#77d8fe}\\n\", \"\"]);\n\n// exports\n"
+          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}.anchor{font-weight:700;color:#f813f5}.anchor:hover{color:#77d8fe}.anchor:visited{color:#f813f5}.anchor:visited:hover{color:#77d8fe}\\n\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
@@ -18462,14 +18462,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 4357,
+          "size": 4375,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "4166110a436d38deb59d",
+          "hash": "167beeda716ef071587f",
           "siblings": [
           ],
           "parents": [
@@ -18485,7 +18485,7 @@
               "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/error.scss",
               "index": 0,
               "index2": 4,
-              "size": 1484,
+              "size": 1502,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -18519,7 +18519,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}.error{position:absolute;top:42%;left:0;right:0;display:flex;flex-direction:column;align-items:center}.error h1{transform:translateY(-50%) skew(0, -5deg)}.error h4{margin:15px 0 25px;font-family:NeonGlow,sans-serif;font-size:1.2rem;color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}.error button{padding:10px 20px;background:transparent;font-family:NeonGlow,sans-serif;color:#fffffe;font-size:1rem;text-shadow:0 0 16px #48a3f1,0 0 8px #48a3f1,0 0 3px #48a3f1,-1px 1px 1px #77d8fe;border:3px solid #fffffe;border-radius:1rem;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe;cursor:pointer}@media screen and (min-width: 568px){.error h4{font-size:1.6em}.error button{font-size:1.4rem}}@media screen and (min-width: 768px){.error h4{font-size:2em}}@media screen and (min-width: 1280px){.error h4{font-size:2.4em}}\\n\", \"\"]);\n\n// exports\n"
+              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}.error{position:absolute;top:42%;left:0;right:0;display:flex;flex-direction:column;align-items:center}.error h1{transform:translateY(-50%) skew(0, -5deg)}.error h4{margin:15px 0 25px;font-family:NeonGlow,sans-serif;font-size:1.2rem;color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}.error button{padding:10px 20px;background:transparent;font-family:NeonGlow,sans-serif;color:#fffffe;font-size:1rem;text-shadow:0 0 16px #48a3f1,0 0 8px #48a3f1,0 0 3px #48a3f1,-1px 1px 1px #77d8fe;border:3px solid #fffffe;border-radius:1rem;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe;cursor:pointer}@media screen and (min-width: 568px){.error h4{font-size:1.6em}.error button{font-size:1.4rem}}@media screen and (min-width: 768px){.error h4{font-size:2em}}@media screen and (min-width: 1280px){.error h4{font-size:2.4em}}\\n\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -18735,7 +18735,7 @@
           "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/error.scss",
           "index": 0,
           "index2": 4,
-          "size": 1484,
+          "size": 1502,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -18769,7 +18769,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}.error{position:absolute;top:42%;left:0;right:0;display:flex;flex-direction:column;align-items:center}.error h1{transform:translateY(-50%) skew(0, -5deg)}.error h4{margin:15px 0 25px;font-family:NeonGlow,sans-serif;font-size:1.2rem;color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}.error button{padding:10px 20px;background:transparent;font-family:NeonGlow,sans-serif;color:#fffffe;font-size:1rem;text-shadow:0 0 16px #48a3f1,0 0 8px #48a3f1,0 0 3px #48a3f1,-1px 1px 1px #77d8fe;border:3px solid #fffffe;border-radius:1rem;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe;cursor:pointer}@media screen and (min-width: 568px){.error h4{font-size:1.6em}.error button{font-size:1.4rem}}@media screen and (min-width: 768px){.error h4{font-size:2em}}@media screen and (min-width: 1280px){.error h4{font-size:2.4em}}\\n\", \"\"]);\n\n// exports\n"
+          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}.error{position:absolute;top:42%;left:0;right:0;display:flex;flex-direction:column;align-items:center}.error h1{transform:translateY(-50%) skew(0, -5deg)}.error h4{margin:15px 0 25px;font-family:NeonGlow,sans-serif;font-size:1.2rem;color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}.error button{padding:10px 20px;background:transparent;font-family:NeonGlow,sans-serif;color:#fffffe;font-size:1rem;text-shadow:0 0 16px #48a3f1,0 0 8px #48a3f1,0 0 3px #48a3f1,-1px 1px 1px #77d8fe;border:3px solid #fffffe;border-radius:1rem;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe;cursor:pointer}@media screen and (min-width: 568px){.error h4{font-size:1.6em}.error button{font-size:1.4rem}}@media screen and (min-width: 768px){.error h4{font-size:2em}}@media screen and (min-width: 1280px){.error h4{font-size:2.4em}}\\n\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
@@ -19023,14 +19023,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 16754,
+          "size": 16772,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "a3685973f566e361f0f7",
+          "hash": "9cc4bc3ba26c1ec7d9cb",
           "siblings": [
           ],
           "parents": [
@@ -19046,7 +19046,7 @@
               "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/footer.scss",
               "index": 0,
               "index2": 12,
-              "size": 2001,
+              "size": 2019,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -19080,7 +19080,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}#footer{position:relative;display:flex;justify-content:center;height:150px}#footer .anchor{width:40px;height:40px;margin:35px 10px 0 10px;transition:background 250ms}#footer .anchor.github{background:transparent url(\" + escape(require(\"../images/github.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.github:hover{background:transparent url(\" + escape(require(\"../images/github_hover.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.linkedin{background:transparent url(\" + escape(require(\"../images/linkedin.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.linkedin:hover{background:transparent url(\" + escape(require(\"../images/linkedin_hover.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.twitter{background:transparent url(\" + escape(require(\"../images/twitter.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.twitter:hover{background:transparent url(\" + escape(require(\"../images/twitter_hover.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.email{background:transparent url(\" + escape(require(\"../images/email.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.email:hover{background:transparent url(\" + escape(require(\"../images/email_hover.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .footer-tag{position:absolute;bottom:25px;left:20px;font-size:0.8em;color:#fffffe}\\n\", \"\"]);\n\n// exports\n"
+              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}#footer{position:relative;display:flex;justify-content:center;height:150px}#footer .anchor{width:40px;height:40px;margin:35px 10px 0 10px;transition:background 250ms}#footer .anchor.github{background:transparent url(\" + escape(require(\"../images/github.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.github:hover{background:transparent url(\" + escape(require(\"../images/github_hover.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.linkedin{background:transparent url(\" + escape(require(\"../images/linkedin.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.linkedin:hover{background:transparent url(\" + escape(require(\"../images/linkedin_hover.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.twitter{background:transparent url(\" + escape(require(\"../images/twitter.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.twitter:hover{background:transparent url(\" + escape(require(\"../images/twitter_hover.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.email{background:transparent url(\" + escape(require(\"../images/email.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.email:hover{background:transparent url(\" + escape(require(\"../images/email_hover.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .footer-tag{position:absolute;bottom:25px;left:20px;font-size:0.8em;color:#fffffe}\\n\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -19311,7 +19311,7 @@
                   "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/footer.scss",
                   "type": "cjs require",
                   "userRequest": "../images/github.svg",
-                  "loc": "7:451-482"
+                  "loc": "7:469-500"
                 }
               ],
               "usedExports": true,
@@ -19359,7 +19359,7 @@
                   "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/footer.scss",
                   "type": "cjs require",
                   "userRequest": "../images/github_hover.svg",
-                  "loc": "7:602-639"
+                  "loc": "7:620-657"
                 }
               ],
               "usedExports": true,
@@ -19407,7 +19407,7 @@
                   "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/footer.scss",
                   "type": "cjs require",
                   "userRequest": "../images/linkedin.svg",
-                  "loc": "7:755-788"
+                  "loc": "7:773-806"
                 }
               ],
               "usedExports": true,
@@ -19455,7 +19455,7 @@
                   "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/footer.scss",
                   "type": "cjs require",
                   "userRequest": "../images/linkedin_hover.svg",
-                  "loc": "7:910-949"
+                  "loc": "7:928-967"
                 }
               ],
               "usedExports": true,
@@ -19503,7 +19503,7 @@
                   "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/footer.scss",
                   "type": "cjs require",
                   "userRequest": "../images/twitter.svg",
-                  "loc": "7:1064-1096"
+                  "loc": "7:1082-1114"
                 }
               ],
               "usedExports": true,
@@ -19551,7 +19551,7 @@
                   "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/footer.scss",
                   "type": "cjs require",
                   "userRequest": "../images/twitter_hover.svg",
-                  "loc": "7:1217-1255"
+                  "loc": "7:1235-1273"
                 }
               ],
               "usedExports": true,
@@ -19599,7 +19599,7 @@
                   "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/footer.scss",
                   "type": "cjs require",
                   "userRequest": "../images/email.svg",
-                  "loc": "7:1368-1398"
+                  "loc": "7:1386-1416"
                 }
               ],
               "usedExports": true,
@@ -19647,7 +19647,7 @@
                   "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/footer.scss",
                   "type": "cjs require",
                   "userRequest": "../images/email_hover.svg",
-                  "loc": "7:1517-1553"
+                  "loc": "7:1535-1571"
                 }
               ],
               "usedExports": true,
@@ -19680,7 +19680,7 @@
           "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/footer.scss",
           "index": 0,
           "index2": 12,
-          "size": 2001,
+          "size": 2019,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -19714,7 +19714,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}#footer{position:relative;display:flex;justify-content:center;height:150px}#footer .anchor{width:40px;height:40px;margin:35px 10px 0 10px;transition:background 250ms}#footer .anchor.github{background:transparent url(\" + escape(require(\"../images/github.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.github:hover{background:transparent url(\" + escape(require(\"../images/github_hover.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.linkedin{background:transparent url(\" + escape(require(\"../images/linkedin.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.linkedin:hover{background:transparent url(\" + escape(require(\"../images/linkedin_hover.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.twitter{background:transparent url(\" + escape(require(\"../images/twitter.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.twitter:hover{background:transparent url(\" + escape(require(\"../images/twitter_hover.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.email{background:transparent url(\" + escape(require(\"../images/email.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.email:hover{background:transparent url(\" + escape(require(\"../images/email_hover.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .footer-tag{position:absolute;bottom:25px;left:20px;font-size:0.8em;color:#fffffe}\\n\", \"\"]);\n\n// exports\n"
+          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}#footer{position:relative;display:flex;justify-content:center;height:150px}#footer .anchor{width:40px;height:40px;margin:35px 10px 0 10px;transition:background 250ms}#footer .anchor.github{background:transparent url(\" + escape(require(\"../images/github.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.github:hover{background:transparent url(\" + escape(require(\"../images/github_hover.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.linkedin{background:transparent url(\" + escape(require(\"../images/linkedin.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.linkedin:hover{background:transparent url(\" + escape(require(\"../images/linkedin_hover.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.twitter{background:transparent url(\" + escape(require(\"../images/twitter.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.twitter:hover{background:transparent url(\" + escape(require(\"../images/twitter_hover.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.email{background:transparent url(\" + escape(require(\"../images/email.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .anchor.email:hover{background:transparent url(\" + escape(require(\"../images/email_hover.svg\")) + \") no-repeat 8px/30px;background-position:center}#footer .footer-tag{position:absolute;bottom:25px;left:20px;font-size:0.8em;color:#fffffe}\\n\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
@@ -19945,7 +19945,7 @@
               "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/footer.scss",
               "type": "cjs require",
               "userRequest": "../images/github.svg",
-              "loc": "7:451-482"
+              "loc": "7:469-500"
             }
           ],
           "usedExports": true,
@@ -19993,7 +19993,7 @@
               "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/footer.scss",
               "type": "cjs require",
               "userRequest": "../images/github_hover.svg",
-              "loc": "7:602-639"
+              "loc": "7:620-657"
             }
           ],
           "usedExports": true,
@@ -20041,7 +20041,7 @@
               "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/footer.scss",
               "type": "cjs require",
               "userRequest": "../images/linkedin.svg",
-              "loc": "7:755-788"
+              "loc": "7:773-806"
             }
           ],
           "usedExports": true,
@@ -20089,7 +20089,7 @@
               "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/footer.scss",
               "type": "cjs require",
               "userRequest": "../images/linkedin_hover.svg",
-              "loc": "7:910-949"
+              "loc": "7:928-967"
             }
           ],
           "usedExports": true,
@@ -20137,7 +20137,7 @@
               "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/footer.scss",
               "type": "cjs require",
               "userRequest": "../images/twitter.svg",
-              "loc": "7:1064-1096"
+              "loc": "7:1082-1114"
             }
           ],
           "usedExports": true,
@@ -20185,7 +20185,7 @@
               "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/footer.scss",
               "type": "cjs require",
               "userRequest": "../images/twitter_hover.svg",
-              "loc": "7:1217-1255"
+              "loc": "7:1235-1273"
             }
           ],
           "usedExports": true,
@@ -20233,7 +20233,7 @@
               "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/footer.scss",
               "type": "cjs require",
               "userRequest": "../images/email.svg",
-              "loc": "7:1368-1398"
+              "loc": "7:1386-1416"
             }
           ],
           "usedExports": true,
@@ -20281,7 +20281,7 @@
               "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/footer.scss",
               "type": "cjs require",
               "userRequest": "../images/email_hover.svg",
-              "loc": "7:1517-1553"
+              "loc": "7:1535-1571"
             }
           ],
           "usedExports": true,
@@ -20352,14 +20352,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 3575,
+          "size": 3593,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "5a919b429ce858cda269",
+          "hash": "40a16e9a90a5b7b45066",
           "siblings": [
           ],
           "parents": [
@@ -20375,7 +20375,7 @@
               "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/loading.scss",
               "index": 0,
               "index2": 4,
-              "size": 702,
+              "size": 720,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -20409,7 +20409,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}.loading{position:absolute;top:50%;left:0;right:0;transform:translateY(-50%) skew(0, -5deg);width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin:0 auto}\\n\", \"\"]);\n\n// exports\n"
+              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}.loading{position:absolute;top:50%;left:0;right:0;transform:translateY(-50%) skew(0, -5deg);width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin:0 auto}\\n\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -20625,7 +20625,7 @@
           "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/loading.scss",
           "index": 0,
           "index2": 4,
-          "size": 702,
+          "size": 720,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -20659,7 +20659,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}.loading{position:absolute;top:50%;left:0;right:0;transform:translateY(-50%) skew(0, -5deg);width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin:0 auto}\\n\", \"\"]);\n\n// exports\n"
+          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}.loading{position:absolute;top:50%;left:0;right:0;transform:translateY(-50%) skew(0, -5deg);width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin:0 auto}\\n\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
@@ -20913,14 +20913,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 4454,
+          "size": 4472,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "7d2a8acfd8d938026faf",
+          "hash": "21f5dd80e1cc35a44f17",
           "siblings": [
           ],
           "parents": [
@@ -20936,7 +20936,7 @@
               "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/main.scss",
               "index": 0,
               "index2": 4,
-              "size": 1581,
+              "size": 1599,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -20970,7 +20970,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after{content:'';content:none}q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}body{color:#a1b9b8;background:#161616;font-size:1rem;font-family:\\\"Lato\\\",sans-serif;margin:0 auto;padding:0 14px}body.modal_open{overflow:hidden}@media screen and (min-width: 568px){body{padding:0 28px}}@media screen and (min-width: 768px){body{padding:0 38px}}\\n\", \"\"]);\n\n// exports\n"
+              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after{content:'';content:none}q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}body{color:#a1b9b8;background:#161616;font-size:1rem;font-family:\\\"Lato\\\",sans-serif;margin:0 auto;padding:0 14px}body.modal_open{overflow:hidden}@media screen and (min-width: 568px){body{padding:0 28px}}@media screen and (min-width: 768px){body{padding:0 38px}}\\n\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -21186,7 +21186,7 @@
           "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/main.scss",
           "index": 0,
           "index2": 4,
-          "size": 1581,
+          "size": 1599,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -21220,7 +21220,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after{content:'';content:none}q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}body{color:#a1b9b8;background:#161616;font-size:1rem;font-family:\\\"Lato\\\",sans-serif;margin:0 auto;padding:0 14px}body.modal_open{overflow:hidden}@media screen and (min-width: 568px){body{padding:0 28px}}@media screen and (min-width: 768px){body{padding:0 38px}}\\n\", \"\"]);\n\n// exports\n"
+          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after{content:'';content:none}q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}body{color:#a1b9b8;background:#161616;font-size:1rem;font-family:\\\"Lato\\\",sans-serif;margin:0 auto;padding:0 14px}body.modal_open{overflow:hidden}@media screen and (min-width: 568px){body{padding:0 28px}}@media screen and (min-width: 768px){body{padding:0 38px}}\\n\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
@@ -21474,14 +21474,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 5576,
+          "size": 5594,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "b69257a26956063e7001",
+          "hash": "204717e3cc1afe1de8b3",
           "siblings": [
           ],
           "parents": [
@@ -21497,7 +21497,7 @@
               "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/miscHeader.scss",
               "index": 0,
               "index2": 4,
-              "size": 2703,
+              "size": 2721,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -21531,7 +21531,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}@-webkit-keyframes underline-flicker{20%{box-shadow:none}21%{box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{box-shadow:none}51%{box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{box-shadow:none}52%{box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;box-shadow:none}91%{color:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;box-shadow:none}92.5%{color:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;box-shadow:none}99.5%{color:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@keyframes underline-flicker{20%{box-shadow:none}21%{box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{box-shadow:none}51%{box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{box-shadow:none}52%{box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;box-shadow:none}91%{color:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;box-shadow:none}92.5%{color:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;box-shadow:none}99.5%{color:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}#misc-header{font-family:NeonGlow,sans-serif;font-size:3rem;text-align:center;color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}#misc-header:after{content:'';position:absolute;bottom:-15px;left:0;right:0;height:4px;border-radius:1rem;background:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5;-webkit-animation:underline-flicker step-end infinite 6s;animation:underline-flicker step-end infinite 6s}@media screen and (min-width: 568px){#misc-header{font-size:3.5em}}@media screen and (min-width: 768px){#misc-header{font-size:4em}}@media screen and (min-width: 1280px){#misc-header{font-size:5em}}\\n\", \"\"]);\n\n// exports\n"
+              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}@-webkit-keyframes underline-flicker{20%{box-shadow:none}21%{box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{box-shadow:none}51%{box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{box-shadow:none}52%{box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;box-shadow:none}91%{color:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;box-shadow:none}92.5%{color:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;box-shadow:none}99.5%{color:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@keyframes underline-flicker{20%{box-shadow:none}21%{box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{box-shadow:none}51%{box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{box-shadow:none}52%{box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;box-shadow:none}91%{color:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;box-shadow:none}92.5%{color:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;box-shadow:none}99.5%{color:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}#misc-header{font-family:NeonGlow,sans-serif;font-size:3rem;text-align:center;color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}#misc-header:after{content:'';position:absolute;bottom:-15px;left:0;right:0;height:4px;border-radius:1rem;background:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5;-webkit-animation:underline-flicker step-end infinite 6s;animation:underline-flicker step-end infinite 6s}@media screen and (min-width: 568px){#misc-header{font-size:3.5em}}@media screen and (min-width: 768px){#misc-header{font-size:4em}}@media screen and (min-width: 1280px){#misc-header{font-size:5em}}\\n\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -21747,7 +21747,7 @@
           "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/miscHeader.scss",
           "index": 0,
           "index2": 4,
-          "size": 2703,
+          "size": 2721,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -21781,7 +21781,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}@-webkit-keyframes underline-flicker{20%{box-shadow:none}21%{box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{box-shadow:none}51%{box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{box-shadow:none}52%{box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;box-shadow:none}91%{color:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;box-shadow:none}92.5%{color:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;box-shadow:none}99.5%{color:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@keyframes underline-flicker{20%{box-shadow:none}21%{box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{box-shadow:none}51%{box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{box-shadow:none}52%{box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;box-shadow:none}91%{color:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;box-shadow:none}92.5%{color:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;box-shadow:none}99.5%{color:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}#misc-header{font-family:NeonGlow,sans-serif;font-size:3rem;text-align:center;color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}#misc-header:after{content:'';position:absolute;bottom:-15px;left:0;right:0;height:4px;border-radius:1rem;background:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5;-webkit-animation:underline-flicker step-end infinite 6s;animation:underline-flicker step-end infinite 6s}@media screen and (min-width: 568px){#misc-header{font-size:3.5em}}@media screen and (min-width: 768px){#misc-header{font-size:4em}}@media screen and (min-width: 1280px){#misc-header{font-size:5em}}\\n\", \"\"]);\n\n// exports\n"
+          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}@-webkit-keyframes underline-flicker{20%{box-shadow:none}21%{box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{box-shadow:none}51%{box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{box-shadow:none}52%{box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;box-shadow:none}91%{color:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;box-shadow:none}92.5%{color:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;box-shadow:none}99.5%{color:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@keyframes underline-flicker{20%{box-shadow:none}21%{box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{box-shadow:none}51%{box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{box-shadow:none}52%{box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;box-shadow:none}91%{color:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;box-shadow:none}92.5%{color:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;box-shadow:none}99.5%{color:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}#misc-header{font-family:NeonGlow,sans-serif;font-size:3rem;text-align:center;color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}#misc-header:after{content:'';position:absolute;bottom:-15px;left:0;right:0;height:4px;border-radius:1rem;background:#fffffe;box-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5;-webkit-animation:underline-flicker step-end infinite 6s;animation:underline-flicker step-end infinite 6s}@media screen and (min-width: 568px){#misc-header{font-size:3.5em}}@media screen and (min-width: 768px){#misc-header{font-size:4em}}@media screen and (min-width: 1280px){#misc-header{font-size:5em}}\\n\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
@@ -22035,14 +22035,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 5990,
+          "size": 6008,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "8561fcca184e172609b3",
+          "hash": "45b4f551c60298ddf428",
           "siblings": [
           ],
           "parents": [
@@ -22058,7 +22058,7 @@
               "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/modal.scss",
               "index": 0,
               "index2": 4,
-              "size": 3117,
+              "size": 3135,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -22092,7 +22092,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}@-webkit-keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}#overlay{position:fixed;top:0;left:0;bottom:0;right:0;display:flex;align-items:center;justify-content:center;background:rgba(22,22,22,0.9);cursor:pointer}#overlay button{position:absolute;top:10px;right:10px;background:transparent;border:none;color:#a888ad;text-shadow:-4px 4px 2px #000;font-size:1.5rem;font-family:NeonGlow,sans-serif;cursor:pointer}#overlay button.lights-on{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}#overlay button.lights-on.flicker{-webkit-animation:text-flicker step-end infinite 6s;animation:text-flicker step-end infinite 6s}#overlay .neon-content-wrapper{height:85%;width:90%;max-width:700px;margin:0px;padding:0px}#overlay .neon-content-wrapper .sub-header{font-size:1.2rem;z-index:1}#overlay .neon-content-wrapper #modal{height:100%;background:#161616;border-radius:inherit;overflow-y:scroll;cursor:default}@media screen and (min-width: 568px){#overlay .neon-content-wrapper .sub-header{font-size:1.6rem}}@media screen and (min-width: 768px){#overlay .neon-content-wrapper .sub-header{font-size:1.8rem}}\\n\", \"\"]);\n\n// exports\n"
+              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}@-webkit-keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}#overlay{position:fixed;top:0;left:0;bottom:0;right:0;display:flex;align-items:center;justify-content:center;background:rgba(22,22,22,0.9);cursor:pointer}#overlay button{position:absolute;top:10px;right:10px;background:transparent;border:none;color:#a888ad;text-shadow:-4px 4px 2px #000;font-size:1.5rem;font-family:NeonGlow,sans-serif;cursor:pointer}#overlay button.lights-on{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}#overlay button.lights-on.flicker{-webkit-animation:text-flicker step-end infinite 6s;animation:text-flicker step-end infinite 6s}#overlay .neon-content-wrapper{height:85%;width:90%;max-width:700px;margin:0px;padding:0px}#overlay .neon-content-wrapper .sub-header{font-size:1.2rem;z-index:1}#overlay .neon-content-wrapper #modal{height:100%;background:#161616;border-radius:inherit;overflow-y:scroll;cursor:default}@media screen and (min-width: 568px){#overlay .neon-content-wrapper .sub-header{font-size:1.6rem}}@media screen and (min-width: 768px){#overlay .neon-content-wrapper .sub-header{font-size:1.8rem}}\\n\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -22308,7 +22308,7 @@
           "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/modal.scss",
           "index": 0,
           "index2": 4,
-          "size": 3117,
+          "size": 3135,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -22342,7 +22342,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}@-webkit-keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}#overlay{position:fixed;top:0;left:0;bottom:0;right:0;display:flex;align-items:center;justify-content:center;background:rgba(22,22,22,0.9);cursor:pointer}#overlay button{position:absolute;top:10px;right:10px;background:transparent;border:none;color:#a888ad;text-shadow:-4px 4px 2px #000;font-size:1.5rem;font-family:NeonGlow,sans-serif;cursor:pointer}#overlay button.lights-on{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}#overlay button.lights-on.flicker{-webkit-animation:text-flicker step-end infinite 6s;animation:text-flicker step-end infinite 6s}#overlay .neon-content-wrapper{height:85%;width:90%;max-width:700px;margin:0px;padding:0px}#overlay .neon-content-wrapper .sub-header{font-size:1.2rem;z-index:1}#overlay .neon-content-wrapper #modal{height:100%;background:#161616;border-radius:inherit;overflow-y:scroll;cursor:default}@media screen and (min-width: 568px){#overlay .neon-content-wrapper .sub-header{font-size:1.6rem}}@media screen and (min-width: 768px){#overlay .neon-content-wrapper .sub-header{font-size:1.8rem}}\\n\", \"\"]);\n\n// exports\n"
+          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}@-webkit-keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}#overlay{position:fixed;top:0;left:0;bottom:0;right:0;display:flex;align-items:center;justify-content:center;background:rgba(22,22,22,0.9);cursor:pointer}#overlay button{position:absolute;top:10px;right:10px;background:transparent;border:none;color:#a888ad;text-shadow:-4px 4px 2px #000;font-size:1.5rem;font-family:NeonGlow,sans-serif;cursor:pointer}#overlay button.lights-on{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}#overlay button.lights-on.flicker{-webkit-animation:text-flicker step-end infinite 6s;animation:text-flicker step-end infinite 6s}#overlay .neon-content-wrapper{height:85%;width:90%;max-width:700px;margin:0px;padding:0px}#overlay .neon-content-wrapper .sub-header{font-size:1.2rem;z-index:1}#overlay .neon-content-wrapper #modal{height:100%;background:#161616;border-radius:inherit;overflow-y:scroll;cursor:default}@media screen and (min-width: 568px){#overlay .neon-content-wrapper .sub-header{font-size:1.6rem}}@media screen and (min-width: 768px){#overlay .neon-content-wrapper .sub-header{font-size:1.8rem}}\\n\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
@@ -22596,14 +22596,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 4275,
+          "size": 4293,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "6a2cd43805b7aca33613",
+          "hash": "b2fffb4e967c0bd57cda",
           "siblings": [
           ],
           "parents": [
@@ -22619,7 +22619,7 @@
               "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/neonContentWrapper.scss",
               "index": 0,
               "index2": 4,
-              "size": 1402,
+              "size": 1420,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -22653,7 +22653,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}.neon-content-wrapper{line-height:1.1rem;max-width:630px;position:relative;padding:20px 16px;margin:0 auto 40px;border-radius:1rem;box-shadow:-4px 3px 2px 0px #161616,-8px 7px 2px 0px #000,inset -4px 3px 2px 0px #161616,inset -8px 7px 2px 0px #000}.neon-content-wrapper.cyan{border:3px solid #8da5eb}.neon-content-wrapper.pink{border:3px solid #a888ad}.neon-content-wrapper.lights-on{border:3px solid #fffffe}.neon-content-wrapper.lights-on.cyan{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}.neon-content-wrapper.lights-on.pink{box-shadow:inset 0 0 3px #ce00ce,inset 0 0 8px #ce00ce,inset 0 0 16px #ce00ce,0 0 3px #ce00ce,0 0 8px #ce00ce,0 0 16px #ce00ce,-3px 3px 3px #f813f5}@media screen and (min-width: 768px){.neon-content-wrapper{font-size:1rem;line-height:1.2rem}}\\n\", \"\"]);\n\n// exports\n"
+              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}.neon-content-wrapper{line-height:1.1rem;max-width:630px;position:relative;padding:20px 16px;margin:0 auto 40px;border-radius:1rem;box-shadow:-4px 3px 2px 0px #161616,-8px 7px 2px 0px #000,inset -4px 3px 2px 0px #161616,inset -8px 7px 2px 0px #000}.neon-content-wrapper.cyan{border:3px solid #8da5eb}.neon-content-wrapper.pink{border:3px solid #a888ad}.neon-content-wrapper.lights-on{border:3px solid #fffffe}.neon-content-wrapper.lights-on.cyan{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}.neon-content-wrapper.lights-on.pink{box-shadow:inset 0 0 3px #ce00ce,inset 0 0 8px #ce00ce,inset 0 0 16px #ce00ce,0 0 3px #ce00ce,0 0 8px #ce00ce,0 0 16px #ce00ce,-3px 3px 3px #f813f5}@media screen and (min-width: 768px){.neon-content-wrapper{font-size:1rem;line-height:1.2rem}}\\n\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -22869,7 +22869,7 @@
           "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/neonContentWrapper.scss",
           "index": 0,
           "index2": 4,
-          "size": 1402,
+          "size": 1420,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -22903,7 +22903,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}.neon-content-wrapper{line-height:1.1rem;max-width:630px;position:relative;padding:20px 16px;margin:0 auto 40px;border-radius:1rem;box-shadow:-4px 3px 2px 0px #161616,-8px 7px 2px 0px #000,inset -4px 3px 2px 0px #161616,inset -8px 7px 2px 0px #000}.neon-content-wrapper.cyan{border:3px solid #8da5eb}.neon-content-wrapper.pink{border:3px solid #a888ad}.neon-content-wrapper.lights-on{border:3px solid #fffffe}.neon-content-wrapper.lights-on.cyan{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}.neon-content-wrapper.lights-on.pink{box-shadow:inset 0 0 3px #ce00ce,inset 0 0 8px #ce00ce,inset 0 0 16px #ce00ce,0 0 3px #ce00ce,0 0 8px #ce00ce,0 0 16px #ce00ce,-3px 3px 3px #f813f5}@media screen and (min-width: 768px){.neon-content-wrapper{font-size:1rem;line-height:1.2rem}}\\n\", \"\"]);\n\n// exports\n"
+          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}.neon-content-wrapper{line-height:1.1rem;max-width:630px;position:relative;padding:20px 16px;margin:0 auto 40px;border-radius:1rem;box-shadow:-4px 3px 2px 0px #161616,-8px 7px 2px 0px #000,inset -4px 3px 2px 0px #161616,inset -8px 7px 2px 0px #000}.neon-content-wrapper.cyan{border:3px solid #8da5eb}.neon-content-wrapper.pink{border:3px solid #a888ad}.neon-content-wrapper.lights-on{border:3px solid #fffffe}.neon-content-wrapper.lights-on.cyan{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}.neon-content-wrapper.lights-on.pink{box-shadow:inset 0 0 3px #ce00ce,inset 0 0 8px #ce00ce,inset 0 0 16px #ce00ce,0 0 3px #ce00ce,0 0 8px #ce00ce,0 0 16px #ce00ce,-3px 3px 3px #f813f5}@media screen and (min-width: 768px){.neon-content-wrapper{font-size:1rem;line-height:1.2rem}}\\n\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
@@ -23157,14 +23157,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 8486,
+          "size": 8504,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "dd8c62d663b318191ac6",
+          "hash": "89bd4b74e25f016f03ec",
           "siblings": [
           ],
           "parents": [
@@ -23180,7 +23180,7 @@
               "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/neonHeader.scss",
               "index": 0,
               "index2": 4,
-              "size": 5613,
+              "size": 5631,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -23214,7 +23214,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}@-webkit-keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@-webkit-keyframes border-flicker{20%{box-shadow:none}21%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}50%{box-shadow:none}51%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}51.5%{box-shadow:none}52%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}89%{border-color:#333;box-shadow:none}91%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}92%{border-color:#333;box-shadow:none}92.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}99%{border-color:#333;box-shadow:none}99.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}}@keyframes border-flicker{20%{box-shadow:none}21%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}50%{box-shadow:none}51%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}51.5%{box-shadow:none}52%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}89%{border-color:#333;box-shadow:none}91%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}92%{border-color:#333;box-shadow:none}92.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}99%{border-color:#333;box-shadow:none}99.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}}#neon-title{display:flex;justify-content:center;font-family:NeonGlow,sans-serif;margin:80px auto;padding:45px 0px;border:5px solid #8da5eb;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;border-radius:50%;box-shadow:-4px 3px 2px 0px #161616,-8px 7px 2px 0px #000,inset -4px 3px 2px 0px #161616,inset -8px 7px 2px 0px #000}#neon-title h1{width:225px;font-size:4em;color:#a888ad;text-align:center;text-shadow:-4px 4px 2px #000}#neon-title.lights-on{border:5px solid #fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe;-webkit-animation:border-flicker step-end infinite 10s;animation:border-flicker step-end infinite 10s}#neon-title.lights-on h1{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}#neon-title.lights-on h1 .flicker{-webkit-animation:text-flicker step-end infinite 5s;animation:text-flicker step-end infinite 5s}@media screen and (min-width: 568px){#neon-title{padding:55px 0px}#neon-title h1{width:280px;font-size:5em}}@media screen and (min-width: 768px){#neon-title{padding:60px 0px}#neon-title h1{width:335px;font-size:6em}}\\n\", \"\"]);\n\n// exports\n"
+              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}@-webkit-keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@-webkit-keyframes border-flicker{20%{box-shadow:none}21%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}50%{box-shadow:none}51%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}51.5%{box-shadow:none}52%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}89%{border-color:#333;box-shadow:none}91%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}92%{border-color:#333;box-shadow:none}92.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}99%{border-color:#333;box-shadow:none}99.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}}@keyframes border-flicker{20%{box-shadow:none}21%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}50%{box-shadow:none}51%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}51.5%{box-shadow:none}52%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}89%{border-color:#333;box-shadow:none}91%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}92%{border-color:#333;box-shadow:none}92.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}99%{border-color:#333;box-shadow:none}99.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}}#neon-title{display:flex;justify-content:center;font-family:NeonGlow,sans-serif;margin:80px auto;padding:45px 0px;border:5px solid #8da5eb;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;border-radius:50%;box-shadow:-4px 3px 2px 0px #161616,-8px 7px 2px 0px #000,inset -4px 3px 2px 0px #161616,inset -8px 7px 2px 0px #000}#neon-title h1{width:225px;font-size:4em;color:#a888ad;text-align:center;text-shadow:-4px 4px 2px #000}#neon-title.lights-on{border:5px solid #fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe;-webkit-animation:border-flicker step-end infinite 10s;animation:border-flicker step-end infinite 10s}#neon-title.lights-on h1{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}#neon-title.lights-on h1 .flicker{-webkit-animation:text-flicker step-end infinite 5s;animation:text-flicker step-end infinite 5s}@media screen and (min-width: 568px){#neon-title{padding:55px 0px}#neon-title h1{width:280px;font-size:5em}}@media screen and (min-width: 768px){#neon-title{padding:60px 0px}#neon-title h1{width:335px;font-size:6em}}\\n\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -23430,7 +23430,7 @@
           "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/neonHeader.scss",
           "index": 0,
           "index2": 4,
-          "size": 5613,
+          "size": 5631,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -23464,7 +23464,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}@-webkit-keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@-webkit-keyframes border-flicker{20%{box-shadow:none}21%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}50%{box-shadow:none}51%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}51.5%{box-shadow:none}52%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}89%{border-color:#333;box-shadow:none}91%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}92%{border-color:#333;box-shadow:none}92.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}99%{border-color:#333;box-shadow:none}99.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}}@keyframes border-flicker{20%{box-shadow:none}21%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}50%{box-shadow:none}51%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}51.5%{box-shadow:none}52%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}89%{border-color:#333;box-shadow:none}91%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}92%{border-color:#333;box-shadow:none}92.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}99%{border-color:#333;box-shadow:none}99.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}}#neon-title{display:flex;justify-content:center;font-family:NeonGlow,sans-serif;margin:80px auto;padding:45px 0px;border:5px solid #8da5eb;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;border-radius:50%;box-shadow:-4px 3px 2px 0px #161616,-8px 7px 2px 0px #000,inset -4px 3px 2px 0px #161616,inset -8px 7px 2px 0px #000}#neon-title h1{width:225px;font-size:4em;color:#a888ad;text-align:center;text-shadow:-4px 4px 2px #000}#neon-title.lights-on{border:5px solid #fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe;-webkit-animation:border-flicker step-end infinite 10s;animation:border-flicker step-end infinite 10s}#neon-title.lights-on h1{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}#neon-title.lights-on h1 .flicker{-webkit-animation:text-flicker step-end infinite 5s;animation:text-flicker step-end infinite 5s}@media screen and (min-width: 568px){#neon-title{padding:55px 0px}#neon-title h1{width:280px;font-size:5em}}@media screen and (min-width: 768px){#neon-title{padding:60px 0px}#neon-title h1{width:335px;font-size:6em}}\\n\", \"\"]);\n\n// exports\n"
+          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}@-webkit-keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@keyframes text-flicker{20%{text-shadow:none}21%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}50%{text-shadow:none}51%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}51.5%{text-shadow:none}52%{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}89%{color:#333;text-shadow:none}91%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}92%{color:#333;text-shadow:none}92.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}99%{color:#333;text-shadow:none}99.5%{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}}@-webkit-keyframes border-flicker{20%{box-shadow:none}21%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}50%{box-shadow:none}51%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}51.5%{box-shadow:none}52%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}89%{border-color:#333;box-shadow:none}91%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}92%{border-color:#333;box-shadow:none}92.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}99%{border-color:#333;box-shadow:none}99.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}}@keyframes border-flicker{20%{box-shadow:none}21%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}50%{box-shadow:none}51%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}51.5%{box-shadow:none}52%{box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}89%{border-color:#333;box-shadow:none}91%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}92%{border-color:#333;box-shadow:none}92.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}99%{border-color:#333;box-shadow:none}99.5%{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}}#neon-title{display:flex;justify-content:center;font-family:NeonGlow,sans-serif;margin:80px auto;padding:45px 0px;border:5px solid #8da5eb;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;border-radius:50%;box-shadow:-4px 3px 2px 0px #161616,-8px 7px 2px 0px #000,inset -4px 3px 2px 0px #161616,inset -8px 7px 2px 0px #000}#neon-title h1{width:225px;font-size:4em;color:#a888ad;text-align:center;text-shadow:-4px 4px 2px #000}#neon-title.lights-on{border:5px solid #fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe;-webkit-animation:border-flicker step-end infinite 10s;animation:border-flicker step-end infinite 10s}#neon-title.lights-on h1{color:#fffffe;text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5}#neon-title.lights-on h1 .flicker{-webkit-animation:text-flicker step-end infinite 5s;animation:text-flicker step-end infinite 5s}@media screen and (min-width: 568px){#neon-title{padding:55px 0px}#neon-title h1{width:280px;font-size:5em}}@media screen and (min-width: 768px){#neon-title{padding:60px 0px}#neon-title h1{width:335px;font-size:6em}}\\n\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
@@ -23718,14 +23718,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 4483,
+          "size": 4501,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "e91b0e3676385e0cfd7e",
+          "hash": "2fdfd2d74cf498e3d01d",
           "siblings": [
           ],
           "parents": [
@@ -23741,7 +23741,7 @@
               "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/neonSubHeader.scss",
               "index": 0,
               "index2": 4,
-              "size": 1610,
+              "size": 1628,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -23775,7 +23775,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}.sub-header{position:absolute;top:-16px;left:50%;transform:translateX(-50%);width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;background:#161616;text-shadow:-4px 4px 2px #000;font-family:NeonGlow,sans-serif;font-size:1.2rem;font-weight:bold;padding:5px 8px}.sub-header.cyan{color:#8da5eb;border-left:3px solid #8da5eb;border-right:3px solid #8da5eb}.sub-header.pink{color:#a888ad;border-left:3px solid #a888ad;border-right:3px solid #a888ad}.sub-header.lights-on{color:#fffffe;border-left:3px solid #fffffe;border-right:3px solid #fffffe}.sub-header.lights-on.cyan{text-shadow:0 0 16px #48a3f1,0 0 8px #48a3f1,0 0 3px #48a3f1,-1px 1px 1px #77d8fe;box-shadow:0 -6px #161616,0 6px #161616,-2px 0 4px 0px #48a3f1,2px 0px 4px 0px #48a3f1}.sub-header.lights-on.pink{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5;box-shadow:0 -6px #161616,0 6px #161616,-2px 0 4px 0px #ce00ce,2px 0px 4px 0px #ce00ce}@media screen and (min-width: 568px){.sub-header{font-size:1.4rem}}@media screen and (min-width: 768px){.sub-header{font-size:1.5rem}}\\n\", \"\"]);\n\n// exports\n"
+              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}.sub-header{position:absolute;top:-16px;left:50%;transform:translateX(-50%);width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;background:#161616;text-shadow:-4px 4px 2px #000;font-family:NeonGlow,sans-serif;font-size:1.2rem;font-weight:bold;padding:5px 8px}.sub-header.cyan{color:#8da5eb;border-left:3px solid #8da5eb;border-right:3px solid #8da5eb}.sub-header.pink{color:#a888ad;border-left:3px solid #a888ad;border-right:3px solid #a888ad}.sub-header.lights-on{color:#fffffe;border-left:3px solid #fffffe;border-right:3px solid #fffffe}.sub-header.lights-on.cyan{text-shadow:0 0 16px #48a3f1,0 0 8px #48a3f1,0 0 3px #48a3f1,-1px 1px 1px #77d8fe;box-shadow:0 -6px #161616,0 6px #161616,-2px 0 4px 0px #48a3f1,2px 0px 4px 0px #48a3f1}.sub-header.lights-on.pink{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5;box-shadow:0 -6px #161616,0 6px #161616,-2px 0 4px 0px #ce00ce,2px 0px 4px 0px #ce00ce}@media screen and (min-width: 568px){.sub-header{font-size:1.4rem}}@media screen and (min-width: 768px){.sub-header{font-size:1.5rem}}\\n\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -23991,7 +23991,7 @@
           "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/neonSubHeader.scss",
           "index": 0,
           "index2": 4,
-          "size": 1610,
+          "size": 1628,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -24025,7 +24025,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}.sub-header{position:absolute;top:-16px;left:50%;transform:translateX(-50%);width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;background:#161616;text-shadow:-4px 4px 2px #000;font-family:NeonGlow,sans-serif;font-size:1.2rem;font-weight:bold;padding:5px 8px}.sub-header.cyan{color:#8da5eb;border-left:3px solid #8da5eb;border-right:3px solid #8da5eb}.sub-header.pink{color:#a888ad;border-left:3px solid #a888ad;border-right:3px solid #a888ad}.sub-header.lights-on{color:#fffffe;border-left:3px solid #fffffe;border-right:3px solid #fffffe}.sub-header.lights-on.cyan{text-shadow:0 0 16px #48a3f1,0 0 8px #48a3f1,0 0 3px #48a3f1,-1px 1px 1px #77d8fe;box-shadow:0 -6px #161616,0 6px #161616,-2px 0 4px 0px #48a3f1,2px 0px 4px 0px #48a3f1}.sub-header.lights-on.pink{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5;box-shadow:0 -6px #161616,0 6px #161616,-2px 0 4px 0px #ce00ce,2px 0px 4px 0px #ce00ce}@media screen and (min-width: 568px){.sub-header{font-size:1.4rem}}@media screen and (min-width: 768px){.sub-header{font-size:1.5rem}}\\n\", \"\"]);\n\n// exports\n"
+          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}.sub-header{position:absolute;top:-16px;left:50%;transform:translateX(-50%);width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;background:#161616;text-shadow:-4px 4px 2px #000;font-family:NeonGlow,sans-serif;font-size:1.2rem;font-weight:bold;padding:5px 8px}.sub-header.cyan{color:#8da5eb;border-left:3px solid #8da5eb;border-right:3px solid #8da5eb}.sub-header.pink{color:#a888ad;border-left:3px solid #a888ad;border-right:3px solid #a888ad}.sub-header.lights-on{color:#fffffe;border-left:3px solid #fffffe;border-right:3px solid #fffffe}.sub-header.lights-on.cyan{text-shadow:0 0 16px #48a3f1,0 0 8px #48a3f1,0 0 3px #48a3f1,-1px 1px 1px #77d8fe;box-shadow:0 -6px #161616,0 6px #161616,-2px 0 4px 0px #48a3f1,2px 0px 4px 0px #48a3f1}.sub-header.lights-on.pink{text-shadow:0 0 16px #ce00ce,0 0 8px #ce00ce,0 0 3px #ce00ce,-3px 3px 3px #f813f5;box-shadow:0 -6px #161616,0 6px #161616,-2px 0 4px 0px #ce00ce,2px 0px 4px 0px #ce00ce}@media screen and (min-width: 568px){.sub-header{font-size:1.4rem}}@media screen and (min-width: 768px){.sub-header{font-size:1.5rem}}\\n\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
@@ -24279,14 +24279,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 6937,
+          "size": 6955,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "00ae90a68af262d2ad10",
+          "hash": "267048e19892fbcc49ef",
           "siblings": [
           ],
           "parents": [
@@ -24302,7 +24302,7 @@
               "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/projects.scss",
               "index": 0,
               "index2": 6,
-              "size": 1790,
+              "size": 1808,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -24336,7 +24336,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}#projects .project{display:flex;align-items:center;justify-items:center;height:30px}#projects .project h3{color:#1569e0;font-size:1.2rem;font-weight:bold;margin-right:10px}#projects .project .project-btn{height:20px;width:20px;padding:0;background:transparent url(\" + escape(require(\"../images/open_window.svg\")) + \") no-repeat 0px/20px;background-position:center;border:none;cursor:pointer}#projects .project .project-btn:hover{background:transparent url(\" + escape(require(\"../images/open_window_hover.svg\")) + \") no-repeat 0px/20px}@media screen and (min-width: 568px){#projects{font-size:1rem}}#modal{display:flex;flex-direction:column;justify-content:space-between}#modal div{padding:40px 20px 0px;text-align:center}#modal div .project-image{width:100%;margin:30px 0;border-radius:1rem;-webkit-animation:fadeIn ease-in 1;animation:fadeIn ease-in 1;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-duration:0.25s;animation-duration:0.25s}@-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}#modal footer{display:flex;justify-content:center;width:100%}#modal footer img{height:30px;margin:20px 10px}@media screen and (min-width: 568px){#modal div .project-image{width:90%}}\\n\", \"\"]);\n\n// exports\n"
+              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}#projects .project{display:flex;align-items:center;justify-items:center;height:30px}#projects .project h3{color:#1569e0;font-size:1.2rem;font-weight:bold;margin-right:10px}#projects .project .project-btn{height:20px;width:20px;padding:0;background:transparent url(\" + escape(require(\"../images/open_window.svg\")) + \") no-repeat 0px/20px;background-position:center;border:none;cursor:pointer}#projects .project .project-btn:hover{background:transparent url(\" + escape(require(\"../images/open_window_hover.svg\")) + \") no-repeat 0px/20px}@media screen and (min-width: 568px){#projects{font-size:1rem}}#modal{display:flex;flex-direction:column;justify-content:space-between}#modal div{padding:40px 20px 0px;text-align:center}#modal div .project-image{width:100%;margin:30px 0;border-radius:1rem;-webkit-animation:fadeIn ease-in 1;animation:fadeIn ease-in 1;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-duration:0.25s;animation-duration:0.25s}@-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}#modal footer{display:flex;justify-content:center;width:100%}#modal footer img{height:30px;margin:20px 10px}@media screen and (min-width: 568px){#modal div .project-image{width:90%}}\\n\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -24567,7 +24567,7 @@
                   "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/projects.scss",
                   "type": "cjs require",
                   "userRequest": "../images/open_window.svg",
-                  "loc": "7:499-535"
+                  "loc": "7:517-553"
                 }
               ],
               "usedExports": true,
@@ -24615,7 +24615,7 @@
                   "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/projects.scss",
                   "type": "cjs require",
                   "userRequest": "../images/open_window_hover.svg",
-                  "loc": "7:691-733"
+                  "loc": "7:709-751"
                 }
               ],
               "usedExports": true,
@@ -24648,7 +24648,7 @@
           "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/projects.scss",
           "index": 0,
           "index2": 6,
-          "size": 1790,
+          "size": 1808,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -24682,7 +24682,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}#projects .project{display:flex;align-items:center;justify-items:center;height:30px}#projects .project h3{color:#1569e0;font-size:1.2rem;font-weight:bold;margin-right:10px}#projects .project .project-btn{height:20px;width:20px;padding:0;background:transparent url(\" + escape(require(\"../images/open_window.svg\")) + \") no-repeat 0px/20px;background-position:center;border:none;cursor:pointer}#projects .project .project-btn:hover{background:transparent url(\" + escape(require(\"../images/open_window_hover.svg\")) + \") no-repeat 0px/20px}@media screen and (min-width: 568px){#projects{font-size:1rem}}#modal{display:flex;flex-direction:column;justify-content:space-between}#modal div{padding:40px 20px 0px;text-align:center}#modal div .project-image{width:100%;margin:30px 0;border-radius:1rem;-webkit-animation:fadeIn ease-in 1;animation:fadeIn ease-in 1;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-duration:0.25s;animation-duration:0.25s}@-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}#modal footer{display:flex;justify-content:center;width:100%}#modal footer img{height:30px;margin:20px 10px}@media screen and (min-width: 568px){#modal div .project-image{width:90%}}\\n\", \"\"]);\n\n// exports\n"
+          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}#projects .project{display:flex;align-items:center;justify-items:center;height:30px}#projects .project h3{color:#1569e0;font-size:1.2rem;font-weight:bold;margin-right:10px}#projects .project .project-btn{height:20px;width:20px;padding:0;background:transparent url(\" + escape(require(\"../images/open_window.svg\")) + \") no-repeat 0px/20px;background-position:center;border:none;cursor:pointer}#projects .project .project-btn:hover{background:transparent url(\" + escape(require(\"../images/open_window_hover.svg\")) + \") no-repeat 0px/20px}@media screen and (min-width: 568px){#projects{font-size:1rem}}#modal{display:flex;flex-direction:column;justify-content:space-between}#modal div{padding:40px 20px 0px;text-align:center}#modal div .project-image{width:100%;margin:30px 0;border-radius:1rem;-webkit-animation:fadeIn ease-in 1;animation:fadeIn ease-in 1;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-duration:0.25s;animation-duration:0.25s}@-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}#modal footer{display:flex;justify-content:center;width:100%}#modal footer img{height:30px;margin:20px 10px}@media screen and (min-width: 568px){#modal div .project-image{width:90%}}\\n\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
@@ -24913,7 +24913,7 @@
               "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/projects.scss",
               "type": "cjs require",
               "userRequest": "../images/open_window.svg",
-              "loc": "7:499-535"
+              "loc": "7:517-553"
             }
           ],
           "usedExports": true,
@@ -24961,7 +24961,7 @@
               "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/projects.scss",
               "type": "cjs require",
               "userRequest": "../images/open_window_hover.svg",
-              "loc": "7:691-733"
+              "loc": "7:709-751"
             }
           ],
           "usedExports": true,
@@ -25032,14 +25032,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 4147,
+          "size": 4165,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "3975cd00ba14e3f32007",
+          "hash": "83330cc268b1672f1ee5",
           "siblings": [
           ],
           "parents": [
@@ -25055,7 +25055,7 @@
               "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/toggle.scss",
               "index": 0,
               "index2": 4,
-              "size": 1274,
+              "size": 1292,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -25089,7 +25089,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}.toggle{position:absolute;right:20px;top:20px;height:24px;width:40px;-webkit-appearance:none;-moz-appearance:none;appearance:none;cursor:pointer;border-radius:1rem;border:2px solid #8da5eb;box-shadow:-4px 3px 2px 0px #161616,-8px 7px 2px 0px #000,inset -4px 3px 2px 0px #161616,inset -8px 7px 2px 0px #000;transition:all 0.2s ease}.toggle:after{content:'';position:absolute;height:calc(24px - 4px);width:calc(24px - 4px);background:#8da5eb;border-radius:50%;transition:transform 0.2s ease-in}.toggle:checked{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}.toggle:checked:after{background:#fffffe;transform:translatex(16px)}\\n\", \"\"]);\n\n// exports\n"
+              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}.toggle{position:absolute;right:20px;top:20px;height:24px;width:40px;-webkit-appearance:none;-moz-appearance:none;appearance:none;cursor:pointer;border-radius:1rem;border:2px solid #8da5eb;box-shadow:-4px 3px 2px 0px #161616,-8px 7px 2px 0px #000,inset -4px 3px 2px 0px #161616,inset -8px 7px 2px 0px #000;transition:all 0.2s ease}.toggle:after{content:'';position:absolute;height:calc(24px - 4px);width:calc(24px - 4px);background:#8da5eb;border-radius:50%;transition:transform 0.2s ease-in}.toggle:checked{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}.toggle:checked:after{background:#fffffe;transform:translatex(16px)}\\n\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -25305,7 +25305,7 @@
           "name": "./node_modules/css-loader!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./styles/toggle.scss",
           "index": 0,
           "index2": 4,
-          "size": 1274,
+          "size": 1292,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -25339,7 +25339,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\")}.toggle{position:absolute;right:20px;top:20px;height:24px;width:40px;-webkit-appearance:none;-moz-appearance:none;appearance:none;cursor:pointer;border-radius:1rem;border:2px solid #8da5eb;box-shadow:-4px 3px 2px 0px #161616,-8px 7px 2px 0px #000,inset -4px 3px 2px 0px #161616,inset -8px 7px 2px 0px #000;transition:all 0.2s ease}.toggle:after{content:'';position:absolute;height:calc(24px - 4px);width:calc(24px - 4px);background:#8da5eb;border-radius:50%;transition:transform 0.2s ease-in}.toggle:checked{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}.toggle:checked:after{background:#fffffe;transform:translatex(16px)}\\n\", \"\"]);\n\n// exports\n"
+          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Lato:400,700);\", \"\"]);\n\n// module\nexports.push([module.id, \"@font-face{font-family:NeonGlow;src:url(\" + escape(require(\"../fonts/neon_glow_light.woff\")) + \") format(\\\"woff\\\"),url(\" + escape(require(\"../fonts//neon_glow_light.ttf\")) + \") format(\\\"truetype\\\");font-display:swap}.toggle{position:absolute;right:20px;top:20px;height:24px;width:40px;-webkit-appearance:none;-moz-appearance:none;appearance:none;cursor:pointer;border-radius:1rem;border:2px solid #8da5eb;box-shadow:-4px 3px 2px 0px #161616,-8px 7px 2px 0px #000,inset -4px 3px 2px 0px #161616,inset -8px 7px 2px 0px #000;transition:all 0.2s ease}.toggle:after{content:'';position:absolute;height:calc(24px - 4px);width:calc(24px - 4px);background:#8da5eb;border-radius:50%;transition:transform 0.2s ease-in}.toggle:checked{border-color:#fffffe;box-shadow:inset 0 0 3px #48a3f1,inset 0 0 8px #48a3f1,inset 0 0 16px #48a3f1,0 0 3px #48a3f1,0 0 8px #48a3f1,0 0 16px #48a3f1,-3px 3px 3px #77d8fe}.toggle:checked:after{background:#fffffe;transform:translatex(16px)}\\n\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
