@@ -43,7 +43,6 @@ const config = {
         viewport: 'width=device-width, initial-scale=1, user-scalable=yes'
       }
     }),
-    new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin()
   ],
   devServer: {
