@@ -11,7 +11,7 @@ const config = {
   mode: 'production',
   output: {
     path: path.join(__dirname, '../', 'dist'),
-    filename: '[name].[hash].bundle.js',
+    filename: '[name].[contenthash].bundle.js',
     clean: true
   },
   devtool: 'source-map',
@@ -25,6 +25,16 @@ const config = {
   },
   optimization: {
     minimize: true,
+    moduleIds: 'deterministic',
+    splitChunks: {
+      cacheGroups: {
+        vendor: {
+          test: /[\\/]node_modules[\\/]/,
+          name: 'vendors',
+          chunks: 'all'
+        }
+      }
+    },
     minimizer: [
       new TerserPlugin({
         extractComments: true
@@ -58,8 +68,8 @@ const config = {
       deleteOriginalAssets: false
     }),
     new MiniCssExtractPlugin({
-      filename: '[name].[hash].css',
-      chunkFilename: '[id].[hash].css'
+      filename: '[name].[contenthash].css',
+      chunkFilename: '[id].[contenthash].css'
     }),
     new CopyWebpackPlugin({ patterns: [{ from: 'images', to: 'images' }] }),
     new BundleAnalyzerPlugin({
