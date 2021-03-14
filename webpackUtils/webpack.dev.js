@@ -1,6 +1,6 @@
 const path = require('path');
-const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 
 const config = {
   mode: 'development',
@@ -43,8 +43,7 @@ const config = {
         viewport: 'width=device-width, initial-scale=1, user-scalable=yes'
       }
     }),
-    new webpack.NamedModulesPlugin(),
-    new webpack.HotModuleReplacementPlugin()
+    new ReactRefreshWebpackPlugin()
   ],
   devServer: {
     hot: true,
