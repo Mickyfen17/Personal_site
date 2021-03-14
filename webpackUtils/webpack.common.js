@@ -2,7 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 
 const config = {
-  entry: ['react-hot-loader/patch', './src/'],
+  entry: './src/',
   module: {
     rules: [
       {
