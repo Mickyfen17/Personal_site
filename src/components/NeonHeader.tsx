@@ -1,8 +1,12 @@
-import React from 'react';
-import { useNeonLightsContext } from '../../context/NeonLightsContext';
+import * as React from 'react';
+import { useNeonLightsContext } from '../context/NeonLightsContext';
 import 'styles/neonHeader';
 
-const NeonHeader = ({ children: textString }) => {
+interface NeonHeaderProps {
+  children: string;
+}
+
+export const NeonHeader = ({ children: textString }: NeonHeaderProps): JSX.Element => {
   const [firstName, lastName] = textString.split(' ');
   const idx = Math.floor(Math.random() * lastName.length);
   const letterToFlicker = lastName[idx];
@@ -24,5 +28,3 @@ const NeonHeader = ({ children: textString }) => {
     </header>
   );
 };
-
-export default NeonHeader;

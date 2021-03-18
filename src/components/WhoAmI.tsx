@@ -1,8 +1,8 @@
-import React from 'react';
-import AnchorLink from '../AnchorLink';
-import NeonContentWrapper from '../NeonContentWrapper';
+import * as React from 'react';
+import { AnchorLink } from './AnchorLink';
+import { NeonContentWrapper } from './NeonContentWrapper';
 
-const WhoAmI = () => (
+export const WhoAmI = (): JSX.Element => (
   <NeonContentWrapper color='cyan'>
     <strong>Software Developments Engineer</strong> currently working at <strong>GoDaddy</strong>.
     Read more about me via my
@@ -15,5 +15,3 @@ const WhoAmI = () => (
     </AnchorLink>
   </NeonContentWrapper>
 );
-
-export default WhoAmI;

@@ -17,10 +17,8 @@
     "prettier/prettier": "error",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "no-unused-vars": [
-      "error",
-      { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }
-    ],
+    "@typescript-eslint/no-unused-vars": "error",
+    "no-unused-vars": "off",
     "@typescript-eslint/no-var-requires": 0
   },
   "env": {
@@ -28,5 +26,9 @@
     "node": true
   },
   "plugins": ["@typescript-eslint", "react", "react-hooks", "prettier"],
-  "settings": { "version": "detect" }
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
 }

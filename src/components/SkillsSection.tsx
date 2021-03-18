@@ -1,12 +1,17 @@
-import React, { Fragment } from 'react';
-import NeonContentWrapper from '../NeonContentWrapper';
+import * as React from 'react';
+import { Skills } from '../reducers/useAppReducer';
+import { NeonContentWrapper } from './NeonContentWrapper';
 
-const Skills = ({ skills }) => (
+interface SkillsSectionProps {
+  skills: Skills;
+}
+
+export const SkillsSection = ({ skills }: SkillsSectionProps): JSX.Element => (
   <NeonContentWrapper color='cyan' title='Things I Know'>
     <div className='skills-wrapper'>
       {skills.map(({ title, skills: skillList }) => {
         return (
-          <Fragment key={title}>
+          <React.Fragment key={title}>
             <h3>{title}</h3>
             <div className='skill-block'>
               {skillList.map((skill) => (
@@ -15,11 +20,9 @@ const Skills = ({ skills }) => (
                 </span>
               ))}
             </div>
-          </Fragment>
+          </React.Fragment>
         );
       })}
     </div>
   </NeonContentWrapper>
 );
-
-export default Skills;

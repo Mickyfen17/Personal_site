@@ -1,20 +1,26 @@
-import React, { Fragment, useEffect } from 'react';
-import AnchorLink from '../AnchorLink';
-import NeonContentWrapper from '../NeonContentWrapper';
-import Modal from '../Modal';
-import { useModalReducer } from '../../reducers/useModalReducer';
+import * as React from 'react';
+import { AnchorLink } from './AnchorLink';
+import { NeonContentWrapper } from './NeonContentWrapper';
+import { Modal } from './Modal';
+import { useModalReducer } from '../reducers/useModalReducer';
+import { Projects } from '../reducers/useAppReducer';
 import 'styles/projects.scss';
 
-const Projects = ({ projectsMap }) => {
+interface ProjectsSectionProps {
+  projectsMap: Projects;
+}
+
+export const ProjectsSection = ({ projectsMap }: ProjectsSectionProps): JSX.Element => {
   const { activeProjectId, modalOpen, toggleModal } = useModalReducer();
   const activeProject = projectsMap.get(activeProjectId);
 
-  useEffect(() => {
+  React.useEffect(() => {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     Array.from(projectsMap).forEach(([_, project]) => (new Image().src = project.image));
   }, [projectsMap]);
 
   return (
-    <Fragment>
+    <React.Fragment>
       <section id='projects'>
         <NeonContentWrapper color='cyan' title='Projects'>
           {Array.from(projectsMap).map(([key, { title }]) => (
@@ -50,7 +56,6 @@ const Projects = ({ projectsMap }) => {
           </footer>
         </Modal>
       )}
-    </Fragment>
+    </React.Fragment>
   );
 };
-export default Projects;

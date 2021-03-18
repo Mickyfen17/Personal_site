@@ -1,8 +1,13 @@
-import React from 'react';
-import AnchorLink from '../AnchorLink';
+import * as React from 'react';
+import { AnchorLink } from './AnchorLink';
 import 'styles/footer.scss';
 
-const links = [
+interface Link {
+  type: 'github' | 'linkedin' | 'twitter' | 'email';
+  href: string;
+}
+
+const links: Link[] = [
   { type: 'github', href: 'https://github.com/Mickyfen17' },
   {
     type: 'linkedin',
@@ -12,7 +17,7 @@ const links = [
   { type: 'email', href: 'mailto:mikefen14@gmail.com' }
 ];
 
-const Footer = () => (
+export const Footer = (): JSX.Element => (
   <footer id='footer'>
     <React.Fragment>
       {links.map((link) => (
@@ -25,5 +30,3 @@ const Footer = () => (
     </h4>
   </footer>
 );
-
-export default Footer;
