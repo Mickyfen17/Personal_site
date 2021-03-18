@@ -5,7 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "precommit": "lint-staged",
-    "prepush": "npm run build",
+    "prepush": "npm run lint & npm run build",
     "pretty": "prettier --print-width 100 --single-quote --trailing-comma none --jsx-single-quote true --write \"src/**/*.tsx?$\"",
     "start": "webpack serve --mode development --env=env=dev",
     "build": "webpack --mode production --env=env=prod",
