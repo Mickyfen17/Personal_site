@@ -2,7 +2,7 @@
   "name": "personal_site",
   "version": "1.0.0",
   "description": "My Personal Website",
-  "main": "index.ts",
+  "main": "index.tsx",
   "scripts": {
     "precommit": "lint-staged",
     "prepush": "npm run lint & npm run build",
