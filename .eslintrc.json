@@ -1,6 +1,11 @@
 {
-  "extends": ["plugin:jsx-a11y/recommended", "plugin:react/recommended", "prettier"],
-  "parser": "babel-eslint",
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module",
@@ -12,14 +17,18 @@
     "prettier/prettier": "error",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "no-unused-vars": [
-      "error",
-      { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }
-    ]
+    "@typescript-eslint/no-unused-vars": "error",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-var-requires": 0
   },
   "env": {
     "browser": true,
     "node": true
   },
-  "plugins": ["react", "react-hooks", "prettier"]
+  "plugins": ["@typescript-eslint", "react", "react-hooks", "prettier"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
 }

@@ -1,14 +1,15 @@
 const path = require('path');
 const webpack = require('webpack');
+const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 
 const config = {
-  entry: './src/',
+  entry: './src/index',
   module: {
     rules: [
       {
-        test: /\.js?$/,
+        test: /\.tsx?$/,
         exclude: /node_modules/,
-        use: { loader: 'babel-loader' }
+        use: { loader: 'ts-loader', options: { transpileOnly: true } }
       },
       {
         test: /\.(png|svg|jpg|gif)$/,
@@ -26,10 +27,14 @@ const config = {
     ]
   },
   resolve: {
-    extensions: ['.js', '.jsx', '.json', '.scss', '.css'],
+    extensions: ['.tsx', '.ts', '.js', '.jsx', '.json', '.scss', '.css'],
     alias: { styles: path.resolve(__dirname, '..', 'styles') }
   },
-  plugins: [new webpack.ProgressPlugin(), new webpack.NoEmitOnErrorsPlugin()]
+  plugins: [
+    new ForkTsCheckerWebpackPlugin(),
+    new webpack.ProgressPlugin(),
+    new webpack.NoEmitOnErrorsPlugin()
+  ]
 };
 
 module.exports = config;
