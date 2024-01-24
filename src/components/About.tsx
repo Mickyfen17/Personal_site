@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { WhoAmI } from './WhoAmI';
 import { SkillsSection } from './SkillsSection';
-import { Skills } from '../reducers/useAppReducer';
+import type { Skills } from '../apis/fetchWebisteData';
 import 'styles/about.scss';
 
 interface AboutProps {

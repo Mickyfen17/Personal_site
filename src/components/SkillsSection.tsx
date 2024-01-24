@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Skills } from '../reducers/useAppReducer';
+import type { Skills } from '../apis/fetchWebisteData';
 import { NeonContentWrapper } from './NeonContentWrapper';
 
 interface SkillsSectionProps {

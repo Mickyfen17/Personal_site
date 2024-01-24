@@ -3,7 +3,7 @@ import { AnchorLink } from './AnchorLink';
 import { NeonContentWrapper } from './NeonContentWrapper';
 import { Modal } from './Modal';
 import { useModalReducer } from '../reducers/useModalReducer';
-import { Projects } from '../reducers/useAppReducer';
+import type { Projects } from '../apis/fetchWebisteData';
 import 'styles/projects.scss';
 
 interface ProjectsSectionProps {
@@ -12,7 +12,7 @@ interface ProjectsSectionProps {
 
 export const ProjectsSection = ({ projectsMap }: ProjectsSectionProps): JSX.Element => {
   const { activeProjectId, modalOpen, toggleModal } = useModalReducer();
-  const activeProject = projectsMap.get(activeProjectId);
+  const activeProject = activeProjectId ? projectsMap.get(activeProjectId) : null;
 
   React.useEffect(() => {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -35,7 +35,7 @@ export const ProjectsSection = ({ projectsMap }: ProjectsSectionProps): JSX.Elem
           ))}
         </NeonContentWrapper>
       </section>
-      {modalOpen && (
+      {modalOpen && activeProject != null ? (
         <Modal title={activeProject.title} toggleModal={toggleModal}>
           <div>
             <p className='project-description'>{activeProject.description}</p>
@@ -55,7 +55,7 @@ export const ProjectsSection = ({ projectsMap }: ProjectsSectionProps): JSX.Elem
             </AnchorLink>
           </footer>
         </Modal>
-      )}
+      ) : null}
     </React.Fragment>
   );
 };
