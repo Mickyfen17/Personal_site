@@ -1,14 +1,14 @@
 import * as React from 'react';
 import { WhoAmI } from './WhoAmI';
 import { SkillsSection } from './SkillsSection';
-import type { Skills } from '../apis/fetchWebisteData';
 import 'styles/about.scss';
+import { Skill } from '../sharedTypes';
 
 interface AboutProps {
-  skills: Skills;
+  skills: Skill[];
 }
 
-export const About = ({ skills }: AboutProps): JSX.Element => (
+export const About = ({ skills }: AboutProps) => (
   <section id='about'>
     <WhoAmI />
     <SkillsSection skills={skills} />

@@ -6,7 +6,7 @@ interface ToggleProps {
   toggleLights: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-export const Toggle = ({ lightsOn, toggleLights }: ToggleProps): JSX.Element => (
+export const Toggle = ({ lightsOn, toggleLights }: ToggleProps) => (
   <input
     className='toggle'
     type='checkbox'

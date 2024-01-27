@@ -1,27 +1,4 @@
-interface Project {
-  description: string;
-  gitHubRepo: string;
-  icons: {
-    site: string;
-    git: string;
-  };
-  git: string;
-  site: string;
-  image: string;
-  siteURL: string;
-  techUsed: string[];
-  title: string;
-}
-
-interface Skill {
-  imageAlt: string;
-  imagePath: string;
-  skills: string[];
-  title: string;
-}
-
-export type Projects = Map<string, Project>;
-export type Skills = Skill[];
+import { Project, Skills } from '../sharedTypes';
 
 interface JSONResponse {
   projectData: Project[];
@@ -30,12 +7,12 @@ interface JSONResponse {
 
 interface WebsiteData {
   data: {
-    projects: Projects;
+    projects: Map<string, Project>;
     skills: Skills;
   };
 }
 
-const formatProjects = (projectsList: Project[]): Projects => {
+const formatProjects = (projectsList: Project[]) => {
   const projectMap = new Map<string, Project>();
 
   projectsList.forEach((project) => projectMap.set(project.title, project));

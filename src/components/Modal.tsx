@@ -1,10 +1,9 @@
-/* eslint-disable jsx-a11y/no-static-element-interactions */
 import * as React from 'react';
 import ReactDOM from 'react-dom';
 import { useNeonLightsContext } from '../context/NeonLightsContext';
 import { NeonContentWrapper } from './NeonContentWrapper';
-import { ToggleModal } from '../reducers/useModalReducer';
 import 'styles/modal.scss';
+import { ToggleModal } from '../sharedTypes';
 
 interface ModalProps {
   children: React.ReactNode;
@@ -12,7 +11,7 @@ interface ModalProps {
   toggleModal: ToggleModal;
 }
 
-export const Modal = ({ children, title, toggleModal }: ModalProps): JSX.Element | null => {
+export const Modal = ({ children, title, toggleModal }: ModalProps) => {
   const lightsOn = useNeonLightsContext();
   const portalDiv = document.getElementById('modal-anchor');
 

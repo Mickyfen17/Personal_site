@@ -4,12 +4,11 @@
   .project {
     display: flex;
     align-items: center;
-    justify-items: center;
-    height: 30px;
+    padding: 5px;
+    gap: 8px;
 
     h3 {
       @include section-header3;
-      margin-right: 10px;
     }
 
     .project-btn {

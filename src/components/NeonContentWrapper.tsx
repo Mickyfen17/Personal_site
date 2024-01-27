@@ -2,18 +2,15 @@ import * as React from 'react';
 import { useNeonLightsContext } from '../context/NeonLightsContext';
 import { NeonSubHeader } from './NeonSubHeader';
 import 'styles/neonContentWrapper';
+import { NeonColors } from '../sharedTypes';
 
 interface NeonContentWrapperProps {
   children: React.ReactNode;
-  color: 'cyan' | 'pink';
+  color: NeonColors;
   title?: string;
 }
 
-export const NeonContentWrapper = ({
-  children,
-  color,
-  title
-}: NeonContentWrapperProps): JSX.Element => {
+export const NeonContentWrapper = ({ children, color, title }: NeonContentWrapperProps) => {
   const lightsOn = useNeonLightsContext();
 
   return (

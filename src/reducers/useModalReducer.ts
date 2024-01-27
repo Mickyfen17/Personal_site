@@ -1,23 +1,22 @@
 import * as React from 'react';
+import { ToggleModal } from '../sharedTypes';
 
 interface State {
   modalOpen: boolean;
   activeProjectId: string | null;
 }
 
-type ACTIONTYPE = {
+type ACTION_TYPE = {
   type: 'TOGGLE_MODAL';
   payload: { modalOpen: boolean; projectId: string | null };
 };
-
-export type ToggleModal = (projectId: string | null) => void;
 
 const initialState = {
   modalOpen: false,
   activeProjectId: null
 };
 
-const reducer = (state: State, action: ACTIONTYPE) => {
+const reducer = (state: State, action: ACTION_TYPE) => {
   switch (action.type) {
     case 'TOGGLE_MODAL':
       return {

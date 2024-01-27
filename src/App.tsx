@@ -8,9 +8,9 @@ import { About } from './components/About';
 import { ProjectsSection } from './components/Projects';
 import { Footer } from './components/Footer';
 import { Toggle } from './components/Toggle';
-import { fetchWebsiteData } from './apis/fetchWebisteData';
+import { fetchWebsiteData } from './apis/fetchWebsiteData';
 
-export const App = (): JSX.Element => {
+export const App = () => {
   const fetchWebsite = React.useCallback((signal: AbortSignal) => fetchWebsiteData(signal), []);
   const [personalWebsiteState, retry] = useFetchReducer(fetchWebsite);
 

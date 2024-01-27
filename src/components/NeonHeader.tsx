@@ -6,18 +6,18 @@ interface NeonHeaderProps {
   children: string;
 }
 
-export const NeonHeader = ({ children: textString }: NeonHeaderProps): JSX.Element => {
+export const NeonHeader = ({ children: textString }: NeonHeaderProps) => {
   const [firstName, lastName] = textString.split(' ');
   const idx = Math.floor(Math.random() * lastName.length);
   const letterToFlicker = lastName[idx];
   const lightsOn = useNeonLightsContext();
 
   const flickeringLastName = (
-    <React.Fragment>
+    <>
       {lastName.slice(0, idx)}
       <span className='flicker'>{letterToFlicker}</span>
       {lastName.slice(idx + 1)}
-    </React.Fragment>
+    </>
   );
 
   return (

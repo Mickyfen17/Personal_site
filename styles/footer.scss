@@ -26,13 +26,6 @@
       }
     }
 
-    &.twitter {
-      @include footer-icon('../images/twitter.svg');
-      &:hover {
-        @include footer-icon('../images/twitter_hover.svg');
-      }
-    }
-
     &.email {
       @include footer-icon('../images/email.svg');
       &:hover {

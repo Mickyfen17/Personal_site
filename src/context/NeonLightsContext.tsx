@@ -10,7 +10,7 @@ export const NeonLightsContext = React.createContext(false);
 export const NeonLightsContextProvider = ({
   children,
   lightsOn
-}: NeonLightsContextProviderProps): JSX.Element => (
+}: NeonLightsContextProviderProps) => (
   <NeonLightsContext.Provider value={lightsOn}>{children}</NeonLightsContext.Provider>
 );
 

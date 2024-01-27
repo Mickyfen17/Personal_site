@@ -1,12 +1,12 @@
 import * as React from 'react';
-import type { Skills } from '../apis/fetchWebisteData';
+import { Skill } from '../sharedTypes';
 import { NeonContentWrapper } from './NeonContentWrapper';
 
 interface SkillsSectionProps {
-  skills: Skills;
+  skills: Skill[];
 }
 
-export const SkillsSection = ({ skills }: SkillsSectionProps): JSX.Element => (
+export const SkillsSection = ({ skills }: SkillsSectionProps) => (
   <NeonContentWrapper color='cyan' title='Things I Know'>
     <div className='skills-wrapper'>
       {skills.map(({ title, skills: skillList }) => {
