@@ -4,7 +4,7 @@ import { NeonContentWrapper } from './NeonContentWrapper';
 
 export const WhoAmI = () => (
   <NeonContentWrapper color='cyan'>
-    <strong>Software Developments Engineer</strong> currently working at <strong>Brex</strong>. Read
+    <strong>Software Development Engineer</strong> currently working at <strong>Brex</strong>. Read
     more about me via my
     <AnchorLink href='https://www.linkedin.com/in/michael-j-fenwick/'>
       &nbsp;LinkedIn&nbsp;
