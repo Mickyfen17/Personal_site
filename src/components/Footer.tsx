@@ -26,7 +26,7 @@ export const Footer = () => (
     </>
     <h4 className='footer-tag'>
       {'\u00A9'}
-      Mike Fenwick | 2021
+      Mike Fenwick | 2024
     </h4>
   </footer>
 );
