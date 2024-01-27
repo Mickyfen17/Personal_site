@@ -1,14 +1,14 @@
 {
-  "hash": "ae13a5976cd5e6471b6c",
+  "hash": "be639e3f21d5607dad0e",
   "version": "5.24.4",
-  "time": 9538,
-  "builtAt": 1706344581557,
+  "time": 9971,
+  "builtAt": 1706345078538,
   "publicPath": "auto",
   "outputPath": "/home/travis/build/Mickyfen17/Personal_site/dist",
   "assetsByChunkName": {
     "main": [
       "main.415ae142f00fdf1a7ccf.css",
-      "main.54625f0a2a80f352c419.bundle.js"
+      "main.c45732d073d26da06356.bundle.js"
     ],
     "vendors": [
       "vendors.078c8755f0fd0decb664.bundle.js"
@@ -236,18 +236,18 @@
     },
     {
       "type": "asset",
-      "name": "main.54625f0a2a80f352c419.bundle.js",
+      "name": "main.c45732d073d26da06356.bundle.js",
       "size": 9465,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "54625f0a2a80f352c419",
+        "contenthash": "c45732d073d26da06356",
         "javascriptModule": false,
         "minimized": true,
         "related": {
-          "sourceMap": "main.54625f0a2a80f352c419.bundle.js.map"
+          "sourceMap": "main.c45732d073d26da06356.bundle.js.map"
         },
         "size": 9465
       },
@@ -261,7 +261,7 @@
       "related": [
         {
           "type": "sourceMap",
-          "name": "main.54625f0a2a80f352c419.bundle.js.map",
+          "name": "main.c45732d073d26da06356.bundle.js.map",
           "size": 30495,
           "emitted": true,
           "comparedForEmit": false,
@@ -520,14 +520,14 @@
       ],
       "files": [
         "main.415ae142f00fdf1a7ccf.css",
-        "main.54625f0a2a80f352c419.bundle.js"
+        "main.c45732d073d26da06356.bundle.js"
       ],
       "auxiliaryFiles": [
         "0fade7d96a1d8c414c1aa744d815bac1.woff",
         "7c269dd61c5e906e975ea065fae33c39.ttf",
-        "main.54625f0a2a80f352c419.bundle.js.map"
+        "main.c45732d073d26da06356.bundle.js.map"
       ],
-      "hash": "25f18acfbc2875248420",
+      "hash": "4bf0f83ffe20e6bf30c1",
       "childrenByOrder": {},
       "id": 179,
       "siblings": [
@@ -18878,7 +18878,7 @@
           "size": 26354
         },
         {
-          "name": "main.54625f0a2a80f352c419.bundle.js",
+          "name": "main.c45732d073d26da06356.bundle.js",
           "size": 9465
         }
       ],
@@ -18894,7 +18894,7 @@
           "size": 46704
         },
         {
-          "name": "main.54625f0a2a80f352c419.bundle.js.map",
+          "name": "main.c45732d073d26da06356.bundle.js.map",
           "size": 30495
         },
         {
@@ -18926,7 +18926,7 @@
           "size": 26354
         },
         {
-          "name": "main.54625f0a2a80f352c419.bundle.js",
+          "name": "main.c45732d073d26da06356.bundle.js",
           "size": 9465
         }
       ],
@@ -18942,7 +18942,7 @@
           "size": 46704
         },
         {
-          "name": "main.54625f0a2a80f352c419.bundle.js.map",
+          "name": "main.c45732d073d26da06356.bundle.js.map",
           "size": 30495
         },
         {
@@ -18966,8 +18966,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "5fa3f67d91ea1d7614c8",
       "version": "5.24.4",
-      "time": 233,
-      "builtAt": 1706344572410,
+      "time": 231,
+      "builtAt": 1706345069014,
       "publicPath": "",
       "outputPath": "/home/travis/build/Mickyfen17/Personal_site/dist",
       "assetsByChunkName": {},
@@ -19555,8 +19555,8 @@
       "name": "mini-css-extract-plugin /home/travis/build/Mickyfen17/Personal_site/node_modules/css-loader/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/postcss-loader/src/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/sass-loader/dist/cjs.js!/home/travis/build/Mickyfen17/Personal_site/styles/about.scss",
       "hash": "c71047e81cf3df545240",
       "version": "5.24.4",
-      "time": 2017,
-      "builtAt": 1706344575944,
+      "time": 2294,
+      "builtAt": 1706345072851,
       "publicPath": "",
       "outputPath": "/home/travis/build/Mickyfen17/Personal_site/dist",
       "assetsByChunkName": {},
@@ -20672,8 +20672,8 @@
       "name": "mini-css-extract-plugin /home/travis/build/Mickyfen17/Personal_site/node_modules/css-loader/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/postcss-loader/src/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/sass-loader/dist/cjs.js!/home/travis/build/Mickyfen17/Personal_site/styles/anchorLink.scss",
       "hash": "1ad05c14e96bd96fd024",
       "version": "5.24.4",
-      "time": 1417,
-      "builtAt": 1706344576031,
+      "time": 1484,
+      "builtAt": 1706345072838,
       "publicPath": "",
       "outputPath": "/home/travis/build/Mickyfen17/Personal_site/dist",
       "assetsByChunkName": {},
@@ -21789,8 +21789,8 @@
       "name": "mini-css-extract-plugin /home/travis/build/Mickyfen17/Personal_site/node_modules/css-loader/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/postcss-loader/src/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/sass-loader/dist/cjs.js!/home/travis/build/Mickyfen17/Personal_site/styles/error.scss",
       "hash": "d0611edde7b2e4691cce",
       "version": "5.24.4",
-      "time": 2020,
-      "builtAt": 1706344575951,
+      "time": 2296,
+      "builtAt": 1706345072858,
       "publicPath": "",
       "outputPath": "/home/travis/build/Mickyfen17/Personal_site/dist",
       "assetsByChunkName": {},
@@ -22906,8 +22906,8 @@
       "name": "mini-css-extract-plugin /home/travis/build/Mickyfen17/Personal_site/node_modules/css-loader/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/postcss-loader/src/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/sass-loader/dist/cjs.js!/home/travis/build/Mickyfen17/Personal_site/styles/footer.scss",
       "hash": "cc13775791b40f21154a",
       "version": "5.24.4",
-      "time": 2025,
-      "builtAt": 1706344575959,
+      "time": 2370,
+      "builtAt": 1706345072935,
       "publicPath": "",
       "outputPath": "/home/travis/build/Mickyfen17/Personal_site/dist",
       "assetsByChunkName": {},
@@ -24965,8 +24965,8 @@
       "name": "mini-css-extract-plugin /home/travis/build/Mickyfen17/Personal_site/node_modules/css-loader/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/postcss-loader/src/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/sass-loader/dist/cjs.js!/home/travis/build/Mickyfen17/Personal_site/styles/loading.scss",
       "hash": "06bb0e26f918b5e8a6d3",
       "version": "5.24.4",
-      "time": 2029,
-      "builtAt": 1706344575966,
+      "time": 2297,
+      "builtAt": 1706345072865,
       "publicPath": "",
       "outputPath": "/home/travis/build/Mickyfen17/Personal_site/dist",
       "assetsByChunkName": {},
@@ -26082,8 +26082,8 @@
       "name": "mini-css-extract-plugin /home/travis/build/Mickyfen17/Personal_site/node_modules/css-loader/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/postcss-loader/src/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/sass-loader/dist/cjs.js!/home/travis/build/Mickyfen17/Personal_site/styles/main.scss",
       "hash": "0f1d8b3ff197367ab8cf",
       "version": "5.24.4",
-      "time": 3143,
-      "builtAt": 1706344576103,
+      "time": 3382,
+      "builtAt": 1706345072980,
       "publicPath": "",
       "outputPath": "/home/travis/build/Mickyfen17/Personal_site/dist",
       "assetsByChunkName": {},
@@ -27199,8 +27199,8 @@
       "name": "mini-css-extract-plugin /home/travis/build/Mickyfen17/Personal_site/node_modules/css-loader/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/postcss-loader/src/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/sass-loader/dist/cjs.js!/home/travis/build/Mickyfen17/Personal_site/styles/miscHeader.scss",
       "hash": "653f4be4c4499c416a53",
       "version": "5.24.4",
-      "time": 1386,
-      "builtAt": 1706344575972,
+      "time": 1556,
+      "builtAt": 1706345072872,
       "publicPath": "",
       "outputPath": "/home/travis/build/Mickyfen17/Personal_site/dist",
       "assetsByChunkName": {},
@@ -28316,8 +28316,8 @@
       "name": "mini-css-extract-plugin /home/travis/build/Mickyfen17/Personal_site/node_modules/css-loader/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/postcss-loader/src/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/sass-loader/dist/cjs.js!/home/travis/build/Mickyfen17/Personal_site/styles/modal.scss",
       "hash": "e54607d6bafb12ed9f12",
       "version": "5.24.4",
-      "time": 1392,
-      "builtAt": 1706344575981,
+      "time": 1560,
+      "builtAt": 1706345072879,
       "publicPath": "",
       "outputPath": "/home/travis/build/Mickyfen17/Personal_site/dist",
       "assetsByChunkName": {},
@@ -29433,8 +29433,8 @@
       "name": "mini-css-extract-plugin /home/travis/build/Mickyfen17/Personal_site/node_modules/css-loader/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/postcss-loader/src/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/sass-loader/dist/cjs.js!/home/travis/build/Mickyfen17/Personal_site/styles/neonContentWrapper.scss",
       "hash": "52f296579dc52f0e3e10",
       "version": "5.24.4",
-      "time": 1421,
-      "builtAt": 1706344576037,
+      "time": 1536,
+      "builtAt": 1706345072893,
       "publicPath": "",
       "outputPath": "/home/travis/build/Mickyfen17/Personal_site/dist",
       "assetsByChunkName": {},
@@ -30550,8 +30550,8 @@
       "name": "mini-css-extract-plugin /home/travis/build/Mickyfen17/Personal_site/node_modules/css-loader/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/postcss-loader/src/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/sass-loader/dist/cjs.js!/home/travis/build/Mickyfen17/Personal_site/styles/neonHeader.scss",
       "hash": "01c31cb6b7cc3438e035",
       "version": "5.24.4",
-      "time": 1449,
-      "builtAt": 1706344576000,
+      "time": 1602,
+      "builtAt": 1706345072886,
       "publicPath": "",
       "outputPath": "/home/travis/build/Mickyfen17/Personal_site/dist",
       "assetsByChunkName": {},
@@ -31667,8 +31667,8 @@
       "name": "mini-css-extract-plugin /home/travis/build/Mickyfen17/Personal_site/node_modules/css-loader/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/postcss-loader/src/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/sass-loader/dist/cjs.js!/home/travis/build/Mickyfen17/Personal_site/styles/neonSubHeader.scss",
       "hash": "6b5c26b2b873b32ebc23",
       "version": "5.24.4",
-      "time": 1404,
-      "builtAt": 1706344576054,
+      "time": 1507,
+      "builtAt": 1706345072899,
       "publicPath": "",
       "outputPath": "/home/travis/build/Mickyfen17/Personal_site/dist",
       "assetsByChunkName": {},
@@ -32784,8 +32784,8 @@
       "name": "mini-css-extract-plugin /home/travis/build/Mickyfen17/Personal_site/node_modules/css-loader/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/postcss-loader/src/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/sass-loader/dist/cjs.js!/home/travis/build/Mickyfen17/Personal_site/styles/projects.scss",
       "hash": "3dd79b61715ec7c7eb76",
       "version": "5.24.4",
-      "time": 1995,
-      "builtAt": 1706344575935,
+      "time": 2372,
+      "builtAt": 1706345072943,
       "publicPath": "",
       "outputPath": "/home/travis/build/Mickyfen17/Personal_site/dist",
       "assetsByChunkName": {},
@@ -34215,8 +34215,8 @@
       "name": "mini-css-extract-plugin /home/travis/build/Mickyfen17/Personal_site/node_modules/css-loader/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/postcss-loader/src/index.js!/home/travis/build/Mickyfen17/Personal_site/node_modules/sass-loader/dist/cjs.js!/home/travis/build/Mickyfen17/Personal_site/styles/toggle.scss",
       "hash": "4d03202a299a2845cb67",
       "version": "5.24.4",
-      "time": 1459,
-      "builtAt": 1706344576014,
+      "time": 1523,
+      "builtAt": 1706345072812,
       "publicPath": "",
       "outputPath": "/home/travis/build/Mickyfen17/Personal_site/dist",
       "assetsByChunkName": {},
