@@ -1,26 +1,25 @@
 import * as React from 'react';
-import { AnchorLink } from './AnchorLink';
-import { NeonContentWrapper } from './NeonContentWrapper';
-import { Modal } from './Modal';
 import { useModalReducer } from '../reducers/useModalReducer';
-import { Projects } from '../reducers/useAppReducer';
+import { Projects } from '../sharedTypes';
+import { AnchorLink } from './AnchorLink';
+import { Modal } from './Modal';
+import { NeonContentWrapper } from './NeonContentWrapper';
 import 'styles/projects.scss';
 
 interface ProjectsSectionProps {
   projectsMap: Projects;
 }
 
-export const ProjectsSection = ({ projectsMap }: ProjectsSectionProps): JSX.Element => {
+export const ProjectsSection = ({ projectsMap }: ProjectsSectionProps) => {
   const { activeProjectId, modalOpen, toggleModal } = useModalReducer();
-  const activeProject = projectsMap.get(activeProjectId);
+  const activeProject = activeProjectId ? projectsMap.get(activeProjectId) : null;
 
   React.useEffect(() => {
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     Array.from(projectsMap).forEach(([_, project]) => (new Image().src = project.image));
   }, [projectsMap]);
 
   return (
-    <React.Fragment>
+    <>
       <section id='projects'>
         <NeonContentWrapper color='cyan' title='Projects'>
           {Array.from(projectsMap).map(([key, { title }]) => (
@@ -35,27 +34,31 @@ export const ProjectsSection = ({ projectsMap }: ProjectsSectionProps): JSX.Elem
           ))}
         </NeonContentWrapper>
       </section>
-      {modalOpen && (
+      {modalOpen && activeProject != null ? (
         <Modal title={activeProject.title} toggleModal={toggleModal}>
           <div>
             <p className='project-description'>{activeProject.description}</p>
             <img
               className='project-image'
               src={activeProject.image}
-              alt={`screenhot of ${activeProject.title} project`}
+              alt={`screenshot of ${activeProject.title} project`}
             />
             <p className='project-tech-used'>{activeProject.techUsed.join(', ')}</p>
           </div>
           <footer>
-            <AnchorLink type='project-link' href={activeProject.gitHubRepo}>
-              <img src={activeProject.icons.git} alt='icon of github cat' />
-            </AnchorLink>
-            <AnchorLink type='project-link' href={activeProject.siteURL}>
-              <img src={activeProject.icons.site} alt='icon of laptop' />
-            </AnchorLink>
+            {activeProject.linksConfig.hasGithub && (
+              <AnchorLink type='project-link' href={activeProject.gitHubRepo}>
+                <img src='images/github.svg' alt='icon of github cat' />
+              </AnchorLink>
+            )}
+            {activeProject.linksConfig.hasHostedSite && (
+              <AnchorLink type='project-link' href={activeProject.siteURL}>
+                <img src='images/browser.svg' alt='icon of laptop' />
+              </AnchorLink>
+            )}
           </footer>
         </Modal>
-      )}
-    </React.Fragment>
+      ) : null}
+    </>
   );
 };

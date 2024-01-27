@@ -1,9 +1,8 @@
-/* eslint-disable jsx-a11y/no-static-element-interactions */
 import * as React from 'react';
 import ReactDOM from 'react-dom';
 import { useNeonLightsContext } from '../context/NeonLightsContext';
+import { ToggleModal } from '../sharedTypes';
 import { NeonContentWrapper } from './NeonContentWrapper';
-import { ToggleModal } from '../reducers/useModalReducer';
 import 'styles/modal.scss';
 
 interface ModalProps {
@@ -12,8 +11,9 @@ interface ModalProps {
   toggleModal: ToggleModal;
 }
 
-export const Modal = ({ children, title, toggleModal }: ModalProps): JSX.Element => {
+export const Modal = ({ children, title, toggleModal }: ModalProps) => {
   const lightsOn = useNeonLightsContext();
+  const portalDiv = document.getElementById('modal-anchor');
 
   React.useEffect(() => {
     document.body.classList.add('modal_open');
@@ -23,20 +23,26 @@ export const Modal = ({ children, title, toggleModal }: ModalProps): JSX.Element
     };
   }, []);
 
-  return ReactDOM.createPortal(
-    <section id='overlay' onClick={() => toggleModal(null)} onKeyDown={() => toggleModal(null)}>
-      <NeonContentWrapper color='pink' title={title}>
-        <div id='modal' onClick={(e) => e.stopPropagation()} onKeyDown={(e) => e.stopPropagation()}>
-          <button
-            className={`flicker ${lightsOn ? 'lights-on' : ''}`}
-            onClick={() => toggleModal(null)}
-          >
-            X
-          </button>
-          {children}
-        </div>
-      </NeonContentWrapper>
-    </section>,
-    document.getElementById('modal-anchor')
-  );
+  return portalDiv
+    ? ReactDOM.createPortal(
+        <section id='overlay' onClick={() => toggleModal(null)} onKeyDown={() => toggleModal(null)}>
+          <NeonContentWrapper color='pink' title={title}>
+            <div
+              id='modal'
+              onClick={(e) => e.stopPropagation()}
+              onKeyDown={(e) => e.stopPropagation()}
+            >
+              <button
+                className={`flicker ${lightsOn ? 'lights-on' : ''}`}
+                onClick={() => toggleModal(null)}
+              >
+                X
+              </button>
+              {children}
+            </div>
+          </NeonContentWrapper>
+        </section>,
+        portalDiv
+      )
+    : null;
 };

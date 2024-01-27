@@ -6,7 +6,7 @@ interface ErrorProps {
   retry: VoidFunction;
 }
 
-export const Error = ({ retry }: ErrorProps): JSX.Element => (
+export const Error = ({ retry }: ErrorProps) => (
   <section className='error'>
     <MiscHeader>Oops!</MiscHeader>
     <h4>Something went wrong...</h4>

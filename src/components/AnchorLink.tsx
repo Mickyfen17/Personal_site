@@ -1,13 +1,14 @@
 import * as React from 'react';
 import 'styles/anchorLink';
+import { LinkTypes } from '../sharedTypes';
 
 interface AnchorLinkProps {
   children?: React.ReactNode;
   href: string;
-  type?: string;
+  type?: LinkTypes;
 }
 
-export const AnchorLink = ({ children, href, type = '' }: AnchorLinkProps): JSX.Element => (
+export const AnchorLink = ({ children, href, type }: AnchorLinkProps) => (
   <a
     className={`anchor ${type}`}
     href={href}

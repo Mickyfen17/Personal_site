@@ -6,7 +6,7 @@ interface MiscHeaderProps {
   classNames?: string;
 }
 
-export const MiscHeader = ({ children, classNames }: MiscHeaderProps): JSX.Element => {
+export const MiscHeader = ({ children, classNames }: MiscHeaderProps) => {
   return (
     <h1 id='misc-header' className={classNames}>
       {children}
