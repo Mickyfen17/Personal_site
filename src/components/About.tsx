@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { WhoAmI } from './WhoAmI';
+import { Skill } from '../sharedTypes';
 import { SkillsSection } from './SkillsSection';
 import 'styles/about.scss';
-import { Skill } from '../sharedTypes';
+import { WhoAmI } from './WhoAmI';
 
 interface AboutProps {
   skills: Skill[];

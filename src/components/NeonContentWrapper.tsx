@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { useNeonLightsContext } from '../context/NeonLightsContext';
+import { NeonColors } from '../sharedTypes';
 import { NeonSubHeader } from './NeonSubHeader';
 import 'styles/neonContentWrapper';
-import { NeonColors } from '../sharedTypes';
 
 interface NeonContentWrapperProps {
   children: React.ReactNode;

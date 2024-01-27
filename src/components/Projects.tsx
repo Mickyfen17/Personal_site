@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { AnchorLink } from './AnchorLink';
-import { NeonContentWrapper } from './NeonContentWrapper';
-import { Modal } from './Modal';
 import { useModalReducer } from '../reducers/useModalReducer';
 import { Projects } from '../sharedTypes';
+import { AnchorLink } from './AnchorLink';
+import { Modal } from './Modal';
+import { NeonContentWrapper } from './NeonContentWrapper';
 import 'styles/projects.scss';
 
 interface ProjectsSectionProps {

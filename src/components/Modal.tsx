@@ -1,9 +1,9 @@
 import * as React from 'react';
 import ReactDOM from 'react-dom';
 import { useNeonLightsContext } from '../context/NeonLightsContext';
+import { ToggleModal } from '../sharedTypes';
 import { NeonContentWrapper } from './NeonContentWrapper';
 import 'styles/modal.scss';
-import { ToggleModal } from '../sharedTypes';
 
 interface ModalProps {
   children: React.ReactNode;

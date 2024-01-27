@@ -1,7 +1,7 @@
 import * as React from 'react';
+import { LinkTypes } from '../sharedTypes';
 import { AnchorLink } from './AnchorLink';
 import 'styles/footer.scss';
-import { LinkTypes } from '../sharedTypes';
 
 interface Link {
   href: string;
